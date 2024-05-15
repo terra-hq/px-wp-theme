@@ -1,4 +1,4 @@
-# wordpress-starter
+# wp-px
 This is a example of a wordpress project
 
 # This project uses SWUP
