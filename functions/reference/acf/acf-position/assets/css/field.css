@@ -1,0 +1,44 @@
+/**
+ * Included when fields of this type are rendered for editing by publishers.
+ */
+ .acf-field-FIELD-NAME .setting-font-size {
+    color: green;
+}
+
+.acf-field-position button {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 0;
+    display: inline-block;
+    font-family: Poppins,sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 1.375rem;
+    padding: .35rem .75rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all .3s cubic-bezier(.2,0,.38,.9);
+    transition: all .3s cubic-bezier(.2,0,.38,.9);
+}
+
+.acf-field-position img  {
+    height: 60px;
+    width: auto;
+}
+
+.acf-field-position button.active {
+    opacity: 1;
+}
+.acf-field-position button.no-active {
+    opacity: .5;
+}
+.acf-field-position ul {
+    display: inline-flex;
+}
+.acf-field-position li {
+   margin-right: 1rem;
+}

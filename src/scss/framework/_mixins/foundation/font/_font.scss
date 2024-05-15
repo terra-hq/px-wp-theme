@@ -1,0 +1,51 @@
+@mixin make-font-a($weight: 700) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.2;
+  font-size: 4.6875rem;
+  @media all and ($viewport-type: $tablets) {
+    font-size:2.5rem;
+    line-height: normal;
+  }
+}
+
+@mixin make-font-b($weight: 700) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.3;
+  font-size: 2.5rem;
+  @media all and ($viewport-type: $tablets) {
+    font-size: 1.75rem;
+  }
+}
+
+@mixin make-font-c($weight: 400) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.4;
+  font-size: 1.625rem;
+  @media all and ($viewport-type: $tablets) {
+    font-size: 1.375rem;
+  }
+}
+
+@mixin make-font-d($weight: 400) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.4;
+  font-size: 1.125rem;
+}
+
+@mixin make-font-e($weight: 400) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+@mixin make-font-f($weight: 400) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.4;
+  font-size: 0.75rem;
+}
