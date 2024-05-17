@@ -1,0 +1,16 @@
+.c--nav-a{
+    @extend .u--display-flex;
+    &__list-group{
+        display: inherit;
+        flex-direction: row;
+        gap:$measure*2;
+        &__item{
+            &__link{
+                @extend .f--font-e;
+                @extend .f--color-b;
+                text-decoration: none;
+            }
+        }
+
+    }
+}

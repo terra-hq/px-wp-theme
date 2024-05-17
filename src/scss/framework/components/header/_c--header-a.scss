@@ -1,0 +1,12 @@
+.c--header-a {
+    padding: $measure*3 0;
+
+    &__wrapper {
+
+        @extend .u--display-flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -7,11 +7,11 @@ console.log(colors.bgBlack.white(`Executing Task:  ${currentTask}`));
 var serverCredentials;
 
 var devSFTP = sftp({
-    host: "XXXXXXX",
-    user: "XXXXXXX",
+    host: "projectxdevenv.sftp.wpengine.com",
+    user: "projectxdevenv-terra",
     port: "2222",
-    pass: "XXXXX",
-    remotePath: "/wp-content/themes/XXXXXXX-wp-theme",
+    pass: "15to10%/nsk2U$)h02(j!rrMDM&",
+    remotePath: "/wp-content/themes/px-wp-theme",
 });
 
 if (

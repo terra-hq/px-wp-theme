@@ -1,5 +1,5 @@
 {
-    "name": "wp-starter-theme",
+    "name": "wp-px-theme",
     "version": "1.0.0",
     "description": "Terra Wordpress Starter",
     "main": "index.js",
@@ -77,6 +77,7 @@
         "@swup/js-plugin": "^3.1.1",
         "@swup/parallel-plugin": "^0.3.1",
         "@swup/scripts-plugin": "^2.1.0",
+        "@terrahq/gc": "file:terrahq-gc-0.0.5.tgz",
         "@terrahq/helpers": "0.0.35",
         "@terrahq/vue-form": "0.0.17",
         "blazy": "^1.8.2",

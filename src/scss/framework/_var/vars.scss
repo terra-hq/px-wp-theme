@@ -5,41 +5,29 @@
 /* Colors */
 
 /* Core Colors */
-$color-a: #185a7d;
-$color-b: #ffffff;
-$color-c: #323e48;
-$color-d: #009ddb;
-$color-e: #98caec;
-$color-f: #3daf2c;
-$color-g: #76777b;
-$color-h: #a8a8aa;
-$color-i: #fbfbfb;
-$color-j: #e01717;
+$color-a: #F7F7F7;
+$color-b: #0A0A0A;
+$color-c: #FFD600;
+$color-d: #CDCECF;
 
 $color-options: (
     a: $color-a,
     b: $color-b,
     c: $color-c,
-    d: $color-d,
-    e: $color-e,
-    f: $color-f,
-    g: $color-g,
-    h: $color-h,
-    i: $color-i,
-    j: $color-j,
+    d: $color-d
 );
 
 $colorbg-options: (
-    a: $color-b,
-    b: $color-c,
-    c: $color-d,
-    d: $color-i,
+    a: $color-a,
+    b: $color-b,
+    c: $color-c,
+    d: $color-d,
 );
 
 $gradient-a: linear-gradient(90deg, map-get($color-options, f) 0%, map-get($color-options, d) 100%);
 
 /* Typography */
-$type-a: "Montserrat", sans-serif;
+$type-a: "Instrument Sans", sans-serif;
 
 /* Grid */
 //Container
@@ -77,7 +65,7 @@ $viewport-layouts: (
     ),
 );
 $columns: 12;
-$gutter-width: 32px;
+$gutter-width: 16px;
 $half-gutter-width: $gutter-width / 2;
 $gutter-compensation: -1 * $half-gutter-width;
 
@@ -117,6 +105,6 @@ $ease-exit-a: cubic-bezier(0.2, 0, 1, 0.9); //productive
 $ease-exit-b: cubic-bezier(0.4, 0.14, 1, 1); //expresive
 
 // header
-$headerDesktop: 132px;
-$headerTabletm: 106px;
-$headerMobile: 161px;
+$headerDesktop: 61px;
+$headerTabletm: 61px;
+$headerMobile: 61px;

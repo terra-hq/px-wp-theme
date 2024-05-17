@@ -1,8 +1,17 @@
 @import "@scss/framework/foundation/_foundation.scss";
 @import "@scss/framework/utilities/_utilities.scss";
+@import "@scss/framework/_var/global-vars.scss";
+@import "/node_modules/@terrahq/gc/src/scss/global-components/_library.scss";
 
 //* Preloader
 @import "@scss/framework/components/preloader/_c--preloader-a";
 
 //* transition
 @import "@scss/framework/components/transition/_c--transition-a";
+
+//* header
+@import "@scss/framework/components/header/_c--header-a";
+@import "@scss/framework/components/header/_c--nav-a";
+
+//* card
+@import "@scss/global-components/card/_g--card-07.scss";

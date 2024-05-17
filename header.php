@@ -32,7 +32,7 @@
     <?php echo $bodyTopScripts; ?>
 
     <!-- Header -->
-    <?php //include(locate_template('components/header/header-a.php', false, false)); ?>
+    <?php include(locate_template('components/header/header-a.php', false, false)); ?>
 
     <!-- Preloader -->
     <?php include(locate_template('components/preloader/preloader-a.php', false, false)); ?>

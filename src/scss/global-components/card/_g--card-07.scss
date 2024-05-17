@@ -1,0 +1,46 @@
+.g--card-07 {
+    @include make-card-07();
+    @include make-card-07-modifier(
+        $card-options: (
+            "align": left,
+            "min-height": 400px,
+            "back-items": no,
+        ),
+        $background-options: (
+            "background-class": f--background-a,
+            "background-color": $color-c,           
+        ),
+        $item-primary-options: (
+            "className": f--font-d,
+            ),
+            $list-group-item-options: (
+                "className": f--font-f,
+
+            ),
+
+    );
+    @include make-custom-options(
+        $options: (
+            "parent": (
+                padding-top:2.813rem,
+                height:100%,
+            ),
+            "&:before": (
+               content: '',  
+               display: block,  
+               position: absolute,  
+               top: 0,  
+               left: 30%, 
+               width: 40%,  
+               height: 45px, 
+               background-color: $color-a,  
+               z-index: 1,  
+            ),
+            ".g--card-07__ft-items__item-primary":(
+                text-transform: uppercase,
+                font-weight:600,
+            ),
+        )
+  
+    );
+}

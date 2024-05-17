@@ -7,12 +7,12 @@ $display-values: (
     // table:table,
     // table-cell:table-cell,
     // table-row:table-row,
-    // flex: flex,
+    flex: flex,
     // inline-flex:inline-flex
 );
 
 $display-breakpoints: (
-//   all: $all,
+ all: $all,
   // desktop: $desktop,
   // laptop: $laptop,
   // tabletl: $tabletl,

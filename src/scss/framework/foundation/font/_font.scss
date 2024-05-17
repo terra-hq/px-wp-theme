@@ -24,75 +24,78 @@
     @include make-font-f();
 }
 
+.f--font-g {
+    @include make-font-g();
+}
 /* ================================================= Here import the Fonts */
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-Regular.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-Regular.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-Italic.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-Italic.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-Italic.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-Bold.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-Bold.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-Bold.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-Medium.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-Medium.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-Medium.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-MediumItalic.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-MediumItalic.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-MediumItalic.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-BoldItalic.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-BoldItalic.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-BoldItalic.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-SemiBold.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-SemiBold.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/src/scss/fonts/Montserrat/Montserrat-SemiBoldItalic.woff2') format('woff2'),
-        url('/src/scss/fonts/Montserrat/Montserrat-SemiBoldItalic.woff') format('woff');
+    font-family: 'Instrument Sans';
+    src: url('/src/scss/fonts/instrumentsans/InstrumentSans-SemiBoldItalic.woff2') format('woff2'),
+        url('/src/scss/fonts/instrumentsans/InstrumentSans-SemiBoldItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
     font-display: swap;

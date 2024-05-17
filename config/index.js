@@ -1,4 +1,4 @@
-var wordpress_folder = "http://localhost/wp-starter-theme/";
+var wordpress_folder = "http://localhost/wp-px/";
 module.exports = {
     url: wordpress_folder,
     public_paths: {

@@ -17,10 +17,10 @@ class Project {
         Promise.all([
             preloadLotties(),
             preloadImages("img"),
-            preloadFonts({
-                provider: "google",
-                families: ["XXXXX"],
-            }),
+            // preloadFonts({
+            //     provider: "google",
+            //     families: ["XXXXX"],
+            // }),
         ]).then(() => {
             this.tl.to(this.DOM.preloaderElement, {
                 duration: 1,
