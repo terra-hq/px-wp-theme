@@ -1,4 +1,4 @@
 <?php
-// previous hash: fd2
-define('enqueue-hash', 'ec2');
+// previous hash: ec2
+define('enqueue-hash', '5cb');
 ?>
