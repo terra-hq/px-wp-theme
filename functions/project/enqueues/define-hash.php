@@ -1,4 +1,4 @@
 <?php
-// previous hash: ec2
-define('enqueue-hash', '5cb');
+// previous hash: 1f5
+define('enqueue-hash', '756');
 ?>

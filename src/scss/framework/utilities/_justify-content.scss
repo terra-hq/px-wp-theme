@@ -1,17 +1,17 @@
 $justify-content-properties:(
-  // space-between: space-between,
+  space-between: space-between,
   // space-around:space-around,
   // space-evenly:space-evenly,
   // flex-start:flex-start,
   // flex-end:flex-end,
-  // center:center
+  center:center
 );
 
 $justify-content-breakpoints: (
-  // all: $all,
+  all: $all,
   // desktop: $desktop,
   // laptop: $laptop,
-  // tabletl: $tabletl,
+  tabletl: $tabletl,
   // tabletm: $tabletm,
   // tablets: $tablets,
   // mobile: $mobile,

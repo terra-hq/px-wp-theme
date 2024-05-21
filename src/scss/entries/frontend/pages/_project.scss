@@ -13,7 +13,17 @@
 @import "@scss/framework/components/header/_c--header-a";
 @import "@scss/framework/components/header/_c--nav-a";
 
+//* hero
+@import "@scss/framework/components/hero/_c--hero-c.scss";
+
 //* card
 @import "@scss/global-components/card/_g--card-07.scss";
+@import "@scss/global-components/card/_g--card-04.scss";
+@import "@scss/framework/components/card/_c--card-a.scss";
+@import "@scss/framework/components/card/_c--card-d.scss";
+
 //* layout
 @import "@scss/global-components/layout/_g--layout-02.scss";
+
+//* wrapper
+@import "@scss/framework/components/wrapper/_c--wrapper-a.scss";

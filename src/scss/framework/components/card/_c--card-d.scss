@@ -1,0 +1,39 @@
+.c--card-d {
+    @extend .u--display-flex;
+    @extend .f--background-a;
+    padding: $measure*3;
+    gap: $measure*4;
+
+    &__hd {
+        &__badge {
+            @extend .u--display-flex;
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @extend .f--font-d;
+            font-weight: 600;
+
+            width: 40px;
+            height: 40px;
+            padding: $measure;
+            background-color: map-get($color-options, c);
+        }
+    }
+    &__bd {
+        @extend .u--display-flex;
+        gap: $measure;
+
+        flex-direction: column;
+        align-items: left;
+        &__title{
+            @extend .f--font-d;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__subtitle{
+            @extend .f--font-f;
+        }
+
+    }
+}

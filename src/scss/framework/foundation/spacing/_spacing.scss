@@ -1,4 +1,5 @@
 $space-values : (
+  2
   ) !default;
 
   $space-prefixes : (
@@ -10,12 +11,12 @@ $space-values : (
     // m  : margin,
     // mt : margin-top,
     // mr : margin-right,
-    // mb : margin-bottom,
+    mb : margin-bottom,
     // ml : margin-left,
   ) !default;
 
   $space-breakpoints: (
-    // all: $all,
+    all: $all,
     // desktop: $desktop,
     // laptop: $laptop,
     // tabletl: $tabletl,

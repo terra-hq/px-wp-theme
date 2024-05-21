@@ -4,14 +4,14 @@
 
 /*Start loop columns*/
 $available-columns: (
-    // 2,
-    // 3,
+    2,
+    3,
     4,
     // 5,
     6,
-    // 8,
+    8,
     // 9,
-    // 10,
+    10,
     12,
 );
 
@@ -19,7 +19,7 @@ $columns-breakpoints: (
 all: $all,
 //   desktop: $desktop,
 //   laptop: $laptop,
-//   tabletl: $tabletl,
+tabletl: $tabletl,
 tabletm: $tabletm,
 tablets: $tablets,
 //   mobile: $mobile,

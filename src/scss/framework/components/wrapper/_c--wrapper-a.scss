@@ -1,0 +1,7 @@
+.c--wrapper-a{
+    @extend .u--display-flex;
+    gap:$measure*8;
+    @media all and ($viewport-type: $tabletl) {
+        gap:$measure*1;
+    }
+}

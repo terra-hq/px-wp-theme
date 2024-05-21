@@ -22,7 +22,7 @@ Template Name: Alberto
 <section class="">
     <div class="f--container">
         <div class="f--row f--gap-a">
-        <div class="f--col-4 f--col-tabletm-6 f--col-tablets-12">
+            <div class="f--col-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-07">
                     <div class="g--card-07__ft-items">
                         <h3 class="g--card-07__ft-items__item-primary">Direct access to operating roles</h3>
@@ -42,7 +42,9 @@ Template Name: Alberto
                     <div class="g--card-07__ft-items">
                         <h3 class="g--card-07__ft-items__item-primary">Operational Support from our team</h3>
                         <div class="g--card-07__ft-items__list-group">
-                            <p class="g--card-07__ft-items__list-group__item">Benefit from a supportive environment and access to resources, expertise, and guidance to navigate the complexities of running a business effectively.</p>
+                            <p class="g--card-07__ft-items__list-group__item">Benefit from a supportive environment and
+                                access to resources, expertise, and guidance to navigate the complexities of running a
+                                business effectively.</p>
                         </div>
                     </div>
                 </div>
@@ -53,7 +55,9 @@ Template Name: Alberto
                     <div class="g--card-07__ft-items">
                         <h3 class="g--card-07__ft-items__item-primary">High-level network Expansion</h3>
                         <div class="g--card-07__ft-items__list-group">
-                            <p class="g--card-07__ft-items__list-group__item">Join a community of like-minded investors, industry experts, and seasoned executives, expanding your network and unlocking new collaboration and growth opportunities.</p>
+                            <p class="g--card-07__ft-items__list-group__item">Join a community of like-minded investors,
+                                industry experts, and seasoned executives, expanding your network and unlocking new
+                                collaboration and growth opportunities.</p>
                         </div>
                     </div>
                 </div>
@@ -66,11 +70,225 @@ Template Name: Alberto
     <div class="g--layout-02__wrapper">
         <div class="g--layout-02__wrapper__content">
             <h2 class="g--layout-02__wrapper__content__item-primary">
-            How It Works
+                How It Works
             </h2>
             <p class="g--layout-02__wrapper__content__item-secondary">
-            Ready to skip the search phase and take on a leadership role through our CEO-in-Residence Program? Here’s what to expect:
+                Ready to skip the search phase and take on a leadership role through our CEO-in-Residence Program?
+                Here’s what to expect:
             </p>
+        </div>
+    </div>
+</section>
+<!--horizontal cards-->
+
+<section class="f--background-d">
+    <div class="f--container">
+        <div class="f--row u--justify-content-center f--mb-2">
+            <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
+                <div class="c--card-d">
+                    <div class="c--card-d__hd">
+                        <div class="c--card-d__hd__badge">1</div>
+                    </div>
+                    <div class="c--card-d__bd">
+                        <h3 class="c--card-d__bd__title">Apply online</h3>
+                        <p class="c--card-d__bd__subtitle c--content-a">
+                            Interested operators can submit their application online, detailing their investment
+                            experience, operational expertise, and career goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f--row u--justify-content-center f--mb-2">
+            <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
+                <div class="c--card-d">
+                    <div class="c--card-d__hd">
+                        <div class="c--card-d__hd__badge">2</div>
+                    </div>
+                    <div class="c--card-d__bd">
+                        <h3 class="c--card-d__bd__title">Apply online</h3>
+                        <p class="c--card-d__bd__subtitle c--content-a">
+                            Interested operators can submit their application online, detailing their investment
+                            experience, operational expertise, and career goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="f--row u--justify-content-center f--mb-2">
+            <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
+                <div class="c--card-d">
+                    <div class="c--card-d__hd">
+                        <div class="c--card-d__hd__badge">3</div>
+                    </div>
+                    <div class="c--card-d__bd">
+                        <h3 class="c--card-d__bd__title">Apply online</h3>
+                        <p class="c--card-d__bd__subtitle c--content-a">
+                            Interested operators can submit their application online, detailing their investment
+                            experience, operational expertise, and career goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--team cards-->
+<section class="f--background-d">
+    <div class="f--container">
+        <div class="f--row u--justify-content-center  f--gap-a">
+            <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
+                <div class="c--card-a">
+                    <div class="c--card-a__hd">
+                        <div class="c--card-a__hd__wrapper">
+                            <img class="c--card-a__hd__wrapper__media"
+                                src=<?=get_template_directory_uri() . "/assets/frontend/team1.png" ?> />
+                        </div>
+                    </div>
+                    <div class="c--card-a__bd">
+                        <h3 class="c--card-a__bd__title">Sheret Ross</h3>
+                        <div class="c--card-a__bd__subtitle">BCom (McGill), MBA (University of Toronto)</div>
+                        <div class="c--card-a__bd__wrapper">
+                            <a href="#" class="c--card-a__bd__wrapper__link">
+                                <svg class="c--card-a__bd__wrapper__link__badge" xmlns="http://www.w3.org/2000/svg"
+                                    width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path
+                                        d="M28.4444 0C29.3874 0 30.2918 0.374602 30.9586 1.0414C31.6254 1.70819 32 2.61256 32 3.55556V28.4444C32 29.3874 31.6254 30.2918 30.9586 30.9586C30.2918 31.6254 29.3874 32 28.4444 32H3.55556C2.61256 32 1.70819 31.6254 1.0414 30.9586C0.374602 30.2918 0 29.3874 0 28.4444V3.55556C0 2.61256 0.374602 1.70819 1.0414 1.0414C1.70819 0.374602 2.61256 0 3.55556 0H28.4444ZM27.5556 27.5556V18.1333C27.5556 16.5963 26.945 15.1221 25.8581 14.0353C24.7712 12.9484 23.2971 12.3378 21.76 12.3378C20.2489 12.3378 18.4889 13.2622 17.6356 14.6489V12.6756H12.6756V27.5556H17.6356V18.7911C17.6356 17.4222 18.7378 16.3022 20.1067 16.3022C20.7668 16.3022 21.3998 16.5644 21.8666 17.0312C22.3333 17.498 22.5956 18.131 22.5956 18.7911V27.5556H27.5556ZM6.89778 9.88445C7.68989 9.88445 8.44956 9.56978 9.00967 9.00967C9.56978 8.44956 9.88445 7.68989 9.88445 6.89778C9.88445 5.24444 8.55111 3.89333 6.89778 3.89333C6.10095 3.89333 5.33676 4.20987 4.77331 4.77331C4.20987 5.33676 3.89333 6.10095 3.89333 6.89778C3.89333 8.55111 5.24444 9.88445 6.89778 9.88445ZM9.36889 27.5556V12.6756H4.44444V27.5556H9.36889Z"
+                                        fill="#0A0A0A" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="c--card-a__bd__content">
+                            Sheret's experience spans Creative Destruction Lab (CDL), Xanadu, AB InBev, and Lightspeed
+                            POS, with expertise in scaling ventures and driving strategic growth initiatives. He
+                            co-founded Spruce Grove Capital in 2019, and became the CEO of Cardata in 2021.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
+                <div class="c--card-a">
+                    <div class="c--card-a__hd">
+                        <div class="c--card-a__hd__wrapper">
+                            <img class="c--card-a__hd__wrapper__media"
+                                src=<?=get_template_directory_uri() . "/assets/frontend/team1.png" ?> />
+                        </div>
+                    </div>
+                    <div class="c--card-a__bd">
+                        <h3 class="c--card-a__bd__title">Sheret Ross</h3>
+                        <div class="c--card-a__bd__subtitle">BCom (McGill), MBA (University of Toronto)</div>
+                        <div class="c--card-a__bd__wrapper">
+                            <a href="#" class="c--card-a__bd__wrapper__link">
+                                <svg class="c--card-a__bd__wrapper__link__badge" xmlns="http://www.w3.org/2000/svg"
+                                    width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path
+                                        d="M28.4444 0C29.3874 0 30.2918 0.374602 30.9586 1.0414C31.6254 1.70819 32 2.61256 32 3.55556V28.4444C32 29.3874 31.6254 30.2918 30.9586 30.9586C30.2918 31.6254 29.3874 32 28.4444 32H3.55556C2.61256 32 1.70819 31.6254 1.0414 30.9586C0.374602 30.2918 0 29.3874 0 28.4444V3.55556C0 2.61256 0.374602 1.70819 1.0414 1.0414C1.70819 0.374602 2.61256 0 3.55556 0H28.4444ZM27.5556 27.5556V18.1333C27.5556 16.5963 26.945 15.1221 25.8581 14.0353C24.7712 12.9484 23.2971 12.3378 21.76 12.3378C20.2489 12.3378 18.4889 13.2622 17.6356 14.6489V12.6756H12.6756V27.5556H17.6356V18.7911C17.6356 17.4222 18.7378 16.3022 20.1067 16.3022C20.7668 16.3022 21.3998 16.5644 21.8666 17.0312C22.3333 17.498 22.5956 18.131 22.5956 18.7911V27.5556H27.5556ZM6.89778 9.88445C7.68989 9.88445 8.44956 9.56978 9.00967 9.00967C9.56978 8.44956 9.88445 7.68989 9.88445 6.89778C9.88445 5.24444 8.55111 3.89333 6.89778 3.89333C6.10095 3.89333 5.33676 4.20987 4.77331 4.77331C4.20987 5.33676 3.89333 6.10095 3.89333 6.89778C3.89333 8.55111 5.24444 9.88445 6.89778 9.88445ZM9.36889 27.5556V12.6756H4.44444V27.5556H9.36889Z"
+                                        fill="#0A0A0A" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="c--card-a__bd__content">
+                            Sheret's experience spans Creative Destruction Lab (CDL), Xanadu, AB InBev, and Lightspeed
+                            POS, with expertise in scaling ventures and driving strategic growth initiatives. He
+                            co-founded Spruce Grove Capital in 2019, and became the CEO of Cardata in 2021.
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="c--hero-c">
+    <div class="f--container">
+        <div class="f--row">
+            <div class="f--col-12">
+                <div class="c--hero-c__wrapper">
+                    <div class="c--hero-c__wrapper__media-wrapper">
+                        <svg class="c--hero-c__wrapper__media-wrapper__media" xmlns="http://www.w3.org/2000/svg"
+                            width="42" height="32" viewBox="0 0 42 32" fill="none">
+                            <path
+                                d="M0 31.9208V4.65405H40.9748V31.9208H34.1454V25.1039H6.82945V31.9208H0ZM34.1463 18.2879V11.471H6.82945V18.2879H34.1463Z"
+                                fill="#0A0A0A" />
+                            <path d="M6.82945 0.0786133H0V4.65682H6.82945V0.0786133Z" fill="#0A0A0A" />
+                            <path d="M23.6749 0.0786133H16.8455V4.65682H23.6749V0.0786133Z" fill="#0A0A0A" />
+                            <path d="M40.9757 0.0786133H34.1462V4.65682H40.9757V0.0786133Z" fill="#0A0A0A" />
+                        </svg>
+                    </div>
+                    <h1 class="c--hero-c__wrapper__title">Our Investments</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="">
+    <div class="f--container">
+        <div class="f--row u--justify-content-space-between u--justify-content-tabletl-center f--gap-a">
+            <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+                <div class="g--card-04">
+                    <h3 class="g--card-04__item-primary">Experience</h3>
+                    <div class="g--card-04__list-group">
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                    </div>
+                    <figure class="g--card-04__media-wrapper">
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                            alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
+                    </figure>
+                </div>
+            </div>
+            <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+                <div class="g--card-04">
+                    <h3 class="g--card-04__item-primary">Experience</h3>
+                    <div class="g--card-04__list-group">
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                    </div>
+                    <figure class="g--card-04__media-wrapper">
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                            alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
+                    </figure>
+                </div>
+            </div>
+            <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+                <div class="g--card-04">
+                    <h3 class="g--card-04__item-primary">Experience</h3>
+                    <div class="g--card-04__list-group">
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                    </div>
+                    <figure class="g--card-04__media-wrapper">
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                            alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
+                    </figure>
+                </div>
+            </div>
+            <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+                <div class="g--card-04">
+                    <h3 class="g--card-04__item-primary">Experience</h3>
+                    <div class="g--card-04__list-group">
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                    </div>
+                    <figure class="g--card-04__media-wrapper">
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                            alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
+                    </figure>
+                </div>
+            </div>
+            <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+                <div class="g--card-04">
+                    <h3 class="g--card-04__item-primary">Experience</h3>
+                    <div class="g--card-04__list-group">
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                    </div>
+                    <figure class="g--card-04__media-wrapper">
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                            alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
+                    </figure>
+                </div>
+            </div>
         </div>
     </div>
 </section>

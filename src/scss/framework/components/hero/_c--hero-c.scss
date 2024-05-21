@@ -1,0 +1,21 @@
+.c--hero-c {
+    margin-top: $measure*10;
+    &__wrapper {
+        @extend .u--display-flex;
+        flex-direction: column;
+        gap: $measure*4;
+
+        &__media-wrapper {
+            border-bottom: 1px solid black;
+
+            &__media {
+                margin-bottom: $measure*4;
+            }
+        }
+
+        &__title {
+            @extend .f--font-a;
+        }
+
+    }
+}
