@@ -66,7 +66,7 @@ Template Name: Alberto
     </div>
 </section>
 <!--center heading + tagline (layout-01)-->
-<section class="g--layout-02">
+<!-- <section class="g--layout-02">
     <div class="g--layout-02__wrapper">
         <div class="g--layout-02__wrapper__content">
             <h2 class="g--layout-02__wrapper__content__item-primary">
@@ -76,6 +76,22 @@ Template Name: Alberto
                 Ready to skip the search phase and take on a leadership role through our CEO-in-Residence Program?
                 Here’s what to expect:
             </p>
+        </div>
+    </div>
+</section> -->
+
+<section class="g--layout-01">
+    <div class="g--layout-01__wrapper">
+        <div class="g--layout-01__wrapper__content">
+            <h2 class="g--layout-01__wrapper__content__item-primary">
+                How It Works
+            </h2>
+            <div class="g--layout-01__wrapper__content__list-group">
+                <p class="g--layout-01__wrapper__content__list-group__item">
+                    Ready to skip the search phase and take on a leadership role through our CEO-in-Residence Program?
+                    Here’s what to expect:
+                </p>
+            </div>
         </div>
     </div>
 </section>

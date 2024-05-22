@@ -1,0 +1,16 @@
+.g--layout-01 {
+    @include make-layout-01();
+    @include make-layout-01-modifier(
+        $layout-options: (
+            "align": center,
+        ),
+        
+        $item-primary-options: (
+            "font-weight": 600,
+            "className": f--font-a,
+        ),
+        $list-group-item-options: (
+            "className": f--font-d,
+        ),
+    );
+}
