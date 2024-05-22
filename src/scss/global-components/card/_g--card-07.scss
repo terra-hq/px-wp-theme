@@ -3,7 +3,6 @@
     @include make-card-07-modifier(
         $card-options: (
             "align": left,
-            "min-height": 400px,
             "back-items": no,
         ),
         $background-options: (
@@ -16,11 +15,8 @@
             $list-group-item-options: (
                 "className": f--font-f,
 
-            ),
-
-    );
-    @include make-custom-options(
-        $options: (
+        ),
+        $custom-options: (
             "parent": (
                 padding-top:2.813rem,
                 height:100%,
@@ -41,6 +37,5 @@
                 font-weight:600,
             ),
         )
-  
     );
 }
