@@ -1,4 +1,5 @@
 import Core from "./Core";
+import HoverCards from "./modules/hovercards/HoverCards";
 
 class Main extends Core {
     constructor() {
@@ -15,6 +16,13 @@ class Main extends Core {
 
     async contentReplaced() {
         super.contentReplaced();
+
+            const hoverCards = new HoverCards({
+              cardSelector: '.c--card-b',
+              activateBtnSelector: '.js--card-open',
+              closeBtnSelector: '.js--card-close'
+            });
+
     }
 
     willReplaceContent() {

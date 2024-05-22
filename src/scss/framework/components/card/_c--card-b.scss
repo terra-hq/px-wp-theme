@@ -1,61 +1,127 @@
-.c--card-a {
+.c--card-b {
     @extend .u--display-flex;
-    gap:$measure*4;
+    position: relative;
+    height: 328px;
+    width: 328px;
 
     &__hd {
-        flex: 0 0 30%;
+        @extend .u--display-flex;
+        @extend .f--background-b;
+        padding: $measure*5;
+        width: 100%;
+        position: relative;
+        display: block;
+        height: 100%;
+        align-content: center;
+        z-index: 1;
 
-        &__wrapper{
-            flex: 1;
-            display: flex;
-            align-items: center;
-            height: 100%;
-            position: relative;
-            &__media{
-                display: block;
-                position: absolute;
-                height: 100%;
-                object-fit: cover;
-                object-position: top;
-                width: 100%;
-            }
-        }
-    }
-    &__bd {
-        flex: 1;
-        padding: $measure $measure*3 $measure 0;
-        &__title{
-            @extend .f--font-c;
-            font-weight: 500;
-            margin-bottom: $measure*.5;            
-        }
+        &__list-group {
 
-        &__subtitle{
-            @extend .f--font-f;
-            font-weight: 400;
-            margin-bottom: $measure*2;   
-            
-        }
-        &__wrapper{
+            @extend .u--display-flex;
             width: 100%;
-            display: inline-block;
-            border-bottom: 1px solid black;
-            padding-bottom: $measure*3;
-            margin-bottom: $measure*3;
-            &__link{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: $measure*2;
+
+            gap: $measure;
+
+            &__item {
+                padding: 0 $measure*.5;
+                background: rgba(247, 247, 247, 0.10);
+                @extend .f--color-c;
+                @extend .f--font-e;
+            }
+        }
+
+        &__media-wrapper {
+
+            width: 100%;
+            position: relative;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            &__media {
+                object-fit: contain;
                 display: block;
-                height: 32px;
-            &__badge{
-                width: 32px;
-                height: 32px;
             }
-            }
-            
-        }
-        &__content{
-            @extend .f--font-f;
-
         }
 
+        &__wrapper {
+
+            position: absolute;
+            bottom: 2rem;
+
+            right: 0;
+            left: 0;
+            text-align: center;
+
+            &__btn {
+                @extend .f--background-c;
+                @extend .f--font-e;
+                padding: $measure*.5 $measure*1.5;
+                border-radius: 30px;
+
+            }
+        }
     }
+
+    &__bd {
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        @extend .f--background-c;
+        padding: $measure*5;
+        height: 100%;
+        @extend .f--font-f;
+        z-index: 0;
+        transition: all .3s ease-out;
+
+
+        @extend .u--display-flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__content {
+            @extend .f--font-f;
+            margin-bottom: $measure*2;
+        }
+
+        &__link {
+            @extend .f--font-e;
+        }
+
+        &__btn {
+            @media (pointer: fine) {
+                display: none;
+            }
+
+            @extend .f--background-b;
+            @extend .f--font-e;
+            @extend .f--color-c;
+            width: 30px;
+            height: 30px;
+            line-height: 16px;
+            padding: $measure;
+            border-radius: 30px;
+            position: absolute;
+            top: $measure;
+            right: $measure;
+        }
+    }
+
+
+    &--is-active & {
+        &__bd {
+            opacity: 1;
+            z-index: 1;
+        }
+    }
+}
+
+.c--card-b__hd__list-group__item--second {
+    color: map-get($color-options, a);
 }

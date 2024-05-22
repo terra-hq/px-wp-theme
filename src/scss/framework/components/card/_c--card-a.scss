@@ -1,17 +1,28 @@
 .c--card-a {
+    min-height: 335px;
     @extend .u--display-flex;
-    gap:$measure*4;
+    gap: $measure*4;
+
+    @media all and ($viewport-type: $tablets) {
+        flex-direction: column;
+        gap: $measure*2;
+    }
 
     &__hd {
         flex: 0 0 30%;
 
-        &__wrapper{
+        &__wrapper {
             flex: 1;
             display: flex;
             align-items: center;
             height: 100%;
             position: relative;
-            &__media{
+            @media all and ($viewport-type: $tablets) {
+                height: 240px;
+                width: 160px;
+            }
+
+            &__media {
                 display: block;
                 position: absolute;
                 height: 100%;
@@ -21,38 +32,50 @@
             }
         }
     }
+
     &__bd {
         flex: 1;
         padding: $measure $measure*3 $measure 0;
-        &__title{
+
+        &__title {
             @extend .f--font-c;
             font-weight: 500;
-            margin-bottom: $measure*.5;            
+            margin-bottom: $measure*.5;
         }
 
-        &__subtitle{
+        &__subtitle {
             @extend .f--font-f;
             font-weight: 400;
-            margin-bottom: $measure*2;   
-            
+            margin-bottom: $measure*2;
+
         }
-        &__wrapper{
-            width: 100%;
+        &__wrapper {
             display: inline-block;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
             padding-bottom: $measure*3;
             margin-bottom: $measure*3;
-            &__link{
+            width: 100%;
+
+            &__link {
                 display: block;
                 height: 32px;
-            &__badge{
-                width: 32px;
-                height: 32px;
+
+                &__badge {
+                    width: 32px;
+                    height: 32px;
+                    border: 1px solid $color-b;
+                    border-radius: 7px;
+                    transition: all .3s linear;
+
+                    &:hover {
+                        @extend .f--background-c;
+                    }
+                }
             }
-            }
-            
+
         }
-        &__content{
+
+        &__content {
             @extend .f--font-f;
 
         }

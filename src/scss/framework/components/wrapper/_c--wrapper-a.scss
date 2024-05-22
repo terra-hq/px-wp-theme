@@ -1,7 +1,15 @@
 .c--wrapper-a{
     @extend .u--display-flex;
-    gap:$measure*8;
-    @media all and ($viewport-type: $tabletl) {
-        gap:$measure*1;
+    gap:$measure*2;
+    flex-wrap: wrap;
+    justify-content: center;
+    > * {
+        flex: 0 1 calc((100% / 4) - #{$measure * 2});
+        @media all and ($viewport-type: $tabletl) {
+            flex: 0 1 calc((100% / 3) - #{$measure * 2});        }
+
+        @media all and ($viewport-type: $tablets) {
+            flex: 0 1 calc((100% / 2) - #{$measure * 2});
+        }
     }
 }

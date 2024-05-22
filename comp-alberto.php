@@ -249,10 +249,11 @@ Template Name: Alberto
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
                     <div class="g--card-04__list-group">
-                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation,
+                            private equity, investment banking or operational leadership roles.</p>
                     </div>
                     <figure class="g--card-04__media-wrapper">
-                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?>
                             alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
                     </figure>
                 </div>
@@ -261,10 +262,11 @@ Template Name: Alberto
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
                     <div class="g--card-04__list-group">
-                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation,
+                            private equity, investment banking or operational leadership roles.</p>
                     </div>
                     <figure class="g--card-04__media-wrapper">
-                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?>
                             alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
                     </figure>
                 </div>
@@ -273,10 +275,11 @@ Template Name: Alberto
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
                     <div class="g--card-04__list-group">
-                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation,
+                            private equity, investment banking or operational leadership roles.</p>
                     </div>
                     <figure class="g--card-04__media-wrapper">
-                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?>
                             alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
                     </figure>
                 </div>
@@ -285,10 +288,11 @@ Template Name: Alberto
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
                     <div class="g--card-04__list-group">
-                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation,
+                            private equity, investment banking or operational leadership roles.</p>
                     </div>
                     <figure class="g--card-04__media-wrapper">
-                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?>
                             alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
                     </figure>
                 </div>
@@ -297,15 +301,230 @@ Template Name: Alberto
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
                     <div class="g--card-04__list-group">
-                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation, private equity, investment banking or operational leadership roles.</p>
+                        <p class="g--card-04__list-group__item c--content-a">Previous experience in value creation,
+                            private equity, investment banking or operational leadership roles.</p>
                     </div>
                     <figure class="g--card-04__media-wrapper">
-                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?> 
+                        <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?>
                             alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
                     </figure>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<section class="">
+    <div class="f--container">
+        <div class="f--row u--justify-content-center f--gap-a">
+            <div class="c--wrapper-a">
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+                <div class="c--card-b">
+                    <div class="c--card-b__hd">
+                        <ul class="c--card-b__hd__list-group">
+                            <li class="c--card-b__hd__list-group__item">Fund</li>
+                            <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">Active
+                            </li>
+                        </ul>
+                        <div class="c--card-b__hd__media-wrapper">
+                            <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
+                                class="c--card-b__hd__media-wrapper__media" />
+                        </div>
+                        <div class="c--card-b__hd__wrapper">
+
+                        <button class="c--card-b__hd__wrapper__btn js--card-open">Learn more</button>
+                        </div>
+                    </div>
+                    <div class="c--card-b__bd">
+                        <button class="c--card-b__bd__btn js--card-close">&times;</button>
+                        <p class="c--card-b__bd__content c--content-a">
+                            Fairview Succession has the support of world-class investors who have helped build JetBlue,
+                            Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
+                        </p>
+                        <a href="" class="g--link-01">View website</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="display:block; width:100%; height:200px;">
+    <!--spacer-->
 </section>
 <?php get_footer() ?>

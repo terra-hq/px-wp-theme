@@ -1,0 +1,20 @@
+.g--link-01 {
+    @include make-link-01();
+    @include make-link-01-modifier(
+        // $hover-options: (
+        //     "background-image": linear-gradient(90deg, map-get($color-options, h) 0%, map-get($color-options, i) 100%),
+        //     "background-position": center bottom,
+        //     "background-size": 100% 50%,
+        //     "color": #fefefe,
+        //     "opacity": .5,
+        //     "text-decoration-color": #fefefe,
+        //     "transform": translateY(-8px),
+        // ),
+        $font-options: (
+            "color": #0A0A0A,
+            "text-decoration": underline,
+            "text-decoration-color": #000000,
+            "text-underline-position": under,
+        ),
+    );
+}
