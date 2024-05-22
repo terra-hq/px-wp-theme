@@ -1,9 +1,15 @@
 .c--slider-b{
+    &__wrapper{
+        &__item{
+            height: 380px;
+        }
+    }
     &__ft{
         &__wrapper{
             display: flex;
             justify-content: flex-end;
-            gap: 1rem;
+            gap: $measure*3;
+            margin-top: $measure*5;
         }
     }
 }

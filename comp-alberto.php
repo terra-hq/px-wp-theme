@@ -528,12 +528,67 @@ Template Name: Alberto
     <div class="f--container">
         <div class="f--row">
             <div class="f--col-12">
-                <div class="c--slider-a__wrapper js--slider-b">
-                    <div class="test" style="height:200px;background:#ccc;">test</div>
-                    <div class="test" style="height:200px;background:#ccc;">test</div>
-                    <div class="test" style="height:200px;background:#ccc;">test</div>
-                    <div class="test" style="height:200px;background:#ccc;">test</div>
-                    <div class="test" style="height:200px;background:#ccc;">test</div>
+                <div class="c--slider-b__wrapper js--slider-b">
+                    <div class="c--slider-b__wrapper__item">
+                        <div class="g--card-07">
+                            <div class="g--card-07__ft-items">
+                                <h3 class="g--card-07__ft-items__item-primary">Direct access to operating roles</h3>
+                                <div class="g--card-07__ft-items__list-group">
+                                    <p class="g--card-07__ft-items__list-group__item">Skip the search phase and dive
+                                        straight
+                                        into
+                                        leading a company within our portfolio, reducing personal risk and accelerating
+                                        operational
+                                        impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c--slider-b__wrapper__item">
+                        <div class="g--card-07">
+                            <div class="g--card-07__bg-items g--lazy-01"
+                                data-src="<?=get_template_directory_uri() . "/assets/frontend/card-07.png" ?> "></div>
+                            <div class="g--card-07__ft-items">
+                                <h3 class="g--card-07__ft-items__item-primary"></h3>
+                                <div class="g--card-07__ft-items__list-group">
+                                    <p class="g--card-07__ft-items__list-group__item"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c--slider-b__wrapper__item">
+                        <div class="g--card-07">
+                            <div class="g--card-07__ft-items">
+                                <h3 class="g--card-07__ft-items__item-primary">Direct access to operating roles</h3>
+                                <div class="g--card-07__ft-items__list-group">
+                                    <p class="g--card-07__ft-items__list-group__item">Skip the search phase and dive
+                                        straight
+                                        into
+                                        leading a company within our portfolio, reducing personal risk and accelerating
+                                        operational
+                                        impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c--slider-b__wrapper__item">
+                        <div class="g--card-07">
+                            <div class="g--card-07__ft-items">
+                                <h3 class="g--card-07__ft-items__item-primary">Direct access to operating roles</h3>
+                                <div class="g--card-07__ft-items__list-group">
+                                    <p class="g--card-07__ft-items__list-group__item">Skip the search phase and dive
+                                        straight
+                                        into
+                                        leading a company within our portfolio, reducing personal risk and accelerating
+                                        operational
+                                        impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
                 <div class="c--slider-b__ft">
                     <div class="c--slider-b__ft__wrapper js--slider-b-controls">
