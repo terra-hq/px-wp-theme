@@ -5,7 +5,7 @@
             "align": left,
         ),
         $item-primary-options: (
-            "font-weight": 400,
+            "font-weight": 600,
             "className": f--font-d,
         ),
         $list-group-item-options: (
@@ -19,14 +19,23 @@
             "width": 48px,
             "first": yes,
         ),
-    );
-    @include make-custom-options(
-        $options: (
+        $custom-options: (
+            "parent": (
+                padding: 0,
+            ),
             ".g--card-04__item-primary":(
                 text-transform: uppercase,
-                font-weight:600,
             ),
         )
-  
     );
+
+    @media all and ($viewport-type: $tablets) {
+        @include make-card-04-modifier(
+            $custom-options: (
+                ".g--card-04__media-wrapper":(
+                    margin-bottom: $measure * 2,
+                ),
+            )
+        );
+    }
 }
