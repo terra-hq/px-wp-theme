@@ -70,7 +70,7 @@
         "webpack-merge": "^5.7.3"
     },
     "dependencies": {
-        "@andresclua/jsutil": "^4.0.2",
+        "@andresclua/jsutil": "^4.0.4",
         "@swup/debug-plugin": "^4.0.4",
         "@swup/forms-plugin": "^3.4.2",
         "@swup/head-plugin": "^2.1.2",
@@ -78,7 +78,7 @@
         "@swup/parallel-plugin": "^0.3.1",
         "@swup/scripts-plugin": "^2.1.0",
         "@terrahq/gc": "file:terrahq-gc-0.0.5.tgz",
-        "@terrahq/helpers": "0.0.35",
+        "@terrahq/helpers": "0.0.47",
         "@terrahq/vue-form": "0.0.17",
         "blazy": "^1.8.2",
         "boostify": "0.0.13",

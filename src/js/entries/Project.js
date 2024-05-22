@@ -1,8 +1,6 @@
 import "@scss/entries/frontend/pages/_project.scss";
-import Main from "../Main.js";
 import gsap from "gsap";
-import { preloadImages, preloadFonts, preloadLotties } from "@terrahq/helpers/preload";
-import Boostify from "boostify"
+import Boostify from 'boostify';
 
 class Project {
     constructor() {
@@ -22,26 +20,38 @@ class Project {
         //     maxTime: 4800,
         // });
 
+        window["lib"] = {};
+
+
         this.init();
     }
-    init() {
-        Promise.all([
-            preloadLotties(),
-            preloadImages("img"),
-            // preloadFonts({
-            //     provider: "google",
-            //     families: ["XXXXX"],
-            // }),
-        ]).then(() => {
-            this.tl.to(this.DOM.preloaderElement, {
-                duration: 1,
-                autoAlpha: 0,
-                pointerEvents: "none",
-                onStart: () => {
-                    new Main();
+    async init() {
+
+        try {
+            const { preloadImages } = await import(/* webpackChunkName: "preloadImages" */"@terrahq/helpers/preloadImages");
+            window["lib"]["preloadImages"] = preloadImages;
+            await preloadImages("img");
+        } catch (error) {
+            console.error(error);
+        } finally {
+            this.tl = gsap.timeline({
+                onUpdate: async () => {
+                    //* Check if the animation is at least 50% complete and the function hasn't been executed yet
+                    if (this.tl.progress() >= 0.5 && !this.halfwayExecuted) {
+                        this.halfwayExecuted = true; // Set a flag to ensure the function only executes once
+                        import(/* webpackChunkName: "Main" */'../Main.js').then(({ default: Main }) =>{
+                            new Main({ boostify: this.boostify});
+                        });
+                    }
                 },
             });
-        });
+            this.tl.to(this.DOM.preloaderElement, {
+                duration: 1,
+                delay: 1,
+                autoAlpha: 0,
+                pointerEvents: "none",
+            });
+        }
     }
 }
 export default Project;

@@ -1,14 +1,14 @@
 const sliderAConfig = {
-    loop: true,
+    loop: false,
     items: 1,
     gutter: 32,
     slideBy: 1,
     controls: true,
     nav: false,
-    rewind: false,
+    rewind: true,
     swipeAngle: 60,
     lazyload: true,
-    autoplay: true,
+    autoplay: false,
     mouseDrag: true,
     autoplayButtonOutput: false,
     speed: 1000,
@@ -28,7 +28,7 @@ const sliderAConfig = {
 
 
 const sliderBConfig = {
-    loop: true,
+    loop: false,
     items: 1,
     gutter: 32,
     slideBy: 1,
@@ -37,7 +37,7 @@ const sliderBConfig = {
     rewind: false,
     swipeAngle: 60,
     lazyload: true,
-    autoplay: true,
+    autoplay: false,
     mouseDrag: true,
     autoplayButtonOutput: false,
     speed: 1000,

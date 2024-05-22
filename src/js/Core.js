@@ -26,6 +26,7 @@ class Core {
         });
 
         this.isBlazy = payload.blazy;
+        this.boostify = payload.boostify;
         this.instances = [];
 
         /*
@@ -38,7 +39,7 @@ class Core {
         this.events();
     }
 
-    init() {  }
+    async init() {  }
 
     events() {
         if (document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {

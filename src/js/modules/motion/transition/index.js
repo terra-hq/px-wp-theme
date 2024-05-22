@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { preloadImages, preloadLotties } from "@terrahq/helpers/preload";
+//import { preloadImages, preloadLotties } from "@terrahq/helpers/preload";
 import In from "./In";
 import Out from "./Out";
 import { checkItems } from "./utilities";
@@ -9,8 +9,8 @@ const transitionOptions = [
         to: "(.*)",
 
         in: async (next, infos) => {
-            await preloadImages("img");
-            await preloadLotties();
+            // await preloadImages("img");
+            // await preloadLotties();
             var tl = gsap.timeline({
                 onComplete: next,
             });
