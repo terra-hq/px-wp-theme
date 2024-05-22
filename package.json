@@ -81,6 +81,7 @@
         "@terrahq/helpers": "0.0.35",
         "@terrahq/vue-form": "0.0.17",
         "blazy": "^1.8.2",
+        "boostify": "0.0.13",
         "core-js": "^3.30.1",
         "gsap": "^3.12.5",
         "i": "^0.3.7",
