@@ -1,3 +1,11 @@
 .f--gap-a {
     @include make-gap-a();
 }
+
+.f--gap-b {
+    @include make-gap-b();
+}
+
+.f--gap-c {
+    @include make-gap-c();
+}
