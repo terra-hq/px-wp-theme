@@ -11,5 +11,8 @@
         @media all and ($viewport-type: $tablets) {
             flex: 0 1 calc((100% / 2) - #{$measure * 2});
         }
+        @media all and ($viewport-type: $mobile) {
+            flex: 0 1 calc(100% - #{$measure * 2});
+        }
     }
 }
