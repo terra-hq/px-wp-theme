@@ -11,9 +11,13 @@ class HoverCards {
     }
   
     init() {
+      
+
       this.DOM.cards.forEach(card => {
         const activateBtn = card.querySelector(this.DOM.activateBtnSelector);
         const closeBtn = card.querySelector(this.DOM.closeBtnSelector);
+
+        this.isTouchDevice(activateBtn);
   
         if (activateBtn) {
           activateBtn.addEventListener('click', () => this.open(card));
@@ -33,7 +37,16 @@ class HoverCards {
     }  
     close(card) {
       card.classList.remove('c--card-b--is-active');
-    }  
+    }
+    
+    // Make activation button display none on non touch devices
+    isTouchDevice(activateBtn) {
+      const isTouchDevice = matchMedia("(pointer: coarse)").matches;
+      if (!isTouchDevice) {
+        activateBtn.style.display = 'none';
+      }
+    }
+   
   }  
   
   export default HoverCards;
