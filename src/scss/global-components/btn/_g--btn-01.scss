@@ -2,19 +2,21 @@
     @include make-btn-01();
     @include make-btn-01-modifier(
         $background-options: (
-            "background-class": f--background-b,
+            "background-class": f--background-c,
         ),
         $border-options: (
             "border-radius": $measure*4,
         ),
-        // $shadow-options: (
-        //     "box-shadow": 4px 3px 0px 0px #000,
-        // ),
         $hover-options: (
             "border-radius": 0,
         ),
         $font-options: (
-            "className": f--font-e f--color-a,
+            "className": f--font-e f--color-b,
         ),
     );
+    &--second{
+        background: map-get($color-options, b);
+        color: map-get($color-options, a);
+
+    }
 }

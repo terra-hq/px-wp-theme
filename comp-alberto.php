@@ -66,19 +66,6 @@ Template Name: Alberto
     </div>
 </section>
 <!--center heading + tagline (layout-01)-->
-<!-- <section class="g--layout-02">
-    <div class="g--layout-02__wrapper">
-        <div class="g--layout-02__wrapper__content">
-            <h2 class="g--layout-02__wrapper__content__item-primary">
-                How It Works
-            </h2>
-            <p class="g--layout-02__wrapper__content__item-secondary">
-                Ready to skip the search phase and take on a leadership role through our CEO-in-Residence Program?
-                Here’s what to expect:
-            </p>
-        </div>
-    </div>
-</section> -->
 
 <section class="g--layout-01">
     <div class="g--layout-01__wrapper">
@@ -95,6 +82,25 @@ Template Name: Alberto
         </div>
     </div>
 </section>
+
+<!--center text + button (layout-02)-->
+
+<section class="g--layout-02">
+    <div class="g--layout-02__wrapper">
+        <div class="g--layout-02__wrapper__content">
+            <h2 class="g--layout-02__wrapper__content__item-primary">
+            Who We Are
+            </h2>
+            <p class="g--layout-02__wrapper__content__item-secondary">
+            We build on the very things that make your business unique — the people, culture, and customers — to preserve and grow your life’s work.
+            </p>
+            <div class="g--layout-02__wrapper__content__list-group">
+                <a href="#" class="g--layout-02__wrapper__content__list-group__item">About</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--horizontal cards-->
 
 <section class="f--background-d">
@@ -741,6 +747,11 @@ Template Name: Alberto
         </div>
     </div>
 </section>
+
+<!--stats-->
+<div class="c--stat-a">
+</div>
+
 <section style="display:block; width:100%; height:200px;">
     <!--spacer-->
 </section>

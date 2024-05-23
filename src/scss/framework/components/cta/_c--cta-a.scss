@@ -45,6 +45,7 @@
 
         &__link{
             @extend .g--btn-01;
+            @extend .g--btn-01--second;
             width:auto !important;
         }
     }
@@ -67,8 +68,14 @@
                 width:50%;
                 transform-origin: left;
                 transition: all .3s linear;
+                @media all and ($viewport-type: $tabletm) {
+                    transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
+                }
                 &--second{
                     transform-origin: right;
+                    @media all and ($viewport-type: $tabletm) {
+                        transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
+                    }
 
                 }
             }

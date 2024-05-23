@@ -7,10 +7,16 @@
         
         $item-primary-options: (
             "font-weight": 600,
-            "className": f--font-a,
+            "className": f--font-e,
         ),
         $item-secondary-options: (
-            "className": f--font-d,
+            "className": f--font-c,
+        ),
+        $list-group-item-options: (
+            "className": g--btn-01,
+        ),
+        $list-group-item-hover-options: (
+            "border-radius": 0,
         ),
         
     );
