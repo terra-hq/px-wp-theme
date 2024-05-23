@@ -546,7 +546,7 @@ Template Name: Alberto
                     </div>
                     <div class="c--slider-b__wrapper__item">
                         <div class="g--card-07 g--lazy-01"
-                                data-src="<?=get_template_directory_uri() . "/assets/frontend/card-07.png" ?> ">
+                            data-src="<?=get_template_directory_uri() . "/assets/frontend/card-07.png" ?> ">
                             <div class="g--card-07__bg-items"></div>
                             <div class="g--card-07__ft-items">
                                 <h3 class="g--card-07__ft-items__item-primary"></h3>
@@ -586,9 +586,6 @@ Template Name: Alberto
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
                 <div class="c--slider-b__ft">
                     <div class="c--slider-b__ft__wrapper js--slider-b-controls">
@@ -620,10 +617,86 @@ Template Name: Alberto
             <div class="f--col-12">
                 <div class="c--slider-c__wrapper js--slider-c">
                     <div class="c--slider-c__wrapper__item">
-                      <!--card 23-->
-                      test
+                        <!--card 23-->
+                        <div class="g--card-23">
+                            <div class="g--card-23__wrapper">
+                                <p class="g--card-23__wrapper__item-primary">February 2024 | By Author</p>
+                                <p class="g--card-23__wrapper__item-secondary">
+                                    Why it’s so important to providing opportunities for sustainable expansion and
+                                    profitability
+                                </p>
+                                <div class="g--card-23__wrapper__list-group">
+                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                </div>
+                            </div>
+                            <figure class="g--card-23__media-wrapper">
+                                <img src="<?=get_template_directory_uri() . "/assets/frontend/card23_2.png" ?>"
+                                    data-src="<?=get_template_directory_uri() . "/assets/frontend/card23_2.png" ?>"
+                                    alt="alt text" class="g--card-23__media-wrapper__media g--lazy-01" />
+                            </figure>
+                        </div>
                     </div>
-                   
+                    <div class="c--slider-c__wrapper__item">
+                        <!--card 23-->
+                        <div class="g--card-23">
+                            <div class="g--card-23__wrapper">
+                                <p class="g--card-23__wrapper__item-primary">February 2024 | By Author</p>
+                                <p class="g--card-23__wrapper__item-secondary">
+                                    Why it’s so important to providing opportunities for sustainable expansion and
+                                    profitability
+                                </p>
+                                <div class="g--card-23__wrapper__list-group">
+                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                </div>
+                            </div>
+                            <figure class="g--card-23__media-wrapper">
+                                <img src="<?=get_template_directory_uri() . "/assets/frontend/card23_1.png" ?>"
+                                    data-src="<?=get_template_directory_uri() . "/assets/frontend/card23_1.png" ?>"
+                                    alt="alt text" class="g--card-23__media-wrapper__media g--lazy-01" />
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="c--slider-c__wrapper__item">
+                        <!--card 23-->
+                        <div class="g--card-23">
+                            <div class="g--card-23__wrapper">
+                                <p class="g--card-23__wrapper__item-primary">February 2024 | By Author</p>
+                                <p class="g--card-23__wrapper__item-secondary">
+                                    Why it’s so important to providing opportunities for sustainable expansion and
+                                    profitability
+                                </p>
+                                <div class="g--card-23__wrapper__list-group">
+                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                </div>
+                            </div>
+                            <figure class="g--card-23__media-wrapper">
+                                <img src="<?=get_template_directory_uri() . "/assets/frontend/card23_2.png" ?>"
+                                    data-src="<?=get_template_directory_uri() . "/assets/frontend/card23_2.png" ?>"
+                                    alt="alt text" class="g--card-23__media-wrapper__media g--lazy-01" />
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="c--slider-c__wrapper__item">
+                        <!--card 23-->
+                        <div class="g--card-23">
+                            <div class="g--card-23__wrapper">
+                                <p class="g--card-23__wrapper__item-primary">February 2024 | By Author</p>
+                                <p class="g--card-23__wrapper__item-secondary">
+                                    Why it’s so important to providing opportunities for sustainable expansion and
+                                    profitability
+                                </p>
+                                <div class="g--card-23__wrapper__list-group">
+                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                </div>
+                            </div>
+                            <figure class="g--card-23__media-wrapper">
+                                <img src="<?=get_template_directory_uri() . "/assets/frontend/card23_1.png" ?>"
+                                    data-src="<?=get_template_directory_uri() . "/assets/frontend/card23_1.png" ?>"
+                                    alt="alt text" class="g--card-23__media-wrapper__media g--lazy-01" />
+                            </figure>
+                        </div>
+                    </div>
+
 
 
 
@@ -647,6 +720,24 @@ Template Name: Alberto
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section class="c--cta-a">
+    <div class="c--cta-a__bg-items">
+        <div class="c--cta-a__bg-items__item"></div>
+        <div class="c--cta-a__bg-items__item"></div>
+    </div>
+
+    <div class="c--cta-a__content">
+        <h3 class="c--cta-a__content__title">Want to work with Castle?</h3>
+        <button class="g--btn-01">Contact Us</button>
+    </div>
+
+    <div class="c--cta-a__artwork">
+        <div class="c--cta-a__artwork__wrapper">
+            <div class="c--cta-a__artwork__wrapper__item"></div>
+            <div class="c--cta-a__artwork__wrapper__item c--cta-a__artwork__wrapper__item--second"></div>
         </div>
     </div>
 </section>

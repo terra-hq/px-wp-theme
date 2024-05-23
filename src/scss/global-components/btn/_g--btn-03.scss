@@ -1,0 +1,25 @@
+.g--btn-03 {
+    @include make-btn-03();
+    @include make-btn-03-modifier(
+        // $artwork-options: (
+        //     "fill": #ffffff,
+        //     "stroke": #cecece,
+        //     "top": 10px,
+        //     "width": 30px,
+        //     "height": 30px,
+        //     "first": yes,
+        // ),
+        $background-options: (
+            "background-class": f--background-b,
+        ),
+
+        $font-options: (
+            "className": f--font-e f--color-c,
+        ),
+        $custom-options: (
+            "parent": (
+                padding-left:0,
+            ),
+        )
+    );
+}

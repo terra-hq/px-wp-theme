@@ -1,0 +1,61 @@
+.c--cta-a {
+    position: relative;
+    @extend .u--display-flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @extend .f--background-c;
+    height: 620px;
+
+    &__bg-items {
+        height: 95px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        &__item {
+            @extend .f--background-a;
+            height: 100%;
+            width: 20%;
+        }
+    }
+
+    &__content {
+
+        @extend .u--display-flex;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: $measure*6;
+
+        &__title {
+            @extend .f--font-a;
+        }
+    }
+    &__artwork{
+        @extend .u--display-flex;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+
+        &__wrapper{
+            height: 100%;
+            width: 227px;
+            @extend .f--background-b;
+            @extend .u--display-flex;
+            &__item{
+                background: red;
+                height: 100%;
+                width:50%;
+            }
+        }
+    }
+
+}

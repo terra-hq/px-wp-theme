@@ -16,7 +16,8 @@
         $list-group-item-options: ("className": f--font-f,
 
         ),
-        $custom-options: ("parent": (padding-top:2.813rem,
+        $custom-options: (
+            "parent": (padding-top:2.813rem,
                 height:100%,
             ),
             "&:before": (content: '',

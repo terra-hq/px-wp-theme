@@ -18,8 +18,9 @@
 @import "@scss/framework/components/hero/_c--hero-c.scss";
 
 //* card
-@import "@scss/global-components/card/_g--card-07.scss";
 @import "@scss/global-components/card/_g--card-04.scss";
+@import "@scss/global-components/card/_g--card-07.scss";
+@import "@scss/global-components/card/_g--card-23.scss";
 @import "@scss/framework/components/card/_c--card-a.scss";
 @import "@scss/framework/components/card/_c--card-b.scss";
 @import "@scss/framework/components/card/_c--card-d.scss";
@@ -27,12 +28,16 @@
 //* divider
 @import "@scss/framework/components/divider/_c--divider-a.scss";
 
+//* cta
+@import "@scss/framework/components/cta/_c--cta-a.scss";
+
 //* layout
 @import "@scss/global-components/layout/_g--layout-01.scss";
 @import "@scss/global-components/layout/_g--layout-02.scss";
 
 //* btn
 @import "@scss/global-components/btn/_g--btn-01.scss";
+@import "@scss/global-components/btn/_g--btn-03.scss";
 
 //* link
 @import "@scss/global-components/link/_g--link-01.scss";
@@ -43,6 +48,7 @@
 //* Slider
 @import "@scss/framework/components/slider/_tiny-slider.scss";
 @import "@scss/framework/components/slider/_c--slider-b.scss";
+@import "@scss/framework/components/slider/_c--slider-c.scss";
 
 
 //* 404
