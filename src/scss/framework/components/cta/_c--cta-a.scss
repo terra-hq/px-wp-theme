@@ -56,6 +56,10 @@
                 width:50%;
                 transform-origin: left;
                 transition: all .3s linear;
+                &--second{
+                    transform-origin: right;
+
+                }
             }
         }
     }
@@ -63,6 +67,10 @@
     &:hover &{
         &__artwork__wrapper__item{
             transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
+            &--second{
+
+            transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
+            }
         }
     }
 
