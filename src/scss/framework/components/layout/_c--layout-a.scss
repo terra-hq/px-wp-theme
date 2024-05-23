@@ -1,0 +1,38 @@
+.c--layout-a {
+
+    &__wrapper {
+        @extend .f--col-10;
+        @extend .f--col-tabletm-12;
+        @extend .u--display-flex;
+        @extend .u--justify-content-space-between;
+        gap: $measure * 6;
+
+
+        &__item-left {
+            flex: 1;
+            max-width: 556px;
+
+            &__title {
+                @extend .f--font-c;
+            }
+        }
+
+        &__item-right {
+            flex: 1;
+            max-width: 441px;
+
+            &__content {
+                //@extend .c--content-a;
+            }
+        }
+
+        @media all and ($viewport-type: $tabletm) {
+            flex-direction: column;
+
+            &__item-left,
+            &__item-right {
+                max-width: 100%;
+            }
+        }
+    }
+}
