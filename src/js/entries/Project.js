@@ -7,6 +7,7 @@ class Project {
         window.isFired = true;
         this.DOM = {
             preloaderElement: document.querySelector(".c--preloader-a"),
+            headerElement: document.querySelector(".c--header-a"),
         };
 
         this.tl = gsap.timeline();
@@ -24,6 +25,7 @@ class Project {
 
 
         this.init();
+        this.events();
     }
     async init() {
 
@@ -52,6 +54,15 @@ class Project {
                 pointerEvents: "none",
             });
         }
+    }
+    events(){
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 5) {
+                this.DOM.headerElement.classList.add('c--header-a--is-active');
+            } else {
+                this.DOM.headerElement.classList.remove('c--header-a--is-active');
+            }
+        });
     }
 }
 export default Project;
