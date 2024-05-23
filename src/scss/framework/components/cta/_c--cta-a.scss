@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
 
+    padding: 0 $measure*3;
+
     @extend .f--background-c;
     height: 620px;
 
@@ -17,6 +19,9 @@
         display: flex;
         justify-content: space-evenly;
 
+        @media all and ($viewport-type: $tabletm) {
+            justify-content: center;
+        }
         &__item {
             @extend .f--background-a;
             height: 100%;
@@ -35,6 +40,12 @@
 
         &__title {
             @extend .f--font-a;
+            text-align: center;
+        }
+
+        &__link{
+            @extend .g--btn-01;
+            width:auto !important;
         }
     }
     &__artwork{

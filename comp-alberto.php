@@ -731,7 +731,7 @@ Template Name: Alberto
 
     <div class="c--cta-a__content">
         <h3 class="c--cta-a__content__title">Want to work with Castle?</h3>
-        <button class="g--btn-01">Contact Us</button>
+        <a href="#" class="c--cta-a__content__link">Contact Us</a>
     </div>
 
     <div class="c--cta-a__artwork">

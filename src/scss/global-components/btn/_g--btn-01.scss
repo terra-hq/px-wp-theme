@@ -10,20 +10,9 @@
         // $shadow-options: (
         //     "box-shadow": 4px 3px 0px 0px #000,
         // ),
-        // $hover-options: (
-        //     "background-color": #000000,
-        //     "background-image": linear-gradient(90deg, map-get($color-options, h) 0%, map-get($color-options, i) 100%),
-        //     "background-position": center center,
-        //     "background-size": 100% 50%,
-        //     "border-color": #638c1d,
-        //     "border-radius": 0,
-        //     "border-width": 0,
-        //     "box-shadow": 4px 3px 0px 0px #fefefe,
-        //     "color": #fefefe,
-        //     "opacity": .5,
-        //     "text-decoration-color": #fefefe,
-        //     "transform": translateY(-8px),
-        // ),
+        $hover-options: (
+            "border-radius": 0,
+        ),
         $font-options: (
             "className": f--font-e f--color-a,
         ),
