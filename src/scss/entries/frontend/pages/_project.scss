@@ -14,6 +14,7 @@
 @import "@scss/framework/components/header/_c--nav-a";
 
 //* hero
+@import "@scss/framework/components/hero/_c--hero-b.scss";
 @import "@scss/framework/components/hero/_c--hero-c.scss";
 
 //* card
@@ -22,6 +23,9 @@
 @import "@scss/framework/components/card/_c--card-a.scss";
 @import "@scss/framework/components/card/_c--card-b.scss";
 @import "@scss/framework/components/card/_c--card-d.scss";
+
+//* divider
+@import "@scss/framework/components/divider/_c--divider-a.scss";
 
 //* layout
 @import "@scss/global-components/layout/_g--layout-01.scss";
