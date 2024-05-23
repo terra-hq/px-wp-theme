@@ -2,6 +2,7 @@
 @import "@scss/framework/utilities/_utilities.scss";
 @import "@scss/framework/_var/global-vars.scss";
 @import "/node_modules/@terrahq/gc/src/scss/global-components/_library.scss";
+@import "/node_modules/@terrahq/wysiwyg/src/scss/global-content/_library.scss";
 
 //* Preloader
 @import "@scss/framework/components/preloader/_c--preloader-a";
@@ -24,6 +25,9 @@
 @import "@scss/framework/components/card/_c--card-a.scss";
 @import "@scss/framework/components/card/_c--card-b.scss";
 @import "@scss/framework/components/card/_c--card-d.scss";
+
+//* content
+@import "@scss/framework/components/content/_c--content-a.scss";
 
 //* divider
 @import "@scss/framework/components/divider/_c--divider-a.scss";

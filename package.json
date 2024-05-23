@@ -80,6 +80,7 @@
         "@terrahq/gc": "file:terrahq-gc-0.0.5.tgz",
         "@terrahq/helpers": "0.0.47",
         "@terrahq/vue-form": "0.0.17",
+        "@terrahq/wysiwyg": "file:terrahq-wysiwyg-0.0.2.tgz",
         "blazy": "^1.8.2",
         "boostify": "0.0.13",
         "core-js": "^3.30.1",

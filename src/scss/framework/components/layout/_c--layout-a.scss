@@ -22,7 +22,7 @@
             max-width: 441px;
 
             &__content {
-                //@extend .c--content-a;
+                @extend .c--content-a;
             }
         }
 
