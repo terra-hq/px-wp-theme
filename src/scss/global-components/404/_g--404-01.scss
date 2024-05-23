@@ -1,0 +1,23 @@
+.g--404-01 {
+    @include make-404-01();
+    @include make-404-01-modifier(
+        $error-404-options: (
+            "align": center,
+            "min-height": 100vh,
+        ),
+        $background-options: (
+            "background-class": f--background-c,
+        ),
+        $item-primary-options: (
+            "className": f--font-a,
+        ),
+        $item-secondary-options: (
+            "className": f--font-d,
+        ),
+        $custom-options: (
+            "parent": (
+                justify-content: flex-start,
+            ),
+        )
+    );
+}

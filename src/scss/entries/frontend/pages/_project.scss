@@ -27,6 +27,9 @@
 @import "@scss/global-components/layout/_g--layout-01.scss";
 @import "@scss/global-components/layout/_g--layout-02.scss";
 
+//* btn
+@import "@scss/global-components/btn/_g--btn-01.scss";
+
 //* link
 @import "@scss/global-components/link/_g--link-01.scss";
 
@@ -36,3 +39,7 @@
 //* Slider
 @import "@scss/framework/components/slider/_tiny-slider.scss";
 @import "@scss/framework/components/slider/_c--slider-b.scss";
+
+
+//* 404
+@import "@scss/global-components/404/_g--404-01.scss";

@@ -131,3 +131,7 @@ select:-webkit-autofill:focus {
 .grecaptcha-badge {
     display: none;
 }
+
+.error404{
+    @extend .f--background-c;
+}
