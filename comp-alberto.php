@@ -346,7 +346,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -371,7 +371,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -396,7 +396,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -421,7 +421,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -446,7 +446,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -471,7 +471,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -496,7 +496,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
                 <div class="c--card-b">
@@ -521,7 +521,7 @@ Template Name: Alberto
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
                         </p>
-                        <a href="" class="g--link-01">View website</a>
+                        <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
 
