@@ -36,7 +36,7 @@ const sliderBConfig = {
     nav: false,
     rewind: false,
     swipeAngle: 60,
-    lazyload: true,
+    lazyload: false,
     autoplay: false,
     mouseDrag: true,
     autoplayButtonOutput: false,

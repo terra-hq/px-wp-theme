@@ -1,7 +1,6 @@
 .c--slider-b{
-    &__wrapper{
+    &__wrapper{display: flex;
         &__item{
-            height: 380px;
         }
     }
     &__ft{

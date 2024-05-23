@@ -7,35 +7,30 @@
         ),
         $background-options: (
             "background-class": f--background-a,
-            "background-color": $color-c,           
+            "background-color": $color-c,
+            "background-repeat": no-repeat,
+            "background-size": cover,
         ),
-        $item-primary-options: (
-            "className": f--font-d,
-            ),
-            $list-group-item-options: (
-                "className": f--font-f,
+        $item-primary-options: ("className": f--font-d,
+        ),
+        $list-group-item-options: ("className": f--font-f,
 
         ),
-        $custom-options: (
-            "parent": (
-                padding-top:2.813rem,
+        $custom-options: ("parent": (padding-top:2.813rem,
                 height:100%,
             ),
-            "&:before": (
-               content: '',  
-               display: block,  
-               position: absolute,  
-               top: 0,  
-               left: 30%, 
-               width: 40%,  
-               height: 45px, 
-               background-color: $color-a,  
-               z-index: 1,  
+            "&:before": (content: '',
+                display: block,
+                position: absolute,
+                top: 0,
+                left: 30%,
+                width: 40%,
+                height: 45px,
+                background-color: $color-a,
+                z-index: 1,
             ),
-            ".g--card-07__ft-items__item-primary":(
-                text-transform: uppercase,
+            ".g--card-07__ft-items__item-primary":(text-transform: uppercase,
                 font-weight:600,
             ),
-        )
-    );
+        ));
 }

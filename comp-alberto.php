@@ -545,9 +545,9 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--slider-b__wrapper__item">
-                        <div class="g--card-07">
-                            <div class="g--card-07__bg-items g--lazy-01"
-                                data-src="<?=get_template_directory_uri() . "/assets/frontend/card-07.png" ?> "></div>
+                        <div class="g--card-07 g--lazy-01"
+                                data-src="<?=get_template_directory_uri() . "/assets/frontend/card-07.png" ?> ">
+                            <div class="g--card-07__bg-items"></div>
                             <div class="g--card-07__ft-items">
                                 <h3 class="g--card-07__ft-items__item-primary"></h3>
                                 <div class="g--card-07__ft-items__list-group">
