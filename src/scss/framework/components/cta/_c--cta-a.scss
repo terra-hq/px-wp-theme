@@ -51,18 +51,17 @@
             @extend .f--background-b;
             @extend .u--display-flex;
             &__item{
-                background: red;
+                @extend .f--background-c;
                 height: 100%;
                 width:50%;
                 transform-origin: left;
-                transition: all 1s linear;
+                transition: all .3s linear;
             }
         }
     }
 
     &:hover &{
         &__artwork__wrapper__item{
-            background-color: blue;
             transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
         }
     }
