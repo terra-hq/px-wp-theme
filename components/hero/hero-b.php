@@ -16,12 +16,12 @@
         <img 
             class="c--hero-b__bd__media c--hero-b__bd__media--is-desktop" 
             src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-media-desktop.webp" ?>" 
-            alt="Hero icon"
+            alt="Hero media"
         >
         <img 
             class="c--hero-b__bd__media c--hero-b__bd__media--is-mobile" 
             src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-media-mobile.webp" ?>" 
-            alt="Hero icon"
+            alt="Hero media"
         >
     </div>
 </section>
