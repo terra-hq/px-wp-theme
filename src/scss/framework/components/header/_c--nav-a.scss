@@ -30,6 +30,7 @@
                     @extend .f--font-e;
                     @extend .f--color-b;
                     @extend .g--btn-01--third;
+                    padding: 0 $measure*.5;
                     text-decoration: none;
 
                     @media all and ($viewport-type: $tabletm) {
