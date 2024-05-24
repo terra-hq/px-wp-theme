@@ -1,0 +1,54 @@
+.g--pill-01 {
+    @include make-pill-01();
+    @include make-pill-01-modifier(
+        $background-options: (
+            "background-color": map-get($color-options, a),
+        ),
+        $border-options: (
+            "border-color": map-get($color-options, b),
+            "border-width": 1px,
+            "border-style": solid,
+        ),
+        $font-options: (
+            "className": f--font-b,
+        ),
+    );
+
+    &--second {
+        @include make-pill-01-modifier(
+            $background-options: (
+                "background-color": rgba(map-get($color-options, a), 0.1),
+            ),
+            $border-options: (
+                "border-width": 0px,
+            ),
+            $font-options: (
+                "className": f--font-e f--color-c,
+            ),
+            $custom-options: (
+                "parent": (
+                    "text-transform": uppercase,
+                ),
+            ),
+        );
+    }
+
+    &--third {
+        @include make-pill-01-modifier(
+            $background-options: (
+                "background-color": rgba(map-get($color-options, a), 0.1),
+            ),
+            $border-options: (
+                "border-width": 0px,
+            ),
+            $font-options: (
+                "className": f--font-e f--color-a,
+            ),
+            $custom-options: (
+                "parent": (
+                    "text-transform": uppercase,
+                ),
+            ),
+        );
+    }
+}
