@@ -749,7 +749,7 @@ Template Name: Alberto
     </div>
 </section>
 
-<!--stats-->
+<!--stats - (card-08)-->
 <section class="c--stats-a">
     <div class="f--container">
         <div class="f--row u--justify-content-center">
