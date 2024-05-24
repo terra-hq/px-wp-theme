@@ -13,6 +13,11 @@ Template Name: Diego
 
 <?php include (locate_template('flexible-modules/highlighted-text-left-paragraph-right.php', false, false)); ?>
 
+<!-- Small Heading-->
+
+<?php include (locate_template('flexible-modules/small-heading.php', false, false)); ?>
+
+
 <!-- Content -->
 <section class="f--section-b">
     <div class="f--container">
