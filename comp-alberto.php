@@ -795,7 +795,7 @@ Template Name: Alberto
                     </div>
                 </div>
                 <div class="c--slider-a__ft">
-                    <div class="c--slider-a__ft__wrapper js--slider-c-controls">
+                    <div class="c--slider-a__ft__wrapper js--slider-a-controls">
                         <button class="c--slider-a__ft__wrapper__btn" aria-label="previous slide">
                             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="30" viewBox="0 0 36 30"
                                 fill="none">
