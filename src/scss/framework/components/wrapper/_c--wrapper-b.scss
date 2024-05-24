@@ -1,0 +1,16 @@
+.c--wrapper-b {
+    @extend .u--display-flex;
+    @extend .u--justify-content-center;
+    @extend .u--align-items-center;
+    gap: $measure * 2;
+    flex-wrap: wrap;
+
+    &__item {
+        @extend .g--pill-01;
+    }
+
+    &__link {
+        @extend .g--btn-01;
+        @extend .g--btn-01--fifth;
+    }
+}
