@@ -1,18 +1,14 @@
 .c--nav-a {
     @extend .u--display-flex;
 
-    &__list-group {
-
-
+    &__wrapper {
         @media all and ($viewport-type: $tabletm) {
             background: map-get($color-options, c);
             position: fixed;
-            top: 4rem;
+            top: 77px;
             left: 0;
             right: 0;
             height: 100%;
-            flex-direction: column;
-            gap: $measure*2;
             padding: $measure*10 $measure*4.5 0;
 
             &--is-active {}
@@ -22,21 +18,45 @@
         flex-direction: row;
         gap:$measure*2;
 
-        &__item {
-            &__link {
-                @extend .f--font-e;
-                @extend .f--color-b;
-                @extend .g--btn-01--third;
-                text-decoration: none;
+        &__list-group {
+            display: flex;
+            gap: $measure*2;
 
-                @media all and ($viewport-type: $tabletm) {
-                    font-size: 22px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 2.5rem;
-                }
+            @media all and ($viewport-type: $tabletm) {
+                flex-direction: column;
             }
+
+            &__item {
+                &__link {
+                    @extend .f--font-e;
+                    @extend .f--color-b;
+                    @extend .g--btn-01--third;
+                    text-decoration: none;
+
+                    @media all and ($viewport-type: $tabletm) {
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 2.5rem;
+                    }
+                }
+
+
+            }
+
         }
 
+        &__artwork {
+            display: none;
+
+            @media all and ($viewport-type: $tabletm) {
+                display: block;
+            }
+
+            position: absolute;
+            bottom: 76px;
+            right: 36px;
+        }
     }
+
 }
