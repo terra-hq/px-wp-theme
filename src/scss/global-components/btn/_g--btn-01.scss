@@ -2,7 +2,7 @@
     @include make-btn-01();
     @include make-btn-01-modifier(
         $background-options: (
-            "background-class": f--background-c,
+            "background-color": map-get($color-options, c),
         ),
         $border-options: (
             "border-radius": $measure*4,
@@ -11,21 +11,65 @@
             "border-radius": 0,
         ),
         $font-options: (
-            "className": f--font-e f--color-b,
+            "className": f--font-e,
+            "color": map-get($color-options, b),
         ),
     );
-    &--second{
-        background: map-get($color-options, b);
-        color: map-get($color-options, a);
 
+    &--second{
+        @include make-btn-01-modifier(
+            $background-options: (
+                "background-color": map-get($color-options, b),
+            ),
+            $font-options: (
+                "color": map-get($color-options, a),
+            ),
+        );
     }
     &--third{
-        background: transparent;
-        color: map-get($color-options, b);
-        &:hover{
+        @include make-btn-01-modifier(
+            $background-options: (
+                "background-color": transparent,
+            ),
+            $hover-options: (
+                "background-color": map-get($color-options, c),
+            ),
+            $font-options: (
+                "color": map-get($color-options, b),
+            ),
+        );
 
-            background: map-get($color-options, c);
-        }
+    }
 
+    &--fourth{
+        @include make-btn-01-modifier(
+            $background-options: (
+                "background-color": transparent,
+            ),
+            $hover-options: (
+                "background-color": map-get($color-options, a),
+            ),
+            $font-options: (
+                "color": map-get($color-options, b),
+            ),
+        );
+
+    }
+
+    &--fifth {
+        @include make-btn-01-modifier(
+            $background-options: (
+                "background-color": map-get($color-options, b),
+            ),
+            $font-options: (
+                "className": f--font-b,
+                "color": map-get($color-options, a),
+            ),
+            $custom-options: (
+                "parent": (
+                    "text-transform": capitalize,
+                ),
+            ),
+        );
     }
 }
