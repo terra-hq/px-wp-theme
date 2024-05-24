@@ -26,7 +26,7 @@ Template Name: Diego
 <section class="f--section-b">
     <div class="f--container">
         <div class="f--row u--justify-content-center">
-            <div class="f--col-10 f--col-tablet-m-12">
+            <div class="f--col-10 f--col-tabletm-12">
                 <div class="c--content-a">
                     <?php the_content(); ?>
                 </div>
