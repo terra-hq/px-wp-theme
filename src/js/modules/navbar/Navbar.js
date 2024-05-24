@@ -6,7 +6,7 @@ class Navbar {
             burger: payload.burger,
             navbar: payload.navbar,
             header: payload.header,
-            headerElement: payload.header // Add this line if headerElement is different from header
+            headerElement: payload.header 
         };
 
         this.isNavbarVisible = false; // Track the visibility state of the navbar
