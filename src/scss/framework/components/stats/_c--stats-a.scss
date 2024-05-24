@@ -1,27 +1,20 @@
 .c--stats-a {
     &__item {
-        border-right: 1px solid $color-b;
-
-        @media all and ($viewport-type: $tablets) {
-            border-right: none;
-            border-bottom: 1px solid $color-b;
-        }
 
         &--second {
-            border: none;
+            border-left: 1px solid $color-b;
+            border-right: 1px solid $color-b;
+
+            @media all and ($viewport-type: $tabletl) {
+                border-right: none;
+            }
             @media all and ($viewport-type: $tablets) {
+
+                border-left: none;
+                border-top: 1px solid $color-b;
                 border-bottom: 1px solid $color-b;
             }
         }
 
-        &--third {
-            border-right: none;
-            border-left: 1px solid $color-b;
-
-            @media all and ($viewport-type: $tabletl) {
-                border-left: none;
-                border-bottom: none;
-            }
-        }
     }
 }

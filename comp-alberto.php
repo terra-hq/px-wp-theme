@@ -730,24 +730,6 @@ Template Name: Alberto
         </div>
     </div>
 </section>
-<section class="c--cta-a">
-    <div class="c--cta-a__bg-items">
-        <div class="c--cta-a__bg-items__item"></div>
-        <div class="c--cta-a__bg-items__item"></div>
-    </div>
-
-    <div class="c--cta-a__content">
-        <h3 class="c--cta-a__content__title">Want to work with Castle?</h3>
-        <a href="#" class="c--cta-a__content__link">Contact Us</a>
-    </div>
-
-    <div class="c--cta-a__artwork">
-        <div class="c--cta-a__artwork__wrapper">
-            <div class="c--cta-a__artwork__wrapper__item"></div>
-            <div class="c--cta-a__artwork__wrapper__item c--cta-a__artwork__wrapper__item--second"></div>
-        </div>
-    </div>
-</section>
 
 <!--stats - (card-08)-->
 <section class="c--stats-a">
@@ -772,7 +754,7 @@ Template Name: Alberto
             </div>
 
             <div class="f--col-4 f--col-tabletl-6 f--col-tablets-12">
-                <div class="c--stats-a__item c--stats-a__item--third g--card-08">
+                <div class="c--stats-a__item g--card-08">
                     <h3 class="g--card-08__item-primary">250+</h3>
                     <div class="g--card-08__list-group">
                         <p class="g--card-08__list-group__item">People of portfolio employees</p>
@@ -782,6 +764,28 @@ Template Name: Alberto
         </div>
     </div>
 </section>
+
+
+<section class="c--cta-a">
+    <div class="c--cta-a__bg-items">
+        <div class="c--cta-a__bg-items__item"></div>
+        <div class="c--cta-a__bg-items__item"></div>
+    </div>
+
+    <div class="c--cta-a__content">
+        <h3 class="c--cta-a__content__title">Want to work with Castle?</h3>
+        <a href="#" class="c--cta-a__content__link">Contact Us</a>
+    </div>
+
+    <div class="c--cta-a__artwork">
+        <div class="c--cta-a__artwork__wrapper">
+            <div class="c--cta-a__artwork__wrapper__item"></div>
+            <div class="c--cta-a__artwork__wrapper__item c--cta-a__artwork__wrapper__item--second"></div>
+        </div>
+    </div>
+</section>
+
+
 
 <section style="display:block; width:100%; height:200px;">
     <!--spacer-->
