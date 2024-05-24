@@ -39,7 +39,16 @@ class Core {
         this.events();
     }
 
-    async init() {  }
+    async init() { 
+
+        await import(/* webpackChunkName: "Menu" */'@modules/navbar/Navbar.js').then(({ default: Navbar }) => {
+            new Navbar({
+                burger: document.querySelector('.js--burger'),
+                navbar : document.querySelector('.js--mobile-nav'),
+                header : document.querySelector('.c--header-a')
+            })
+        });
+     }
 
     events() {
         if (document.readyState === "complete" || (document.readyState !== "loading" && !document.documentElement.doScroll)) {

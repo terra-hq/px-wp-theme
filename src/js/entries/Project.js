@@ -58,9 +58,9 @@ class Project {
     events(){
         window.addEventListener('scroll', () => {
             if (window.scrollY > 5) {
-                this.DOM.headerElement.classList.add('c--header-a--is-active');
+                this.DOM.headerElement.classList.add('c--header-a--is-scroll');
             } else {
-                this.DOM.headerElement.classList.remove('c--header-a--is-active');
+                this.DOM.headerElement.classList.remove('c--header-a--is-scroll');
             }
         });
     }

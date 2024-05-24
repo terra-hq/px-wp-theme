@@ -1,6 +1,20 @@
 .c--nav-a{
     @extend .u--display-flex;
     &__list-group{
+
+        
+        @media all and ($viewport-type: $tabletm) {
+            display:none;
+            background: map-get($color-options, c);
+            &--is-active{
+                display: block;
+                position: fixed;
+                top: 4rem;
+                left: 0;
+                right: 0;
+                height: 100%;
+            }
+        }
         display: inherit;
         flex-direction: row;
         gap:$measure*2;

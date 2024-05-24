@@ -19,7 +19,10 @@
         align-items: center;
     }
 
-    &--is-active{
+    &--is-scroll{
         background: map-get($color-options, a);
+    }
+    &--is-active{
+        background: map-get($color-options, c);
     }
 }
