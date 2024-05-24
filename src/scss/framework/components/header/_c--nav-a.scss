@@ -1,8 +1,9 @@
-.c--nav-a{
+.c--nav-a {
     @extend .u--display-flex;
-    &__list-group{
 
-        
+    &__list-group {
+
+
         @media all and ($viewport-type: $tabletm) {
             background: map-get($color-options, c);
             position: fixed;
@@ -11,17 +12,29 @@
             right: 0;
             height: 100%;
             flex-direction: column;
-            &--is-active{
-            }
+            gap: $measure*2;
+            padding: $measure*10 $measure*4.5 0;
+
+            &--is-active {}
         }
+
         display: inherit;
         flex-direction: row;
         gap:$measure*2;
-        &__item{
-            &__link{
+
+        &__item {
+            &__link {
                 @extend .f--font-e;
                 @extend .f--color-b;
+                @extend .g--btn-01--third;
                 text-decoration: none;
+
+                @media all and ($viewport-type: $tabletm) {
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 2.5rem;
+                }
             }
         }
 

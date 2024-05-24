@@ -19,4 +19,13 @@
         color: map-get($color-options, a);
 
     }
+    &--third{
+        background: transparent;
+        color: map-get($color-options, b);
+        &:hover{
+
+            background: map-get($color-options, c);
+        }
+
+    }
 }
