@@ -1,0 +1,15 @@
+.c--slider-a{
+    overflow: hidden;
+    &__wrapper{display: flex;
+        &__item{
+        }
+    }
+    &__ft{
+        &__wrapper{
+            display: flex;
+            justify-content: flex-end;
+            gap: $measure*3;
+            margin-top: $measure*5;
+        }
+    }
+}
