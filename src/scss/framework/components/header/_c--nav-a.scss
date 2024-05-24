@@ -4,15 +4,14 @@
 
         
         @media all and ($viewport-type: $tabletm) {
-            display:none;
             background: map-get($color-options, c);
+            position: fixed;
+            top: 4rem;
+            left: 0;
+            right: 0;
+            height: 100%;
+            flex-direction: column;
             &--is-active{
-                display: block;
-                position: fixed;
-                top: 4rem;
-                left: 0;
-                right: 0;
-                height: 100%;
             }
         }
         display: inherit;
