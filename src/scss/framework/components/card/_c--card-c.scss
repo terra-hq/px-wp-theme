@@ -55,7 +55,10 @@
             background: map-get($color-options, d);
             width: 120px;
             height: 120px;
-
+            @media all and ($viewport-type: $tabletm) {
+                width: 77px;
+                height: 77px;
+            }
             &__media {
                 display: block;
                 object-fit: contain;
@@ -70,9 +73,17 @@
             flex-direction: column;
             justify-content: center;
             min-width: 40%;
+            &__title{
+
+            @extend .f--font-c;
+            }
+            &__subtitle{
+
+            @extend .f--font-f;
+            }
 
             @media all and ($viewport-type: $tabletm) {
-
+                padding: $measure $measure*1.5;
                 flex-grow: 1;
             }
 
