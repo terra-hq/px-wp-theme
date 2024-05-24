@@ -1,4 +1,4 @@
 <?php
-// previous hash: cd0
-define('enqueue-hash', '27e');
+// previous hash: 27e
+define('enqueue-hash', 'db7');
 ?>
