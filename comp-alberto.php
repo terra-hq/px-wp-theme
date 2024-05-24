@@ -749,7 +749,7 @@ Template Name: Alberto
     </div>
 </section>
 
-<!--stats-->
+<!--stats - (card-08)-->
 <section class="c--stats-a">
     <div class="f--container">
         <div class="f--row u--justify-content-center">
@@ -763,7 +763,7 @@ Template Name: Alberto
             </div>
 
             <div class="f--col-4 f--col-tabletl-6 f--col-tablets-12">
-                <div class="c--stats-a__item g--card-08">
+                <div class="c--stats-a__item c--stats-a__item--second g--card-08">
                     <h3 class="g--card-08__item-primary">2</h3>
                     <div class="g--card-08__list-group">
                         <p class="g--card-08__list-group__item">Investments</p>
@@ -772,7 +772,7 @@ Template Name: Alberto
             </div>
 
             <div class="f--col-4 f--col-tabletl-6 f--col-tablets-12">
-                <div class="c--stats-a__item g--card-08">
+                <div class="c--stats-a__item c--stats-a__item--third g--card-08">
                     <h3 class="g--card-08__item-primary">250+</h3>
                     <div class="g--card-08__list-group">
                         <p class="g--card-08__list-group__item">People of portfolio employees</p>
