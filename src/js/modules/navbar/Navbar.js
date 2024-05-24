@@ -6,6 +6,7 @@ class Navbar {
             burger: payload.burger,
             navbar: payload.navbar,
             header: payload.header,
+            headerElement: payload.header // Add this line if headerElement is different from header
         };
 
         this.isNavbarVisible = false; // Track the visibility state of the navbar
@@ -28,6 +29,14 @@ class Navbar {
 
         window.addEventListener('resize', () => {
             this.handleResize();
+        });
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 5) {
+                this.DOM.headerElement.classList.add('c--header-a--is-scroll');
+            } else {
+                this.DOM.headerElement.classList.remove('c--header-a--is-scroll');
+            }
         });
     }
 
