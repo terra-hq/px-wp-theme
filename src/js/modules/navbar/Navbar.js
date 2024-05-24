@@ -31,6 +31,7 @@ class Navbar {
             this.handleResize();
         });
 
+        //add class in to change navbar opacity on scroll
         window.addEventListener('scroll', () => {
             if (window.scrollY > 5) {
                 this.DOM.headerElement.classList.add('c--header-a--is-scroll');
