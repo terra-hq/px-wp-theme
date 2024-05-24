@@ -1,6 +1,6 @@
 import Core from "./Core";
 import HoverCards from "./modules/hovercards/HoverCards";
-import { sliderBConfig, sliderCConfig } from "@modules/sliders/slidersConfig";
+import { sliderAConfig, sliderBConfig, sliderCConfig } from "@modules/sliders/slidersConfig";
 
 class Main extends Core {
     constructor(payload) {
@@ -39,8 +39,8 @@ class Main extends Core {
                     callback: async () => {
                         this.instances["SliderA"] = [];
                         if (!window["lib"]["sliderAConfig"]) {
-                            await import(/* webpackChunkName: "sliderBConfig" */ "@modules/sliders/slidersConfig").then(({ default: sliderAConfig }) => {
-                                window["lib"]["sliderAConfig"] = sliderBConfig;
+                            await import(/* webpackChunkName: "sliderAConfig" */ "@modules/sliders/slidersConfig").then(({ default: sliderAConfig }) => {
+                                window["lib"]["sliderAConfig"] = sliderAConfig;
                             });
                         }
                         if (!window["lib"]["Slider"]) {
@@ -51,7 +51,7 @@ class Main extends Core {
                         this.instances["SliderA"][index] = new window["lib"]["Slider"]({
                             slider: slider,
                             controls: slider.nextElementSibling.querySelector(".js--slider-a-controls"),
-                            config: sliderBConfig,
+                            config: sliderAConfig,
                             windowName: "SliderA",
                             index: index,
                         });
