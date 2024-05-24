@@ -89,10 +89,11 @@ Template Name: Alberto
     <div class="g--layout-02__wrapper">
         <div class="g--layout-02__wrapper__content">
             <h2 class="g--layout-02__wrapper__content__item-primary">
-            Who We Are
+                Who We Are
             </h2>
             <p class="g--layout-02__wrapper__content__item-secondary">
-            We build on the very things that make your business unique — the people, culture, and customers — to preserve and grow your life’s work.
+                We build on the very things that make your business unique — the people, culture, and customers — to
+                preserve and grow your life’s work.
             </p>
             <div class="g--layout-02__wrapper__content__list-group">
                 <a href="#" class="g--layout-02__wrapper__content__list-group__item">About</a>
@@ -749,8 +750,38 @@ Template Name: Alberto
 </section>
 
 <!--stats-->
-<div class="c--stat-a">
-</div>
+<section class="c--stats-a">
+    <div class="f--container">
+        <div class="f--row">
+            <div class="f--col-4">
+                <div class="c--stats-a__item g--card-08">
+                    <h3 class="g--card-08__item-primary">100M+</h3>
+                    <div class="g--card-08__list-group">
+                        <p class="g--card-08__list-group__item">Capital deployed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f--col-4">
+                <div class="c--stats-a__item g--card-08">
+                    <h3 class="g--card-08__item-primary">2</h3>
+                    <div class="g--card-08__list-group">
+                        <p class="g--card-08__list-group__item">Investments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f--col-4">
+                <div class="c--stats-a__item g--card-08">
+                    <h3 class="g--card-08__item-primary">250+</h3>
+                    <div class="g--card-08__list-group">
+                        <p class="g--card-08__list-group__item">People of portfolio employees</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section style="display:block; width:100%; height:200px;">
     <!--spacer-->
