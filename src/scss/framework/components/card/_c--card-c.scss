@@ -2,53 +2,79 @@
     @extend .u--display-flex;
     flex-direction: column;
     gap: $measure*2;
+
     &__bd {
         position: relative;
         @extend .f--background-b;
         @extend .f--color-a;
         @extend .u--display-flex;
-        padding: $measure*10 240px 120px 80px;
+        padding: $measure*10 $measure*30 $measure*15 $measure*10;
         align-items: flex-end;
         gap: $measure;
         align-self: stretch;
 
-        &__content{
+        @media all and ($viewport-type: $tabletm) {
+
+            padding: $measure*5 $measure*2 $measure*15;
+        }
+
+        &__content {
             @extend .f--font-b;
         }
-        
-        &__bg-items{
+
+        &__bg-items {
             position: absolute;
             bottom: 0;
             right: 0;
-            width:158px;
-            &__media{
+            width: 158px;
+
+            @media all and ($viewport-type: $tabletm) {
+
+                width: 75px;
+            }
+
+            &__media {
                 @extend .f--background-a;
                 padding: $measure*4 0 0 $measure*4;
                 display: block;
 
+                @media all and ($viewport-type: $tabletm) {
+
+                    padding: $measure*2 0 0 $measure*2;
+                }
+
             }
         }
     }
-    &__ft{
+
+    &__ft {
         @extend .u--display-flex;
         gap: $measure*2;
-        &__media-wrapper{
+
+        &__media-wrapper {
             background: map-get($color-options, d);
             width: 120px;
             height: 120px;
-            &__media{
+
+            &__media {
                 display: block;
                 object-fit: contain;
                 width: 100%;
             }
         }
-        &__wrapper{
+
+        &__wrapper {
             @extend .f--background-c;
             @extend .u--display-flex;
             padding: $measure*2 $measure*3;
             flex-direction: column;
             justify-content: center;
             min-width: 40%;
+
+            @media all and ($viewport-type: $tabletm) {
+
+                flex-grow: 1;
+            }
 
         }
     }

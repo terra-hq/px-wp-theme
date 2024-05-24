@@ -1,11 +1,11 @@
 const sliderAConfig = {
-    loop: false,
+    loop: true,
     items: 1,
     gutter: 32,
     slideBy: 1,
     controls: true,
     nav: false,
-    rewind: true,
+    rewind: false,
     swipeAngle: 60,
     lazyload: true,
     autoplay: false,

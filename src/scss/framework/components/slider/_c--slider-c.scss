@@ -10,6 +10,12 @@
             justify-content: flex-end;
             gap: $measure*3;
             margin-top: $measure*5;
+            &__btn{
+                &:disabled{
+                    opacity:.3;
+                    pointer-events: none;
+                }
+            }
         }
     }
 }

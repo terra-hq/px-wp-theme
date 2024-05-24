@@ -12,6 +12,13 @@
             justify-content: flex-end;
             gap: $measure*3;
             margin-top: $measure*5;
+            &__btn{
+                transition: opacity .3s linear;
+                &:disabled{
+                    opacity:.3;
+                    pointer-events: none;
+                }
+            }
         }
     }
 }

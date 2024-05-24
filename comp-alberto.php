@@ -817,6 +817,33 @@ Template Name: Alberto
 
                         </div>
                     </div>
+                    <div class="c--slider-a__wrapper__item">
+                        <div class="c--card-c">
+                            <div class="c--card-c__bd">
+                                <p class="c--card-c__bd__content c--content-a">
+                                    They impressed me and continued to impress me as we worked together. Solid
+                                    businessmen with high-level skills and attention to detail. I'm very pleased to know
+                                    and work with them.
+                                </p>
+                                <div class="c--card-c__bd__bg-items">
+                                    <img src=<?=get_template_directory_uri() . "/assets/frontend/quotes.png" ?>
+                                        alt="alt text" class="c--card-c__bd__bg-items__media">
+                                    
+                                </div>
+                            </div>
+                            <div class="c--card-c__ft">
+                                <div class="c--card-c__ft__media-wrapper">
+                                    <img src=<?=get_template_directory_uri() . "/assets/frontend/portrait.png" ?>
+                                        alt="alt text" class="c--card-c__ft__media-wrapper__media">
+                                </div>
+                                <div class="c--card-c__ft__wrapper">
+                                    <h3 class="c--card-c__ft__wrapper__title">John Domsy</h3>
+                                    <p class="c--card-c__ft__wrapper__subtitle">Founder of Cardata</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <div class="c--slider-a__ft">
                     <div class="c--slider-a__ft__wrapper js--slider-a-controls">
