@@ -803,16 +803,12 @@ Template Name: Alberto
                                         alt="alt text" class="c--card-c__bd__bg-items__media">
                                     
                                 </div>
-
-
                             </div>
                             <div class="c--card-c__ft">
-
                                 <div class="c--card-c__ft__media-wrapper">
                                     <img src=<?=get_template_directory_uri() . "/assets/frontend/portrait.png" ?>
                                         alt="alt text" class="c--card-c__ft__media-wrapper__media">
                                 </div>
-
                                 <div class="c--card-c__ft__wrapper">
                                     <h3 class="c--card-c__ft__wrapper__title">John Domsy</h3>
                                     <p class="c--card-c__ft__wrapper__subtitle">Founder of Cardata</p>

@@ -1,0 +1,55 @@
+.c--card-c {
+    @extend .u--display-flex;
+    flex-direction: column;
+    gap: $measure*2;
+    &__bd {
+        position: relative;
+        @extend .f--background-b;
+        @extend .f--color-a;
+        @extend .u--display-flex;
+        padding: $measure*10 240px 120px 80px;
+        align-items: flex-end;
+        gap: $measure;
+        align-self: stretch;
+
+        &__content{
+            @extend .f--font-b;
+        }
+        
+        &__bg-items{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width:158px;
+            &__media{
+                @extend .f--background-a;
+                padding: $measure*4 0 0 $measure*4;
+                display: block;
+
+            }
+        }
+    }
+    &__ft{
+        @extend .u--display-flex;
+        gap: $measure*2;
+        &__media-wrapper{
+            background: map-get($color-options, d);
+            width: 120px;
+            height: 120px;
+            &__media{
+                display: block;
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+        &__wrapper{
+            @extend .f--background-c;
+            @extend .u--display-flex;
+            padding: $measure*2 $measure*3;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 40%;
+
+        }
+    }
+}
