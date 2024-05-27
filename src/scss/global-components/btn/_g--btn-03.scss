@@ -1,25 +1,40 @@
 .g--btn-03 {
     @include make-btn-03();
     @include make-btn-03-modifier(
-        // $artwork-options: (
-        //     "fill": #ffffff,
-        //     "stroke": #cecece,
-        //     "top": 10px,
-        //     "width": 30px,
-        //     "height": 30px,
-        //     "first": yes,
-        // ),
+        $artwork-options: (
+            "stroke": $color-b,
+            "width": 20px,
+            "height": 15px,
+            "first": yes,
+            "top": -0px,
+        ),
         $background-options: (
             "background-class": f--background-b,
         ),
-
+        $hover-options: (
+            "background-color": $color-c,
+            "color": $color-b,
+        ),
         $font-options: (
             "className": f--font-e f--color-c,
         ),
         $custom-options: (
             "parent": (
-                padding-left:0,
+                padding: 0.1rem 0.5rem 0.1rem 0.2rem,
             ),
+
+            ".g--btn-03__content svg": (
+                width: 0,
+            ),
+            ".g--btn-03__content": (
+                display: inline-block,
+                max-width: none,
+                transform: translateX(-30px),
+                transition: transform .3s linear,
+            ),
+            "&:hover .g--btn-03__content": (
+                transform: translateX(0),
+            )
         )
     );
 }

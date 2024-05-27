@@ -52,7 +52,7 @@ const sliderBConfig = {
         1024: {
             items: 3
         },
-        1300: {
+        1570: {
             items: 4
         }    
     }
@@ -76,10 +76,10 @@ const sliderCConfig = {
     preventScrollOnTouch: "auto",
     touch: false,
     responsive: {
-        580: {
+        810: {
             items: 2
         },
-        1024: {
+        1300: {
             items: 3
         }    
     }

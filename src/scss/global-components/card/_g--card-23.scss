@@ -31,6 +31,9 @@
             ".g--card-23__media-wrapper__media": (
                 padding: $measure*2 $measure*2 0 $measure*2,
             ),
+            ".g--card-23__wrapper__list-group__item":(
+                padding: 0.2rem 0.5rem,
+            )
         ),
     );
 }

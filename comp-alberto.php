@@ -663,7 +663,14 @@ Template Name: Alberto
                                     profitability
                                 </p>
                                 <div class="g--card-23__wrapper__list-group">
-                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                    <a href="#" class="g--card-23__wrapper__list-group__item g--btn-03">
+                                        <span class="g--btn-03__content">Read More</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"
+                                            viewBox="0 0 15 13" fill="none">
+                                            <path d="M1 6.5L13 6.5M13 6.5L8.5 11M13 6.5L8.5 2" stroke="#0A0A0A"
+                                                stroke-width="1.5" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                             <figure class="g--card-23__media-wrapper">
@@ -682,8 +689,16 @@ Template Name: Alberto
                                     Why it’s so important to providing opportunities for sustainable expansion and
                                     profitability
                                 </p>
+                                
                                 <div class="g--card-23__wrapper__list-group">
-                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                    <a href="#" class="g--card-23__wrapper__list-group__item g--btn-03">
+                                        <span class="g--btn-03__content">Read More</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"
+                                            viewBox="0 0 15 13" fill="none">
+                                            <path d="M1 6.5L13 6.5M13 6.5L8.5 11M13 6.5L8.5 2" stroke="#0A0A0A"
+                                                stroke-width="1.5" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                             <figure class="g--card-23__media-wrapper">
@@ -703,7 +718,14 @@ Template Name: Alberto
                                     profitability
                                 </p>
                                 <div class="g--card-23__wrapper__list-group">
-                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                    <a href="#" class="g--card-23__wrapper__list-group__item g--btn-03">
+                                        <span class="g--btn-03__content">Read More</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"
+                                            viewBox="0 0 15 13" fill="none">
+                                            <path d="M1 6.5L13 6.5M13 6.5L8.5 11M13 6.5L8.5 2" stroke="#0A0A0A"
+                                                stroke-width="1.5" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                             <figure class="g--card-23__media-wrapper">
@@ -722,8 +744,16 @@ Template Name: Alberto
                                     Why it’s so important to providing opportunities for sustainable expansion and
                                     profitability
                                 </p>
+                                
                                 <div class="g--card-23__wrapper__list-group">
-                                    <a href="#" class="g--card-23__wrapper__list-group__item">Read More</a>
+                                    <a href="#" class="g--card-23__wrapper__list-group__item g--btn-03">
+                                        <span class="g--btn-03__content">Read More</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"
+                                            viewBox="0 0 15 13" fill="none">
+                                            <path d="M1 6.5L13 6.5M13 6.5L8.5 11M13 6.5L8.5 2" stroke="#0A0A0A"
+                                                stroke-width="1.5" stroke-linecap="square" />
+                                        </svg>
+                                    </a>
                                 </div>
                             </div>
                             <figure class="g--card-23__media-wrapper">
@@ -831,7 +861,7 @@ Template Name: Alberto
                                 <div class="c--card-c__bd__bg-items">
                                     <img src=<?=get_template_directory_uri() . "/assets/frontend/quotes.png" ?>
                                         alt="alt text" class="c--card-c__bd__bg-items__media">
-                                    
+
                                 </div>
                             </div>
                             <div class="c--card-c__ft">
@@ -858,7 +888,7 @@ Template Name: Alberto
                                 <div class="c--card-c__bd__bg-items">
                                     <img src=<?=get_template_directory_uri() . "/assets/frontend/quotes.png" ?>
                                         alt="alt text" class="c--card-c__bd__bg-items__media">
-                                    
+
                                 </div>
                             </div>
                             <div class="c--card-c__ft">
