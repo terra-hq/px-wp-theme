@@ -99,13 +99,11 @@
                 display: none;
             }
 
-            @extend .f--background-b;
             @extend .f--font-e;
             @extend .f--color-c;
             width: 30px;
             height: 30px;
             line-height: 16px;
-            padding: $measure;
             border-radius: 30px;
             position: absolute;
             top: $measure;
