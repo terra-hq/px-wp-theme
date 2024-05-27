@@ -6,10 +6,13 @@
     align-items: center;
     justify-content: center;
 
-    padding: 0 $measure*3;
+    padding: 190px $measure*3 $measure*15;
+
+    @media all and ($viewport-type: $tablets) {
+        padding-top: 96px;
+    }
 
     @extend .f--background-c;
-    height: 620px;
 
     &__bg-items {
         height: 95px;
@@ -19,13 +22,19 @@
         display: flex;
         justify-content: space-evenly;
 
-        @media all and ($viewport-type: $tabletm) {
+        @media all and ($viewport-type: $tablets) {
+
+            height: 50px;
             justify-content: center;
         }
+
         &__item {
             @extend .f--background-a;
             height: 100%;
             width: 20%;
+            @media all and ($viewport-type: $tablets) {
+                width: 23%;
+            }
         }
     }
 
@@ -37,19 +46,26 @@
         align-items: center;
         justify-content: center;
         gap: $measure*6;
+        margin-bottom: 70px;
+
+        @media all and ($viewport-type: $tablets) {
+            gap: $measure*4;
+            margin-bottom: 56px;
+        }
 
         &__title {
             @extend .f--font-a;
             text-align: center;
         }
 
-        &__link{
+        &__link {
             @extend .g--btn-01;
             @extend .g--btn-01--second;
-            width:auto !important;
+            width: auto !important;
         }
     }
-    &__artwork{
+
+    &__artwork {
         @extend .u--display-flex;
         height: 120px;
         position: absolute;
@@ -57,22 +73,26 @@
         width: 100%;
         justify-content: center;
 
-        &__wrapper{
+        &__wrapper {
             height: 100%;
             width: 227px;
             @extend .f--background-b;
             @extend .u--display-flex;
-            &__item{
+
+            &__item {
                 @extend .f--background-c;
                 height: 100%;
-                width:50%;
+                width: 50%;
                 transform-origin: left;
                 transition: all .3s linear;
+
                 @media all and ($viewport-type: $tabletm) {
                     transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
                 }
-                &--second{
+
+                &--second {
                     transform-origin: right;
+
                     @media all and ($viewport-type: $tabletm) {
                         transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
                     }
@@ -82,12 +102,13 @@
         }
     }
 
-    &:hover &{
-        &__artwork__wrapper__item{
+    &:hover & {
+        &__artwork__wrapper__item {
             transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
-            &--second{
 
-            transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
+            &--second {
+
+                transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
             }
         }
     }

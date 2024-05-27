@@ -593,6 +593,36 @@ Template Name: Alberto
                             </div>
                         </div>
                     </div>
+                    <div class="c--slider-b__wrapper__item">
+                        <div class="g--card-07">
+                            <div class="g--card-07__ft-items">
+                                <h3 class="g--card-07__ft-items__item-primary">Direct access to operating roles</h3>
+                                <div class="g--card-07__ft-items__list-group">
+                                    <p class="g--card-07__ft-items__list-group__item">Skip the search phase and dive
+                                        straight
+                                        into
+                                        leading a company within our portfolio, reducing personal risk and accelerating
+                                        operational
+                                        impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c--slider-b__wrapper__item">
+                        <div class="g--card-07">
+                            <div class="g--card-07__ft-items">
+                                <h3 class="g--card-07__ft-items__item-primary">Direct access to operating roles</h3>
+                                <div class="g--card-07__ft-items__list-group">
+                                    <p class="g--card-07__ft-items__list-group__item">Skip the search phase and dive
+                                        straight
+                                        into
+                                        leading a company within our portfolio, reducing personal risk and accelerating
+                                        operational
+                                        impact.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="c--slider-b__ft">
                     <div class="c--slider-b__ft__wrapper js--slider-b-controls">

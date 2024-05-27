@@ -1,12 +1,9 @@
 .g--card-07 {
     @include make-card-07();
-    @include make-card-07-modifier(
-        $card-options: (
-            "align": left,
+    @include make-card-07-modifier($card-options: ("align": left,
             "back-items": no,
         ),
-        $background-options: (
-            "background-class": f--background-a,
+        $background-options: ("background-class": f--background-a,
             "background-color": $color-c,
             "background-repeat": no-repeat,
             "background-size": cover,
@@ -16,8 +13,7 @@
         $list-group-item-options: ("className": f--font-f,
 
         ),
-        $custom-options: (
-            "parent": (padding-top:2.813rem,
+        $custom-options: ("parent": (padding-top:2.813rem,
                 height:100%,
             ),
             "&:before": (content: '',
@@ -29,6 +25,9 @@
                 height: 45px,
                 background-color: $color-a,
                 z-index: 1,
+            ),
+            ".g--card-07__ft-items":(
+                padding-top:5rem,
             ),
             ".g--card-07__ft-items__item-primary":(text-transform: uppercase,
                 font-weight:600,
