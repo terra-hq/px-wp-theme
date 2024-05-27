@@ -251,7 +251,7 @@ Template Name: Alberto
 
 <section class="">
     <div class="f--container">
-        <div class="f--row u--justify-content-space-between u--justify-content-tabletl-flex-start f--gap-b">
+        <div class="f--row u--justify-content-space-between u--justify-content-tabletl-center f--gap-b">
             <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
@@ -927,9 +927,35 @@ Template Name: Alberto
         </div>
     </div>
 </section>
+<section class="c--hero-a">
+    <div class="c--hero-a__hd">
+        <div class="c--hero-a__hd__wrapper">
+            <img
+                class="c--hero-a__hd__wrapper__icon"
+                src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-icon.webp" ?>"
+                alt="Hero icon"
+            >
+            <hr class="c--hero-a__hd__wrapper__dash c--divider-a">
+            <div class="c--hero-a__hd__wrapper__content">
 
-
-<section style="display:block; width:100%; height:200px;">
-    <!--spacer-->
+            <h1 class="c--hero-a__hd__wrapper__content__title">CEO-in-Residence Program</h1>
+            <p class="c--hero-a__hd__wrapper__content__subtitle">A streamlined program that offers professionals a direct route to operational leadership roles, appealing to prospective searchers who want to reduce personal risk, skip the traditional search phase, and maximize their operational impact.</p>
+            </div>
+        </div>
+    </div>
+    <div class="c--hero-a__bd">
+        <img 
+            class="c--hero-a__bd__media c--hero-a__bd__media--is-desktop" 
+            src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-media-desktop.webp" ?>" 
+            alt="Hero media"
+        >
+        <img 
+            class="c--hero-a__bd__media c--hero-a__bd__media--is-mobile" 
+            src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-media-mobile.webp" ?>" 
+            alt="Hero media"
+        >
+    </div>
 </section>
+
+
 <?php get_footer() ?>
