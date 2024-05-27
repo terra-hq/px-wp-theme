@@ -9,8 +9,11 @@ function terra_setup()
     
     add_theme_support('post-thumbnails');
     add_image_size('category_thumb', 300);
-    add_image_size( 'tablets', 810, 999999999);
-    add_image_size( 'mobile', 580, 999999999);
+    add_image_size('tablets', 810, 999999999);
+    add_image_size('tabletm', 1024, 999999999);
+    add_image_size('tabletl', 1300, 999999999);
+    add_image_size('mobile', 580, 999999999);
+
 
 
     remove_role( 'wpseo_manager' );
