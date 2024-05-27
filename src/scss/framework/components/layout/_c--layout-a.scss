@@ -2,14 +2,13 @@
 
     &__wrapper {
         @extend .f--col-10;
-        @extend .f--col-tabletm-12;
+        @extend .f--col-tabletl-12;
         @extend .u--display-flex;
         @extend .u--justify-content-space-between;
-        gap: $measure * 6;
+        gap: $measure * 16.5;
 
 
         &__item-left {
-            flex: 1;
             max-width: 556px;
 
             &__title {
@@ -18,7 +17,6 @@
         }
 
         &__item-right {
-            flex: 1;
             max-width: 441px;
 
             &__content {
@@ -27,7 +25,20 @@
         }
 
         @media all and ($viewport-type: $tabletm) {
+            gap: $measure * 6;
+
+            &__item-left {
+                max-width: 441px;
+            }
+    
+            &__item-right {
+                max-width: 556px;
+            }
+        }
+
+        @media all and ($viewport-type: $tablets) {
             flex-direction: column;
+            gap: $measure * 4;
 
             &__item-left,
             &__item-right {

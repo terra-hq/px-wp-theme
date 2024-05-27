@@ -1,6 +1,6 @@
 <section class="c--layout-a <?= $spacing ?>">
     <div class="f--container">
-        <div class="f--row f--gap-b u--justify-content-center">
+        <div class="f--row f--gap-b u--justify-content-center u--justify-content-tabletl-space-between">
             <div class="c--layout-a__wrapper">
                 <div class="c--layout-a__wrapper__item-left">
                     <h2 class="c--layout-a__wrapper__item-left__title">
