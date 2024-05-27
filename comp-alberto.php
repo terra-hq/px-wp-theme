@@ -251,7 +251,7 @@ Template Name: Alberto
 
 <section class="">
     <div class="f--container">
-        <div class="f--row u--justify-content-space-between u--justify-content-tabletl-center f--gap-b">
+        <div class="f--row u--justify-content-space-between u--justify-content-tabletl-flex-start f--gap-b">
             <div class="f--col-2 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-04">
                     <h3 class="g--card-04__item-primary">Experience</h3>
