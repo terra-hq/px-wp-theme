@@ -1,5 +1,5 @@
 import Core from "./Core";
-import HoverCards from "./modules/hovercards/HoverCards";
+//import HoverCards from "./modules/hovercards/HoverCards";
 import { sliderAConfig, sliderBConfig, sliderCConfig } from "@modules/sliders/slidersConfig";
 
 class Main extends Core {
@@ -17,11 +17,31 @@ class Main extends Core {
     async contentReplaced() {
         super.contentReplaced();
 
-        const hoverCards = new HoverCards({
-            cardSelector: '.c--card-b',
-            activateBtnSelector: '.js--card-open',
-            closeBtnSelector: '.js--card-close'
-        });
+
+        /**
+      * HoverCards
+      * Dynamically import the Hovercards class with boostify observer
+      */
+        var logoCardsElements = document.querySelectorAll(".c--card-b");
+        if (logoCardsElements.length) {
+            this.boostify.observer({
+                options: {
+                    root:null,
+                    rootMargin: '0px',
+                    threshold: 0.5
+                },
+                element:document.querySelector(".c--card-b"),
+                callback: async () =>{
+                    const { default: HoverCards } = await import(/* webpackChunkName: "HoverCards" */ "./modules/hovercards/HoverCards");
+                    const hoverCards = new HoverCards({
+                        cardSelector: '.c--card-b',
+                        activateBtnSelector: '.js--card-open',
+                        closeBtnSelector: '.js--card-close'
+                    });
+                }
+            })
+            
+        }
         /**
       * SliderA
       * Dynamically import the SliderB config and the slider module and store them in the window.lib object for later use
