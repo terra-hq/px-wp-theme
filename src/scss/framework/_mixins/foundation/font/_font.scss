@@ -6,7 +6,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   @media all and ($viewport-type: $tablets) {
-    font-size:2.5rem;
+    font-size:3rem;
     line-height: normal;
   }
 }
@@ -19,7 +19,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   @media all and ($viewport-type: $tablets) {
-    font-size: 1.75rem;
+    font-size: 1.625rem;
   }
 }
 
@@ -31,7 +31,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   @media all and ($viewport-type: $tablets) {
-    font-size: 1.375rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -42,6 +42,9 @@
   font-size: 1.375rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  @media all and ($viewport-type: $tablets) {
+    font-size: 1.25rem;
+  }
 }
 
 @mixin make-font-e($weight: 600) {
@@ -62,6 +65,9 @@
   font-size: 1.125rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  @media all and ($viewport-type: $tablets) {
+    font-size: 1rem;
+  }
 }
 
 @mixin make-font-g($weight: 500) {
