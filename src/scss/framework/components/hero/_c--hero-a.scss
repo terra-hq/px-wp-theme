@@ -1,0 +1,79 @@
+.c--hero-a {
+    @extend .f--background-a;
+    padding-top: $measure * 15;
+
+    &__hd {
+        @extend .f--container;
+        
+        &__wrapper {
+            @extend .u--display-flex;
+            flex-direction: column;
+            gap: $measure * 4;
+
+            &__icon {
+                width: 42px;
+                height: 32px;
+            }
+
+            &__content {
+                @extend .u--display-flex;
+                gap: $measure * 3;
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                column-gap: $measure * 3;
+
+                @media all and ($viewport-type: $tabletm) {
+                    flex-direction: column;
+                    display: flex;
+                }
+
+                &__title {
+                    max-width: 780px;
+                    @extend .f--font-a;
+                    grid-column: span 7;
+                }
+
+                &__subtitle {
+                    @extend .f--font-d;
+                    @extend .u--font-medium;
+                    grid-column: span 5;
+                }
+            }
+
+            &__link {
+                @extend .g--btn-01;
+                @extend .g--btn-01--second;
+                width: fit-content;
+            }
+        }
+    }
+
+    &__bd {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        &__media {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+
+            &--is-mobile {
+                display: none;
+            }
+        }
+
+        @media all and ($viewport-type: $mobile) {
+            &__media {
+                margin-top: $measure * 7;
+
+                &--is-mobile {
+                    display: block;
+                }
+
+                &--is-desktop {
+                    display: none;
+                }
+            }
+        }
+    }
+}
