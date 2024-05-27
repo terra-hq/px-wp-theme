@@ -226,6 +226,7 @@ Template Name: Alberto
         </div>
     </div>
 </section>
+<!--hero-c-->
 <section class="c--hero-c">
     <div class="f--container">
         <div class="f--row">
@@ -248,7 +249,7 @@ Template Name: Alberto
         </div>
     </div>
 </section>
-
+<!--row of cards with icon + heading + paragraph-->
 <section class="">
     <div class="f--container">
         <div class="f--row u--justify-content-space-between u--justify-content-tabletl-center f--gap-b">
@@ -342,9 +343,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -369,9 +373,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -396,9 +403,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -423,9 +433,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -450,9 +463,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -477,9 +493,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -504,9 +523,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -531,9 +553,12 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--card-b__bd">
-                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-  <path d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z" fill="black"/>
-</svg></button>
+                        <button class="c--card-b__bd__btn js--card-close"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path
+                                    d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
+                                    fill="black" />
+                            </svg></button>
                         <p class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
@@ -705,7 +730,7 @@ Template Name: Alberto
                                     Why it’s so important to providing opportunities for sustainable expansion and
                                     profitability
                                 </p>
-                                
+
                                 <div class="g--card-23__wrapper__list-group">
                                     <a href="#" class="g--card-23__wrapper__list-group__item g--btn-03">
                                         <span class="g--btn-03__content">Read More</span>
@@ -760,7 +785,7 @@ Template Name: Alberto
                                     Why it’s so important to providing opportunities for sustainable expansion and
                                     profitability
                                 </p>
-                                
+
                                 <div class="g--card-23__wrapper__list-group">
                                     <a href="#" class="g--card-23__wrapper__list-group__item g--btn-03">
                                         <span class="g--btn-03__content">Read More</span>
@@ -948,30 +973,23 @@ Template Name: Alberto
 <section class="c--hero-a">
     <div class="c--hero-a__hd">
         <div class="c--hero-a__hd__wrapper">
-            <img
-                class="c--hero-a__hd__wrapper__icon"
-                src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-icon.webp" ?>"
-                alt="Hero icon"
-            >
+            <img class="c--hero-a__hd__wrapper__icon"
+                src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-icon.webp" ?>" alt="Hero icon">
             <hr class="c--hero-a__hd__wrapper__dash c--divider-a">
             <div class="c--hero-a__hd__wrapper__content">
 
-            <h1 class="c--hero-a__hd__wrapper__content__title">CEO-in-Residence Program</h1>
-            <p class="c--hero-a__hd__wrapper__content__subtitle">A streamlined program that offers professionals a direct route to operational leadership roles, appealing to prospective searchers who want to reduce personal risk, skip the traditional search phase, and maximize their operational impact.</p>
+                <h1 class="c--hero-a__hd__wrapper__content__title">CEO-in-Residence Program</h1>
+                <p class="c--hero-a__hd__wrapper__content__subtitle">A streamlined program that offers professionals a
+                    direct route to operational leadership roles, appealing to prospective searchers who want to reduce
+                    personal risk, skip the traditional search phase, and maximize their operational impact.</p>
             </div>
         </div>
     </div>
     <div class="c--hero-a__bd">
-        <img 
-            class="c--hero-a__bd__media c--hero-a__bd__media--is-desktop" 
-            src="<?=get_template_directory_uri() . "/assets/frontend/hero-a.png" ?>" 
-            alt="Hero media"
-        >
-        <img 
-            class="c--hero-a__bd__media c--hero-a__bd__media--is-mobile" 
-            src="<?=get_template_directory_uri() . "/assets/frontend/hero-a-mobile.png" ?>" 
-            alt="Hero media"
-        >
+        <img class="c--hero-a__bd__media c--hero-a__bd__media--is-desktop"
+            src="<?=get_template_directory_uri() . "/assets/frontend/hero-a.png" ?>" alt="Hero media">
+        <img class="c--hero-a__bd__media c--hero-a__bd__media--is-mobile"
+            src="<?=get_template_directory_uri() . "/assets/frontend/hero-a-mobile.png" ?>" alt="Hero media">
     </div>
 </section>
 
@@ -983,7 +1001,8 @@ Template Name: Alberto
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Businesses with low capex</h3>
                     <div class="g--card-08__list-group">
-                        <p class="g--card-08__list-group__item"> Low capital expenditure requirements, ensuring efficient allocation of resources and sustainable profitability</p>
+                        <p class="g--card-08__list-group__item"> Low capital expenditure requirements, ensuring
+                            efficient allocation of resources and sustainable profitability</p>
                     </div>
                 </div>
             </div>
@@ -991,7 +1010,8 @@ Template Name: Alberto
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Low customer concentration</h3>
                     <div class="g--card-08__list-group">
-                        <p class="g--card-08__list-group__item">Diversified customer base, minimizing dependency on individual clients and mitigating risk</p>
+                        <p class="g--card-08__list-group__item">Diversified customer base, minimizing dependency on
+                            individual clients and mitigating risk</p>
                     </div>
                 </div>
             </div>
@@ -999,7 +1019,8 @@ Template Name: Alberto
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Low customer concentration</h3>
                     <div class="g--card-08__list-group">
-                        <p class="g--card-08__list-group__item">Diversified customer base, minimizing dependency on individual clients and mitigating risk</p>
+                        <p class="g--card-08__list-group__item">Diversified customer base, minimizing dependency on
+                            individual clients and mitigating risk</p>
                     </div>
                 </div>
             </div>
@@ -1008,7 +1029,8 @@ Template Name: Alberto
                     <h3 class="g--card-08__item-primary">industry tailwinds</h3>
                     <div class="g--card-08__list-group">
                         <p class="g--card-08__list-group__item">industry tailwinds
-                            Growth trends, favorable market conditions, with opportunities for sustainable expansion and profitability</p>
+                            Growth trends, favorable market conditions, with opportunities for sustainable expansion and
+                            profitability</p>
                     </div>
                 </div>
             </div>
@@ -1016,7 +1038,8 @@ Template Name: Alberto
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Service-based businesses</h3>
                     <div class="g--card-08__list-group">
-                        <p class="g--card-08__list-group__item">Diversified customer base, minimizing dependency on individual clients and mitigating risk</p>
+                        <p class="g--card-08__list-group__item">Diversified customer base, minimizing dependency on
+                            individual clients and mitigating risk</p>
                     </div>
                 </div>
             </div>
