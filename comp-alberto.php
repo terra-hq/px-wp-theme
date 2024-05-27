@@ -927,6 +927,8 @@ Template Name: Alberto
         </div>
     </div>
 </section>
+
+<!--hero-a-->
 <section class="c--hero-a">
     <div class="c--hero-a__hd">
         <div class="c--hero-a__hd__wrapper">
@@ -946,12 +948,12 @@ Template Name: Alberto
     <div class="c--hero-a__bd">
         <img 
             class="c--hero-a__bd__media c--hero-a__bd__media--is-desktop" 
-            src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-media-desktop.webp" ?>" 
+            src="<?=get_template_directory_uri() . "/assets/frontend/hero-a.png" ?>" 
             alt="Hero media"
         >
         <img 
             class="c--hero-a__bd__media c--hero-a__bd__media--is-mobile" 
-            src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-media-mobile.webp" ?>" 
+            src="<?=get_template_directory_uri() . "/assets/frontend/hero-a-mobile.png" ?>" 
             alt="Hero media"
         >
     </div>
