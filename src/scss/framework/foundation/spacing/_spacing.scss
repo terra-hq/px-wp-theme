@@ -1,11 +1,15 @@
 $space-values : (
-  2
+  0,
+  2,
+  4,
+  7, 
+  10
   ) !default;
 
   $space-prefixes : (
     // p  : padding,
     // pt : padding-top,
-    // pr : padding-right,
+    pr : padding-right,
     // pb : padding-bottom,
     // pl : padding-left,
     // m  : margin,
@@ -20,8 +24,8 @@ $space-values : (
     // desktop: $desktop,
     // laptop: $laptop,
     // tabletl: $tabletl,
-    // tabletm: $tabletm,
-    // tablets: $tablets,
+    tabletm: $tabletm,
+    tablets: $tablets,
     // mobile: $mobile,
   );
 

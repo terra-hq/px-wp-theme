@@ -21,6 +21,9 @@ Template Name: Diego
 
 <?php include (locate_template('flexible-modules/bricks-wall.php', false, false)); ?>
 
+<!-- Paragraph + Two Cards in a Row -->
+<?php include (locate_template('flexible-modules/paragraph-two-cards-in-a-row.php', false, false)); ?>
+
 
 <!-- Content -->
 <section class="f--section-b">

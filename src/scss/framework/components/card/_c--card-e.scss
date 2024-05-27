@@ -1,0 +1,78 @@
+.c--card-e {
+    @extend .u--position-relative;
+    width: 100%;
+    padding: $measure * 15 $measure * 5 $measure * 7;
+    border: 1px solid map-get($color-options, b);
+
+    &::before {
+        @extend .u--position-absolute;
+        content: '';
+        top: -1px;
+        left: 30%;
+        width: 40%;
+        height: 46px;
+        background-color: map-get($color-options, d);
+        border-width: 0 1px 1px;
+        border-style: solid;
+        border-color: map-get($color-options, b);
+        z-index: 1;
+    }
+
+    &__wrapper {
+        @extend .u--display-flex;
+        flex-direction: column;
+        gap: $measure * 3;
+
+        &__title {
+            @extend .f--font-d;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        &__list-group {
+            @extend .u--display-flex;
+            flex-direction: column;
+            gap: $measure * 2;
+            list-style-type: none;
+
+            &__list-item {
+                @extend .f--font-f;
+                padding-left: $measure * 4;
+                @extend .u--position-relative;
+
+                &::before {
+                    @extend .u--position-absolute;
+                    content: '';
+                    top: 6px;
+                    left: 0;
+                    width: 12px;
+                    height: 12px;
+                    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAMCAYAAAC5tzfZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA/SURBVHgB7ZIxCgAgDANTceqnaz/dWd06KNTMHhQK4cgSUdUBwFDHGwiy5BEht9v5SaKavvRKT7+tdZSWQTVNMDgYC3QLbHwAAAAASUVORK5CYII=');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+        }
+    
+    }
+
+    &--second {
+        @extend .f--background-c;
+        border: none;
+
+        &::before {
+            border-width: 0;
+            top: 0;
+            height: 45px;
+        }
+
+        .c--card-e__wrapper__list-group__list-item::before {
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACVSURBVHgBnZLBDYAgDEXBBA7AwREcwRF0EldzE0dwBB2hdw7YGjQqCsJPCKHt+2kbGMtUjdJaT3haevNc2Fo7OecIBs55XxXCJBBCwK2AxduelVLOnwVDzVmAySEI/oWNMd1XMgkzv0RMjHgNPrZKKXua8THzHgeANTB4M8ENQwoORCaXdj/bzjHJgx8mZfCh2L+4agPYJU4ALjwS2AAAAABJRU5ErkJggg==');
+        }
+
+    }
+}
+
+
+
