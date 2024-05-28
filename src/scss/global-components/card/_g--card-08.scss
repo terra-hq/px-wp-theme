@@ -26,18 +26,12 @@
         ),
         $item-primary-options: (
             "font-weight": 600,
-            "className": f--font-d f--color-b,
+            "className": f--font-d-all-caps f--color-b,
         ),
         $list-group-item-options: (
             "font-weight": 500,
             "className": f--font-f f--color-b,
         ),
-        $custom-options: (
-            ".g--card-08__item-primary": (
-                
-            text-transform: uppercase,
-            ),
-        )
     );
 
     }

@@ -5,8 +5,7 @@
             "align": left,
         ),
         $item-primary-options: (
-            "font-weight": 600,
-            "className": f--font-d,
+            "className": f--font-d-all-caps,
         ),
         $list-group-item-options: (
             "className": f--font-f,
@@ -22,9 +21,6 @@
         $custom-options: (
             "parent": (
                 padding: 0,
-            ),
-            ".g--card-04__item-primary":(
-                text-transform: uppercase,
             ),
         )
     );

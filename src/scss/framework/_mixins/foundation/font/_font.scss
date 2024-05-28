@@ -47,6 +47,18 @@
   }
 }
 
+@mixin make-font-d-all-caps($weight: 600) {
+  font-family: $type-a;
+  font-weight: $weight;
+  line-height: 1.35;
+  font-size: 1.375rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+}
+
 @mixin make-font-e($weight: 600) {
   font-family: $type-a;
   font-weight: $weight;

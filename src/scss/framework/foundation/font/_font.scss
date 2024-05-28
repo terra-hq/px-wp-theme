@@ -16,6 +16,10 @@
     @include make-font-d();
 }
 
+.f--font-d-all-caps {
+    @include make-font-d-all-caps();
+}
+
 .f--font-e {
     @include make-font-e();
 }

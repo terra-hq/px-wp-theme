@@ -8,7 +8,7 @@
             "background-repeat": no-repeat,
             "background-size": cover,
         ),
-        $item-primary-options: ("className": f--font-d,
+        $item-primary-options: ("className": f--font-d-all-caps,
         ),
         $list-group-item-options: ("className": f--font-f,
 
@@ -28,9 +28,6 @@
             ),
             ".g--card-07__ft-items":(
                 padding-top:5rem,
-            ),
-            ".g--card-07__ft-items__item-primary":(text-transform: uppercase,
-                font-weight:600,
             ),
         ));
 }
