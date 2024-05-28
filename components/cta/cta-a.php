@@ -1,4 +1,4 @@
-<section class="c--cta-a <?= get_spacing($section_spacing); ?>">
+<section class="c--cta-a">
     <div class="c--cta-a__bg-items">
         <div class="c--cta-a__bg-items__item"></div>
         <div class="c--cta-a__bg-items__item"></div>
