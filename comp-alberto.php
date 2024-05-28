@@ -889,7 +889,7 @@ Template Name: Alberto
 <section class="c--slider-a">
     <div class="f--container">
         <div class="f--row u--justify-content-center">
-            <div class="f--col-10 f--col-tablets-12">
+            <div class="f--col-10 f--col-tabletl-12">
                 <div class="c--slider-a__wrapper js--slider-a">
                     <div class="c--slider-a__wrapper__item">
                         <div class="c--card-c">
@@ -915,7 +915,6 @@ Template Name: Alberto
                                     <p class="c--card-c__ft__wrapper__subtitle">Founder of Cardata</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="c--slider-a__wrapper__item">
