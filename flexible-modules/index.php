@@ -1,5 +1,5 @@
 <?php switch ($module['acf_fc_layout']) {
-    case 'banner':
-        include (locate_template('flexible-modules/banner.php', false, false));
+    case 'center_text_button':
+        include (locate_template('flexible-modules/center-text-button.php', false, false));
         break;
 } ?>
