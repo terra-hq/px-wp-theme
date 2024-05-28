@@ -1005,7 +1005,7 @@ Template Name: Alberto
                     </div>
                 </div>
             </div>
-            <div class="f--col-2 f--col-laptop-3  f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+            <div class="f--col-2 f--col-laptop-3 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Low customer concentration</h3>
                     <div class="g--card-08__list-group">
@@ -1014,7 +1014,7 @@ Template Name: Alberto
                     </div>
                 </div>
             </div>
-            <div class="f--col-2 f--col-laptop-3  f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+            <div class="f--col-2 f--col-laptop-3 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Low customer concentration</h3>
                     <div class="g--card-08__list-group">
@@ -1023,7 +1023,7 @@ Template Name: Alberto
                     </div>
                 </div>
             </div>
-            <div class="f--col-2 f--col-laptop-4  f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+            <div class="f--col-2 f--col-laptop-3 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">industry tailwinds</h3>
                     <div class="g--card-08__list-group">
@@ -1033,7 +1033,7 @@ Template Name: Alberto
                     </div>
                 </div>
             </div>
-            <div class="f--col-2 f--col-laptop-3  f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
+            <div class="f--col-2 f--col-laptop-3 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Service-based businesses</h3>
                     <div class="g--card-08__list-group">
