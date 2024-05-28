@@ -9,7 +9,7 @@
             class="c--cta-a__content__link"><?= $button['title'] ?></a>
     </div>
     <div class="c--cta-a__artwork">
-        <div class="c--cta-a__artwork__wrapper">
+        <div class="<?= $cta_artwork_wrapper_class ?>">
             <div class="c--cta-a__artwork__wrapper__item"></div>
             <div class="c--cta-a__artwork__wrapper__item c--cta-a__artwork__wrapper__item--second"></div>
         </div>
