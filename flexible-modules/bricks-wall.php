@@ -1,33 +1,31 @@
 <?php
-$pills = array(
-    "Majority",
-    "Minority",
-    "Search Funds",
-    "Funds-of-Funds",
-);
-
-$button = array(
-    "name" => "See All Our Investments",
-    "url" => "#"
-);
-
-$spacing = "f--section"; //Cambiar a sección dinámica: get_spacing($module['section_spacing']);
-
+$section_spacing = $module['section_spacing'];
+$background_color = $module['background_color'];
+$pills = $module['pills'];
+$button = $module['button'];
 ?>
 
-<section class="<?= $spacing ?>">
+<section class="<?= get_spacing($section_spacing); ?> <?= $background_color == 'gray' ? 'f--background-d' : ''; ?>">
     <div class="f--container">
         <div class="f--row u--justify-content-center">
             <div class="f--col-8 f--col-tabletm-12">
                 <div class="c--wrapper-b">
-                    <?php foreach ($pills as $pill) : ?>
-                        <div class="c--wrapper-b__item">
-                            <?= $pill ?>
-                        </div>
-                    <?php endforeach; ?>
-                    <a class="c--wrapper-b__link" href="<?= $button['url'] ?>">
-                        <?= $button['name'] ?>
-                    </a>
+                    <?php
+                    if ($pills) {
+                        foreach ($pills as $pill): ?>
+                            <div class="c--wrapper-b__item">
+                                <?= $pill['pill'] ?>
+                            </div>
+                            <?php
+                        endforeach;
+                    }
+                    ?>
+                    <?php
+                    if ($button) { ?>
+                        <a href="<?= $button['url'] ?>" <?= get_target_link($button['target'], $button['title']) ?>
+                            class="c--wrapper-b__link"><?= $button['title'] ?></a>
+                    <?php }
+                    ?>
                 </div>
             </div>
         </div>
