@@ -6,13 +6,11 @@
     align-items: center;
     justify-content: center;
 
-    padding: 190px $measure*3 $measure*15;
+    padding: 190px $measure * 3 $measure * 15;
 
     @media all and ($viewport-type: $tablets) {
         padding-top: 96px;
     }
-
-    @extend .f--background-c;
 
     &__bg-items {
         height: 95px;
@@ -23,7 +21,6 @@
         justify-content: space-evenly;
 
         @media all and ($viewport-type: $tablets) {
-
             height: 50px;
             justify-content: center;
         }
@@ -39,17 +36,16 @@
     }
 
     &__content {
-
         @extend .u--display-flex;
 
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: $measure*6;
+        gap: $measure * 6;
         margin-bottom: 70px;
 
         @media all and ($viewport-type: $tablets) {
-            gap: $measure*4;
+            gap: $measure * 4;
             margin-bottom: 56px;
         }
 
@@ -84,7 +80,7 @@
                 height: 100%;
                 width: 50%;
                 transform-origin: left;
-                transition: all .3s linear;
+                transition: all 0.3s linear;
 
                 @media all and ($viewport-type: $tabletm) {
                     transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
@@ -96,7 +92,6 @@
                     @media all and ($viewport-type: $tabletm) {
                         transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
                     }
-
                 }
             }
         }
@@ -107,10 +102,8 @@
             transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(50deg);
 
             &--second {
-
                 transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
             }
         }
     }
-
 }

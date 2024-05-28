@@ -1,4 +1,14 @@
-<section class="c--cta-a">
+<?php
+if ($background_color == 'gray') {
+    $custom_background = 'f--background-d';
+} elseif ($background_color == 'yellow') {
+    $custom_background = 'f--background-c';
+} else {
+    $custom_background = '';
+}
+?>
+
+<section class="c--cta-a <?= $background_color ?>">
     <div class="c--cta-a__bg-items">
         <div class="c--cta-a__bg-items__item"></div>
         <div class="c--cta-a__bg-items__item"></div>
