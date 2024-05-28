@@ -1,4 +1,4 @@
-<section class="c--hero-c <?= $background_color == 'gray' ? 'f--background-d' : ''; ?>">
+<section class="c--hero-c">
     <div class="f--container">
         <div class="f--row">
             <div class="f--col-12">
