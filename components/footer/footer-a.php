@@ -46,7 +46,7 @@ $footer_nav = get_field('footer_nav', 'option');
                     </li>
                     <span class="c--footer-a__wrapper__item-left__list-group__dash"></span>
                     <li class="c--footer-a__wrapper__item-left__list-group__list-item">
-                        <a href="<?= $footer_linkedin_url ?>"
+                        <a href="<?= $footer_linkedin_url ?>" target="_blank"
                             class="c--footer-a__wrapper__item-left__list-group__list-item__link">
                             LINKEDIN
                         </a>
