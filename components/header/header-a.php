@@ -1,6 +1,6 @@
 <?php
 $headerItems = get_field('nav_children', 'option');
-$file = 'assets/frontend/logos/castle_logo_header.webp';
+$file = 'assets/frontend/logos/castle_logo_header.svg';
 ?>
 
 <header class="c--header-a">
@@ -14,8 +14,8 @@ $file = 'assets/frontend/logos/castle_logo_header.webp';
                             aria-label="Go to Homepage">
                             <img class="c--header-a__wrapper__hd__link__media" width=198 height=21
                                 style="aspect-ratio: 66 / 7"
-                                src=<?=get_template_directory_uri() . "/assets/frontend/logos/castle_logo_header.webp" ?>
-                                data-src=<?= get_template_directory_uri() . "/assets/frontend/logos/castle_logo_header.webp" ?>
+                                src=<?=get_template_directory_uri() . "/assets/frontend/logos/castle_logo_header.svg" ?>
+                                data-src=<?= get_template_directory_uri() . "/assets/frontend/logos/castle_logo_header.svg" ?>
                                 alt="header-logo" decoding="async">
                         </a>
                     </div>
