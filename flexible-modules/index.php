@@ -2,4 +2,7 @@
     case 'center_text_button':
         include (locate_template('flexible-modules/center-text-button.php', false, false));
         break;
+    case 'stats':
+        include (locate_template('flexible-modules/stats.php', false, false));
+        break;
 } ?>
