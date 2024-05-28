@@ -1,7 +1,7 @@
 <section class="c--cta-a">
     <div class="c--cta-a__bg-items">
-        <div class="c--cta-a__bg-items__item"></div>
-        <div class="c--cta-a__bg-items__item"></div>
+        <div class="c--cta-a__bg-items__item <?= $bg_item_custom_class ?>"></div>
+        <div class="c--cta-a__bg-items__item <?= $bg_item_custom_class ?>"></div>
     </div>
     <div class="c--cta-a__content">
         <h3 class="c--cta-a__content__title"><?= $title ?></h3>
@@ -10,9 +10,8 @@
     </div>
     <div class="c--cta-a__artwork">
         <div class="c--cta-a__artwork__wrapper">
-            <div class="c--cta-a__artwork__wrapper__item <?= $artwork_wrapper_item_custom_class ?>"></div>
-            <div
-                class="c--cta-a__artwork__wrapper__item c--cta-a__artwork__wrapper__item--second <?= $artwork_wrapper_item_custom_class ?>">
+            <div class="c--cta-a__artwork__wrapper__item"></div>
+            <div class="c--cta-a__artwork__wrapper__item c--cta-a__artwork__wrapper__item--second">
             </div>
         </div>
     </div>

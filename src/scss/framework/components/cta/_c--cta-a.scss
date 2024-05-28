@@ -34,6 +34,10 @@
             @media all and ($viewport-type: $tablets) {
                 width: 23%;
             }
+
+            &--second {
+                @extend .f--background-d;
+            }
         }
     }
 
@@ -94,10 +98,6 @@
                     @media all and ($viewport-type: $tabletm) {
                         transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
                     }
-                }
-
-                &--third {
-                    @extend .f--background-d;
                 }
             }
         }
