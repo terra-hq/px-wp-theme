@@ -3,14 +3,15 @@ $space-values : (
   2,
   4,
   7, 
-  10
+  10, 
+  15
   ) !default;
 
   $space-prefixes : (
     // p  : padding,
-    // pt : padding-top,
+    pt : padding-top,
     pr : padding-right,
-    // pb : padding-bottom,
+    pb : padding-bottom,
     // pl : padding-left,
     // m  : margin,
     // mt : margin-top,
