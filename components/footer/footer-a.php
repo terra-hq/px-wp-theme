@@ -1,22 +1,9 @@
 <?php
-    $title = "Investment. Growth. Partnership.";
-    //El siguiente código se encarga de resaltar la última palabra del título
-    $titleWords = explode(' ', $title);
-    $titleFormatted = implode(' ', array_slice($titleWords, 0, -1)) . ' <span class="c--footer-a__wrapper__item-left__title__ft">' . end($titleWords) . '</span>';
-
-    $footerNav = [
-        ['Investments', '#'],
-        ['About', '#'],
-        ['CEO-in-Residence', '#'],
-        ['Contact', '#'],
-    ];
-
-    $copyright = "© 2024 CASTLE HOLDINGS, LTD";
-
-    $privacyPolicy = ['Privacy Policy', '#'];
-
-    $socialMedia = ['LinkedIn', '#'];
-
+$footer_title = get_field('footer_title', 'option');
+$copyright = get_field('footer_copyright', 'option');
+$footer_privacy_policy = get_field('footer_privacy_policy', 'option');
+$footer_linkedin_url = get_field('footer_linkedin_url', 'option');
+$footer_nav = get_field('footer_nav', 'option');
 ?>
 
 <section class="c--footer-a">
@@ -24,13 +11,24 @@
         <div class="c--footer-a__wrapper">
             <div class="c--footer-a__wrapper__item-left">
                 <h4 class="c--footer-a__wrapper__item-left__title">
-                    <?= $titleFormatted; ?>
+                    <?php
+                    foreach ($footer_title as $key => $title) {
+                        if ($title['is_highlighted']) { ?>
+                            <span class="c--footer-a__wrapper__item-left__title__ft"><?= $title['text'] ?></span>
+                        <?php } else {
+                            echo $title['text'];
+                        }
+                    }
+                    ?>
                 </h4>
                 <ul class="c--footer-a__wrapper__item-left__list-group">
-                    <?php foreach ($footerNav as $nav) : ?>
+                    <?php foreach ($footer_nav as $nav): ?>
                         <li class="c--footer-a__wrapper__item-left__list-group__list-item">
-                            <a href="<?= $nav[1] ?>" class="c--footer-a__wrapper__item-left__list-group__list-item__link">
-                                <?= $nav[0]; ?>
+                            <?php
+                            $link = $nav['link'];
+                            ?>
+                            <a href="<?= $link['url'] ?>" <?= get_target_link($link['target'], $link['title']) ?>
+                                class="c--footer-a__wrapper__item-left__list-group__list-item__link"><?= $link['title'] ?>
                             </a>
                         </li>
                     <?php endforeach; ?>
@@ -41,25 +39,24 @@
                     </li>
                     <span class="c--footer-a__wrapper__item-left__list-group__dash"></span>
                     <li class="c--footer-a__wrapper__item-left__list-group__list-item">
-                        <a href="<?= $privacyPolicy[1] ?>" class="c--footer-a__wrapper__item-left__list-group__list-item__link">
-                            <?= $privacyPolicy[0]; ?>
+                        <a href="<?= $footer_privacy_policy['url'] ?>"
+                            <?= get_target_link($footer_privacy_policy['target'], $footer_privacy_policy['title']) ?>
+                            class="c--footer-a__wrapper__item-left__list-group__list-item__link"><?= $footer_privacy_policy['title'] ?>
                         </a>
                     </li>
                     <span class="c--footer-a__wrapper__item-left__list-group__dash"></span>
                     <li class="c--footer-a__wrapper__item-left__list-group__list-item">
-                        <a href="<?= $socialMedia[1] ?>" class="c--footer-a__wrapper__item-left__list-group__list-item__link">
-                            <?= $socialMedia[0]; ?>
+                        <a href="<?= $footer_linkedin_url ?>"
+                            class="c--footer-a__wrapper__item-left__list-group__list-item__link">
+                            LINKEDIN
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div class="c--footer-a__wrapper__item-right">
-                <img
-                    class="c--footer-a__wrapper__item-right__media"
-                    src="<?=get_template_directory_uri() . "/assets/frontend/footer-bg.webp" ?>" 
-                    alt="footer media"
-                >
+                <img class="c--footer-a__wrapper__item-right__media"
+                    src="<?= get_template_directory_uri() . "/assets/frontend/footer-bg.webp" ?>" alt="footer media">
             </div>
         </div>
     </div>
