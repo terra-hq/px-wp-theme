@@ -1,5 +1,5 @@
 <section
-    class="g--layout-02 <?= get_spacing($section_spacing); ?> <?= $background_color == 'gray' ? 'f--background-b' : ''; ?>">
+    class="g--layout-02 <?= get_spacing($section_spacing); ?> <?= $background_color == 'gray' ? 'f--background-d' : ''; ?>">
     <div class="g--layout-02__wrapper">
         <div class="g--layout-02__wrapper__content">
             <?php
