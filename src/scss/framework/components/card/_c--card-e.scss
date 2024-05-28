@@ -37,7 +37,7 @@
 
             &__list-item {
                 @extend .f--font-f;
-                padding-left: $measure * 4;
+                padding-left: 28px;
                 @extend .u--position-relative;
 
                 &::before {
