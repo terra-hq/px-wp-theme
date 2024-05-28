@@ -95,10 +95,10 @@
                         transform: perspective(300px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-50deg);
                     }
                 }
-            }
 
-            &--second {
-                @extend .f--background-c;
+                &--third {
+                    @extend .f--background-d;
+                }
             }
         }
     }
