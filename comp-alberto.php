@@ -996,7 +996,7 @@ Template Name: Alberto
 <!--row of cards with heading + paragraph-->
 <section class="">
     <div class="f--container">
-        <div class="f--row u--justify-content-space-between u--justify-content-laptop-center f--gap-b">
+        <div class="f--row u--justify-content-space-between u--justify-content-laptop-flex-start f--gap-d">
             <div class="f--col-2 f--col-laptop-3 f--col-tabletl-4 f--col-tabletm-6 f--col-tablets-12">
                 <div class="g--card-08 g--card-08--second">
                     <h3 class="g--card-08__item-primary">Businesses with low capex</h3>
