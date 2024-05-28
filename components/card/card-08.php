@@ -1,4 +1,4 @@
-<div class="c--stats-a__item g--card-08">
+<div class="g--card-08 <?= $custom_class ?>">
     <h3 class="g--card-08__item-primary"><?= $title ?></h3>
     <?php
     if ($subtitle) { ?>

@@ -15,6 +15,11 @@ $stats = $module['stats'];
                         <?php
                         $title = $stat['title'];
                         $subtitle = $stat['subtitle'];
+                        if ($key == 1) {
+                            $custom_class = 'c--stats-a__item c--stats-a__item--second';
+                        } else {
+                            $custom_class = 'c--stats-a__item';
+                        }
                         include (locate_template('components/card/card-08.php', false, false));
                         ?>
                     </div>
