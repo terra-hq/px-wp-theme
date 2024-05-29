@@ -57,4 +57,5 @@ require get_template_directory() . '/functions/project/enqueues/frontend.php';
 require get_template_directory() . '/functions/project/enqueues/backend.php';
 
 // custom ACF Fields
+require get_template_directory() . '/functions/project/acf/acf-message/init.php';
 require get_template_directory() . '/functions/project/acf/acf-spacing/init.php';
