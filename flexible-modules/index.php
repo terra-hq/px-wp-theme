@@ -1,4 +1,7 @@
 <?php switch ($module['acf_fc_layout']) {
+    case 'big_heading':
+        include (locate_template('flexible-modules/big-heading.php', false, false));
+        break;
     case 'bricks_wall':
         include (locate_template('flexible-modules/bricks-wall.php', false, false));
         break;
