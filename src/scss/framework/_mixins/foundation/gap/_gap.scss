@@ -22,3 +22,7 @@
     row-gap: $measure*6; //Always 3rem
 }
 
+@mixin make-gap-e {
+    row-gap: $measure*8; //Always 4rem
+}
+
