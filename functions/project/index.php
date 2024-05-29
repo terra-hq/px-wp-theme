@@ -75,6 +75,26 @@ function get_spacing($space)
     }
 }
 
+/**
+ *  Rewrites a feature image with our og image in the sites' Options.
+ *  Important: a page can't have a blank featured image or an svg set as featured or this function won't work
+ *  @author: Team Thunderfoot
+ */
+function yoast_change_image($image)
+{
+    if (is_singular('blog') || is_singular('podcast') || is_singular('webinar') || is_singular('case-study')) {
+        $FTmeta = get_the_post_thumbnail_url(get_the_ID(), 'large');
+        ;
+        $my_image_url = $FTmeta;
+        return $my_image_url;
+    } else {
+        $OGmeta = get_field('og_image', 'option');
+        $my_image_url = $OGmeta;
+        return $my_image_url;
+    }
+}
+add_filter('wpseo_opengraph_image', 'yoast_change_image', 10, 1);
+
 
 //hide posts
 function post_remove()
