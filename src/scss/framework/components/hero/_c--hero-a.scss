@@ -4,6 +4,7 @@
 
     &__hd {
         @extend .f--container;
+        margin-bottom: $measure * 7;
         
         &__wrapper {
             @extend .u--display-flex;

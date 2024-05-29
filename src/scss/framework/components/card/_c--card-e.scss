@@ -24,10 +24,7 @@
         gap: $measure * 3;
 
         &__title {
-            @extend .f--font-d;
-            font-weight: 600;
-            letter-spacing: 1px;
-            text-transform: uppercase;
+            @extend .f--font-d-all-caps;
         }
 
         &__list-group {

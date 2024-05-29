@@ -27,9 +27,7 @@
         flex-direction: column;
         align-items: left;
         &__title{
-            @extend .f--font-d;
-            font-weight: 600;
-            text-transform: uppercase;
+            @extend .f--font-d-all-caps;
         }
         &__subtitle{
             @extend .f--font-f;
