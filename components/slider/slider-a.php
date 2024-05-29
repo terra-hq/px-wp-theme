@@ -9,6 +9,7 @@
                             $quote = get_field('quote', $slide_id);
                             $author = get_field('author', $slide_id);
                             $position = get_field('position', $slide_id);
+                            $image_id = get_post_thumbnail_id($slide_id);
                             ?>
                             <div class="c--slider-a__wrapper__item">
                                 <div class="c--card-c">
@@ -23,10 +24,21 @@
                                         </div>
                                     </div>
                                     <div class="c--card-c__ft">
-                                        <div class="c--card-c__ft__media-wrapper">
-                                            <img src=<?= get_template_directory_uri() . "/assets/frontend/portrait.png" ?>
-                                                alt="alt text" class="c--card-c__ft__media-wrapper__media">
-                                        </div>
+                                        <?php
+                                        if ($image_id != 0) { ?>
+                                            <div class="c--card-c__ft__media-wrapper">
+                                                <?php
+                                                $image_tag_args = array(
+                                                    'image' => $image_id,
+                                                    'class' => 'c--card-c__ft__media-wrapper__media',
+                                                    'isLazy' => false,
+                                                    'sizes' => '95vw'
+                                                );
+                                                generate_image_tag($image_tag_args);
+                                                ?>
+                                            </div>
+                                        <?php }
+                                        ?>
                                         <div class="c--card-c__ft__wrapper">
                                             <h3 class="c--card-c__ft__wrapper__title"><?= $author ?></h3>
                                             <p class="c--card-c__ft__wrapper__subtitle"><?= $position ?></p>
