@@ -55,6 +55,7 @@ $footer_nav = get_field('footer_nav', 'option');
             </div>
 
             <div class="c--footer-a__wrapper__item-right">
+                <!-- sizes= "(max-width: 810px) 50vw, 33vw" --> 
                 <img class="c--footer-a__wrapper__item-right__media"
                     src="<?= get_template_directory_uri() . "/assets/frontend/footer-bg.webp" ?>" alt="footer media">
             </div>

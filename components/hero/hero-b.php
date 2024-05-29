@@ -20,13 +20,13 @@
             'image' => $desktop_image,
             'class' => 'c--hero-b__bd__media c--hero-b__bd__media--is-desktop',
             'isLazy' => !$disable_lazy_loading_image,
-            'sizes' => '95vw'
+            'sizes' => '(max-width: 810px) 100vw, 95vw'
         );
         $mobile_image_tag_args = array(
             'image' => $mobile_image,
             'class' => 'c--hero-b__bd__media c--hero-b__bd__media--is-mobile',
             'isLazy' => !$disable_lazy_loading_image,
-            'sizes' => '95vw'
+            'sizes' => '(max-width: 810px) 100vw, 95vw'
         );
         generate_image_tag($desktop_image_tag_args);
         generate_image_tag($mobile_image_tag_args);

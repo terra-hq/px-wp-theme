@@ -41,6 +41,7 @@
                                 ?>
 
                                 <div class="c--nav-a__wrapper__artwork">
+                                    <!-- sizes= "200px" -->
                                     <img class="c--nav-a__wrapper__artwork__media"
                                         src="<?= get_template_directory_uri() . "/assets/frontend/logos/castle-fig.png" ?>"
                                         data-src="<?= get_template_directory_uri() . "/assets/frontend/logos/castle-fig.png" ?>"
