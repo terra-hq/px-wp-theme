@@ -100,4 +100,7 @@ if (function_exists('acf_add_options_page')) {
         )
     );
 }
+
+// HEADER NAV
+register_nav_menu('navbar', __('Header', 'b4st'));
 ?>
