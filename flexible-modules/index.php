@@ -11,6 +11,9 @@
     case 'short_hero':
         include (locate_template('flexible-modules/short-hero.php', false, false));
         break;
+    case 'yellow_hero':
+        include (locate_template('flexible-modules/yellow-hero.php', false, false));
+        break;
     case 'small_heading':
         include (locate_template('flexible-modules/small-heading.php', false, false));
         break;
