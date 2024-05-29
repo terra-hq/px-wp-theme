@@ -22,7 +22,7 @@ laptop: $laptop,
 tabletl: $tabletl,
 tabletm: $tabletm,
 tablets: $tablets,
-//   mobile: $mobile,
+mobile: $mobile,
 );
 @mixin build-columns ($size,$bkpt,$availablecolumns) {
     @for $i from 1 through $columns {
