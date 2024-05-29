@@ -1,23 +1,15 @@
 <?php
 $section_spacing = $module['section_spacing'];
-$title = $module['title'];
-$subtitle = $module['subtitle'];
+$paragraph = $module['paragraph'];
 $cards = $module['cards'];
 ?>
 
 <section class="<?= get_spacing($section_spacing); ?> f--background-d">
     <div class="f--container">
-        <div class="f--row f--mb-10 f--mb-tablets-4">
-            <div class="f--col-12">
-                <h2 class="f--font-a">
-                    <?= $title ?>
-                </h2>
-            </div>
-        </div>
         <div class="f--row f--gap-a">
             <div class="f--col-4 f--col-tabletl-12 f--mb-2">
                 <p class="f--font-d f--pr-7 f--pre-tabletm-0">
-                    <?= $subtitle ?>
+                    <?= $paragraph ?>
                 </p>
             </div>
             <?php foreach ($cards as $index => $card): ?>
