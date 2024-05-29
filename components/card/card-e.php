@@ -4,9 +4,9 @@
             <?= $card['title'] ?>
         </h3>
         <ul class="c--card-e__wrapper__list-group">
-            <?php foreach ($card['list'] as $element) : ?>
+            <?php foreach ($card['items'] as $item): ?>
                 <li class="c--card-e__wrapper__list-group__list-item">
-                    <?= $element ?>
+                    <?= $item['item'] ?>
                 </li>
             <?php endforeach; ?>
         </ul>

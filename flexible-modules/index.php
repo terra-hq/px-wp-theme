@@ -8,6 +8,9 @@
     case 'center_text_button':
         include (locate_template('flexible-modules/center-text-button.php', false, false));
         break;
+    case 'paragraph_two_cards_in_a_row':
+        include (locate_template('flexible-modules/paragraph-two-cards-in-a-row.php', false, false));
+        break;
     case 'short_hero':
         include (locate_template('flexible-modules/short-hero.php', false, false));
         break;
