@@ -1,8 +1,3 @@
-<?php
-$headerItems = get_field('nav_children', 'option');
-$file = 'assets/frontend/logos/castle_logo_header.svg';
-?>
-
 <header class="c--header-a">
     <div class="f--container">
         <div class="f--row">
@@ -12,9 +7,14 @@ $file = 'assets/frontend/logos/castle_logo_header.svg';
                     <div class="c--header-a__wrapper__hd">
                         <a href="<?php echo get_site_url(); ?>" class="c--header-a__wrapper__hd__link"
                             aria-label="Go to Homepage">
-                            <img class="c--header-a__wrapper__hd__link__media" width=198 height=21
-                                style="aspect-ratio: 66 / 7" src=<?= get_template_directory_uri() . "/assets/frontend/logos/castle_logo_header.svg" ?>
-                                data-src=<?= get_template_directory_uri() . "/assets/frontend/logos/castle_logo_header.svg" ?> alt="header-logo" decoding="async">
+                            <?php
+                            $image_tag_args = array(
+                                'image' => get_field('header_logo', 'option'),
+                                'class' => 'c--header-a__wrapper__hd__link__media',
+                                'isLazy' => false
+                            );
+                            generate_image_tag($image_tag_args);
+                            ?>
                         </a>
                     </div>
 

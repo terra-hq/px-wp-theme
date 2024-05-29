@@ -108,7 +108,9 @@ function generate_image_tag($payload)
             break;
         case '':
             $sizesResult = '95vw';
-            echo "<p style='color: red'>Please, 'sizes' attribute is required for generate_image_tag.</p>";
+            if (!$is_svg) {
+                echo "<p style='color: red'>Please, 'sizes' attribute is required for generate_image_tag.</p>";
+            }
             break;
 
         default:
