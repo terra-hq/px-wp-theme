@@ -25,7 +25,7 @@ function tf_testimonials_init()
         'rewrite' => array('slug' => 'testimonials', 'with_front' => false),
         'has_archive' => false,
         'show_in_rest' => true,
-        'supports' => array('title'),
+        'supports' => array('title', 'thumbnail'),
     );
     register_post_type('testimonial', $args);
 
