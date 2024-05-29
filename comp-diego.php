@@ -5,19 +5,6 @@ Template Name: Diego
 ?>
 <?php get_header(); ?>
 
-<!-- Hero-b -->
-
-<?php include (locate_template('components/hero/hero-b.php', false, false)); ?>
-
-<!-- Highlighted text left + paragraph right (layout-a) -->
-
-<?php include (locate_template('flexible-modules/highlighted-text-left-paragraph-right.php', false, false)); ?>
-
-
-<!-- Paragraph + Two Cards in a Row -->
-<?php include (locate_template('flexible-modules/paragraph-two-cards-in-a-row.php', false, false)); ?>
-
-
 <!-- Content -->
 <section class="f--section-b">
     <div class="f--container">
@@ -31,4 +18,4 @@ Template Name: Diego
     </div>
 </section>
 
-<?php get_footer() ?>
+<?php get_footer(); ?>

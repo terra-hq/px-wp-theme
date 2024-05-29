@@ -33,8 +33,11 @@
             ),
             ".g--card-23__wrapper__list-group__item":(
                 padding: 0.2rem 0.5rem,
-                width: fit-content,
             )
         ),
     );
+
+    .g--card-23__wrapper__list-group__item {
+        width: fit-content !important;
+    }
 }
