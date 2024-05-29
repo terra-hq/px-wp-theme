@@ -14,11 +14,11 @@
     case 'paragraph_two_cards_in_a_row':
         include (locate_template('flexible-modules/paragraph-two-cards-in-a-row.php', false, false));
         break;
+    case 'row_of_cards_with_heading_paragraph':
+        include (locate_template('flexible-modules/row-of-cards-with-heading-paragraph.php', false, false));
+        break;
     case 'short_hero':
         include (locate_template('flexible-modules/short-hero.php', false, false));
-        break;
-    case 'yellow_hero':
-        include (locate_template('flexible-modules/yellow-hero.php', false, false));
         break;
     case 'small_heading':
         include (locate_template('flexible-modules/small-heading.php', false, false));
@@ -28,5 +28,8 @@
         break;
     case 'testimonials':
         include (locate_template('flexible-modules/testimonials.php', false, false));
+        break;
+    case 'yellow_hero':
+        include (locate_template('flexible-modules/yellow-hero.php', false, false));
         break;
 } ?>
