@@ -26,6 +26,9 @@
     case 'stats':
         include (locate_template('flexible-modules/stats.php', false, false));
         break;
+    case 'team_cards':
+        include (locate_template('flexible-modules/team-cards.php', false, false));
+        break;
     case 'testimonials':
         include (locate_template('flexible-modules/testimonials.php', false, false));
         break;
