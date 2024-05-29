@@ -27,13 +27,13 @@ body {
 }
 
 main {
-    padding-top: $headerDesktop;
-    @media all and ($viewport-type: $tabletm) {
-        padding-top: $headerTabletm;
-    }
-    @media all and ($viewport-type: $mobile) {
-        padding-top: $headerMobile;
-    }
+    //padding-top: $headerDesktop;
+    //@media all and ($viewport-type: $tabletm) {
+    //    padding-top: $headerTabletm;
+    //}
+    //@media all and ($viewport-type: $mobile) {
+    //    padding-top: $headerMobile;
+    //}
     // i explorer
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         display: block;
