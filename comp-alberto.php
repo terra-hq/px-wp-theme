@@ -160,7 +160,7 @@ Template Name: Alberto
 <!--team cards-->
 <section class="f--background-d">
     <div class="f--container">
-        <div class="f--row u--justify-content-center f--gap-c">
+        <div class="f--row u--justify-content-center f--gap-e">
             <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
                 <div class="c--card-a">
                     <div class="c--card-a__hd">
