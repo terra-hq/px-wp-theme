@@ -13,10 +13,6 @@ function remove_editor()
                 break;
         }
         remove_post_type_support('page', 'thumbnail');
-
-        if ($post->post_type == "testimonial") {
-            remove_post_type_support('testimonial', 'editor');
-        }
     }
 }
 add_action('init', 'remove_editor');
