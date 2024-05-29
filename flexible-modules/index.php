@@ -17,6 +17,9 @@
     case 'row_of_cards_with_heading_paragraph':
         include (locate_template('flexible-modules/row-of-cards-with-heading-paragraph.php', false, false));
         break;
+    case 'row_of_cards_with_icon_heading_paragraph':
+        include (locate_template('flexible-modules/row-of-cards-with-icon-heading-paragraph.php', false, false));
+        break;
     case 'short_hero':
         include (locate_template('flexible-modules/short-hero.php', false, false));
         break;
