@@ -10,7 +10,7 @@ require get_template_directory() . '/functions/default/custom/set-base-wp-api.ph
 require get_template_directory() . '/functions/default/custom/get-alt-image.php';
 require get_template_directory() . '/functions/default/custom/disable-comments.php';
 require get_template_directory() . '/functions/default/custom/canonical-url.php';
-require get_template_directory() . '/functions/default/custom/remove-editor.php';
+require get_template_directory() . '/functions/default/custom/remove-editor-from.php';
 require get_template_directory() . '/functions/default/custom/remove-heading-editor.php';
 require get_template_directory() . '/functions/default/custom/remove-query-strings.php';
 require get_template_directory() . '/functions/default/custom/yoast-priority.php';
