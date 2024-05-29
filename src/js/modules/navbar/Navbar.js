@@ -33,10 +33,22 @@ class Navbar {
 
         //add class in to change navbar opacity on scroll
         window.addEventListener('scroll', () => {
+            let btns = this.DOM.navbar.querySelectorAll('.c--nav-a__wrapper__list-group__item__link');
+
             if (window.scrollY > 5) {
                 this.DOM.headerElement.classList.add('c--header-a--is-scroll');
+        
+                btns.forEach(btn => {
+                    btn.classList.add('g--btn-01--third');
+                    btn.classList.remove('g--btn-01--fourth');
+                });
             } else {
                 this.DOM.headerElement.classList.remove('c--header-a--is-scroll');
+                btns.forEach(btn => {
+                    btn.classList.add('g--btn-01--fourth');
+                    btn.classList.remove('g--btn-01--third');
+
+                });
             }
         });
     }

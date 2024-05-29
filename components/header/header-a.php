@@ -33,7 +33,7 @@
                                     echo '<ul class="c--nav-a__wrapper__list-group">';
                                     foreach ($menu_items as $menu_item) {
                                         echo '<li class="c--nav-a__wrapper__list-group__item">';
-                                        echo '<a href="' . $menu_item->url . '" class="c--nav-a__wrapper__list-group__item__link">' . $menu_item->title . '</a>';
+                                        echo '<a href="' . $menu_item->url . '" class="c--nav-a__wrapper__list-group__item__link g--btn-01--fourth">' . $menu_item->title . '</a>';
                                         echo '</li>';
                                     }
                                     echo '</ul>';

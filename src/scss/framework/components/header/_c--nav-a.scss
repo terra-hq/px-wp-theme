@@ -10,7 +10,6 @@
             right: 0;
             height: 100%;
             padding: $measure*10 $measure*4.5 0;
-
         }
 
         display: inherit;
@@ -29,7 +28,7 @@
                 &__link {
                     @extend .f--font-e;
                     @extend .f--color-b;
-                    @extend .g--btn-01--third;
+                    
                     padding: 0 $measure*.5;
                     text-decoration: none;
 
@@ -40,10 +39,7 @@
                         line-height: 2.5rem;
                     }
                 }
-
-
             }
-
         }
 
         &__artwork {
@@ -58,5 +54,4 @@
             right: 36px;
         }
     }
-
 }
