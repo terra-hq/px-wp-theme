@@ -18,6 +18,7 @@
                                             <?= $quote ?>
                                         </p>
                                         <div class="c--card-c__bd__bg-items">
+                                            <!-- sizes= "200px"  -->
                                             <img src=<?= get_template_directory_uri() . "/assets/frontend/quotes.png" ?>
                                                 alt="alt text" class="c--card-c__bd__bg-items__media">
 
@@ -32,7 +33,7 @@
                                                     'image' => $image_id,
                                                     'class' => 'c--card-c__ft__media-wrapper__media',
                                                     'isLazy' => false,
-                                                    'sizes' => '95vw'
+                                                    'sizes' => '120px'
                                                 );
                                                 generate_image_tag($image_tag_args);
                                                 ?>

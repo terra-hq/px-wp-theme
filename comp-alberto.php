@@ -165,6 +165,7 @@ Template Name: Alberto
                 <div class="c--card-a">
                     <div class="c--card-a__hd">
                         <div class="c--card-a__hd__wrapper">
+                            <!-- sizes="(max-width: 810px) 50vw, 33vw" -->
                             <img class="c--card-a__hd__wrapper__media"
                                 src=<?=get_template_directory_uri() . "/assets/frontend/team1.png" ?> />
                         </div>
@@ -261,6 +262,7 @@ Template Name: Alberto
                             private equity, investment banking or operational leadership roles.</p>
                     </div>
                     <figure class="g--card-04__media-wrapper">
+                        <!-- sizes="48px" -->
                         <img width=48 height=48 src=<?=get_template_directory_uri() . "/assets/frontend/suitcase.png" ?>
                             alt="alt text" class="g--card-04__media-wrapper__media g--lazy-01" />
                     </figure>
@@ -334,6 +336,12 @@ Template Name: Alberto
                             </li>
                         </ul>
                         <div class="c--card-b__hd__media-wrapper">
+                            <!-- sizes="(max-width: 580px) 100vw,
+                                (max-width: 810px) 50vw,
+                                (max-width: 1024px) 50vw,
+                                (max-width: 1300px) 25vw,
+                                (max-width: 1570px) 25vw,
+                                25vw" -->
                             <img src=<?=get_template_directory_uri() . "/assets/frontend/maven.png" ?> alt="alt text"
                                 class="c--card-b__hd__media-wrapper__media" />
                         </div>
@@ -593,6 +601,9 @@ Template Name: Alberto
                         </div>
                     </div>
                     <div class="c--slider-b__wrapper__item">
+                        <!-- sizes= "(max-width: 810px) 100vw,
+                                (max-width: 1024px) 50vw,
+                                33vw" -->
                         <div class="g--card-07 g--lazy-01"
                             data-src="<?=get_template_directory_uri() . "/assets/frontend/card-07.png" ?> ">
                             <div class="g--card-07__bg-items"></div>
@@ -715,6 +726,9 @@ Template Name: Alberto
                                 </div>
                             </div>
                             <figure class="g--card-23__media-wrapper">
+                                <!-- sizes= "(max-width: 810px) 100vw,
+                                (max-width: 1024px) 50vw,
+                                33vw" -->
                                 <img src="<?=get_template_directory_uri() . "/assets/frontend/card23_2.png" ?>"
                                     data-src="<?=get_template_directory_uri() . "/assets/frontend/card23_2.png" ?>"
                                     alt="alt text" class="g--card-23__media-wrapper__media g--lazy-01" />
@@ -900,6 +914,7 @@ Template Name: Alberto
                                     and work with them.
                                 </p>
                                 <div class="c--card-c__bd__bg-items">
+                                    <!-- sizes = "200px" -->
                                     <img src=<?=get_template_directory_uri() . "/assets/frontend/quotes.png" ?>
                                         alt="alt text" class="c--card-c__bd__bg-items__media">
 
@@ -907,6 +922,7 @@ Template Name: Alberto
                             </div>
                             <div class="c--card-c__ft">
                                 <div class="c--card-c__ft__media-wrapper">
+                                    <!-- sizes = "120px" -->
                                     <img src=<?=get_template_directory_uri() . "/assets/frontend/portrait.png" ?>
                                         alt="alt text" class="c--card-c__ft__media-wrapper__media">
                                 </div>
@@ -972,6 +988,7 @@ Template Name: Alberto
 <section class="c--hero-a">
     <div class="c--hero-a__hd">
         <div class="c--hero-a__hd__wrapper">
+            <!-- sizes = "100vw" -->
             <img class="c--hero-a__hd__wrapper__icon"
                 src="<?=get_template_directory_uri() . "/assets/frontend/hero-b-icon.webp" ?>" alt="Hero icon">
             <hr class="c--hero-a__hd__wrapper__dash c--divider-a">
