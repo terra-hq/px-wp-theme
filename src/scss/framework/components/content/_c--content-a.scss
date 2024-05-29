@@ -7,29 +7,28 @@
       $headings-options: (
         "h2": (
           "className": f--font-b,
-          "margin-bottom": $measure*3,
-          "padding-top": $measure*5,
+          "margin-bottom": $measure*4,
         ),
         "h3": (
           "className": f--font-c,
-          "margin-bottom": $measure*3,
-          "padding-top": $measure*5,
+          "margin-bottom": $measure*4,
+          "padding-top": $measure,
         ),
         "h4": (
           "font-weight": 600,
           "className": f--font-d,
-          "margin-bottom": $measure*2,
-          "padding-top": $measure*5,
+          "margin-bottom": $measure*3,
+          "padding-top": $measure,
         ),
         "h5": (
           "className": f--font-f u--font-medium,
-          "margin-bottom": $measure*2,
-          "padding-top": $measure*5,
+          "margin-bottom": $measure*3,
+          "padding-top": $measure,
         ),
       ),
       $image-options: (
         "object-fit": cover,
-        "margin-bottom": $measure*5,
+        "margin-bottom": $measure*3,
         "caption": (
           "className": f--font-f,
           "padding-top": $measure*2,
@@ -62,7 +61,7 @@
         "margin-bottom": $measure*4,
         "font-styles": (
           "className": f--font-f,
-          "margin-bottom": $measure * 2,
+          "margin-bottom": $measure,
         ),
       ),
       $paragraphs-options: (
@@ -72,8 +71,8 @@
       ),
       $quote-options: (
         "padding": $measure*3 0,
-        "margin-top": $measure*5,
-        "margin-bottom": $measure*6,
+        "margin-top": $measure,
+        "margin-bottom": $measure*4,
         "border": (
           "border-color": map-get($color-options, a),
           "border-style": solid,
@@ -162,7 +161,12 @@
     }
 
     .wp-block-footnotes {
-        @extend .f--font-g;
-        margin-bottom: $measure * 2;
+      @extend .f--font-g;
+      margin-bottom: $measure * 2;
+      >li {
+        >a {
+          display: none;
+        }
+      }
     }
 }
