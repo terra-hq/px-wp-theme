@@ -357,10 +357,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -387,10 +387,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -417,10 +417,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -447,10 +447,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -477,10 +477,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -507,10 +507,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -537,10 +537,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
@@ -567,10 +567,10 @@ Template Name: Alberto
                                     d="M16 0C7.08571 0 0 7.08571 0 16C0 24.9143 7.08571 32 16 32C24.9143 32 32 24.9143 32 16C32 7.08571 24.9143 0 16 0ZM22.1714 24L16 17.8286L9.82857 24L8 22.1714L14.1714 16L8 9.82857L9.82857 8L16 14.1714L22.1714 8L24 9.82857L17.8286 16L24 22.1714L22.1714 24Z"
                                     fill="black" />
                             </svg></button>
-                        <p class="c--card-b__bd__content c--content-a">
+                        <div class="c--card-b__bd__content c--content-a">
                             Fairview Succession has the support of world-class investors who have helped build JetBlue,
                             Allbirds, and Bonobos — and they’re ready to invest in businesses for the long-term.
-                        </p>
+                        </div>
                         <a href="" class="g--link-01 g--link-01--second">View website</a>
                     </div>
                 </div>
