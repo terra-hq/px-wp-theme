@@ -70,17 +70,19 @@ function generate_image_tag($payload)
     $is_acf_array = is_array($payload['image']);
 
     if (!$is_acf_array) {
+        $main_featured_image = wp_get_attachment_image_src($payload['image']);
         $main_featured_image_full = wp_get_attachment_image_src($payload['image'], 'full');
     }
 
-    $url = $is_acf_array ? $payload['image']['url'] : $main_featured_image_full[0];
+    $url = $is_acf_array ? $payload['image']['url'] : $main_featured_image[0];
     $class = $payload['isLazy'] ? $payload['class'] . ' ' . $payload['lazyClass'] : $payload['class'];
     $is_svg = strtolower(pathinfo($url, PATHINFO_EXTENSION)) === 'svg';
     $alt_url = $is_acf_array ? $payload['image']['url'] : $main_featured_image_full[0];
     $caption = $is_acf_array ? $payload['image']['caption'] : wp_get_attachment_caption($payload['image']);
     $src = $payload['isLazy'] ? get_placeholder_image() : $url;
-    $tabletl = $is_acf_array ? $payload['image']['sizes']['tabletl'] : wp_get_attachment_image_src($payload['image'], 'tabletl')[0];
-    $tabletm = $is_acf_array ? $payload['image']['sizes']['tabletm'] : wp_get_attachment_image_src($payload['image'], 'tabletm')[0];
+    $small = $is_acf_array ? $payload['image']['sizes']['thumbnail'] : wp_get_attachment_image_src($payload['image'], 'thumbnail')[0];
+    $medium = $is_acf_array ? $payload['image']['sizes']['medium'] : wp_get_attachment_image_src($payload['image'], 'medium')[0];
+    $large = $is_acf_array ? $payload['image']['sizes']['large'] : wp_get_attachment_image_src($payload['image'], 'large')[0];
     $tablets = $is_acf_array ? $payload['image']['sizes']['tablets'] : wp_get_attachment_image_src($payload['image'], 'tablets')[0];
     $mobile = $is_acf_array ? $payload['image']['sizes']['mobile'] : wp_get_attachment_image_src($payload['image'], 'mobile')[0];
 
@@ -90,8 +92,8 @@ function generate_image_tag($payload)
         $width = $viewBox[2];
         $height = $viewBox[3];
     } else {
-        $width = $is_acf_array ? $payload['image']['width'] : $main_featured_image_full[1];
-        $height = $is_acf_array ? $payload['image']['height'] : $main_featured_image_full[2];
+        $width = $is_acf_array ? $payload['image']['width'] : $main_featured_image[1];
+        $height = $is_acf_array ? $payload['image']['height'] : $main_featured_image[2];
     }
 
     $aspect_ratio = "$width / $height";
@@ -108,9 +110,7 @@ function generate_image_tag($payload)
             break;
         case '':
             $sizesResult = '95vw';
-            if (!$is_svg) {
-                echo "<p style='color: red'>Please, 'sizes' attribute is required for generate_image_tag.</p>";
-            }
+            echo "<p style='color: red'>Please, 'sizes' attribute is required for generate_image_tag.</p>";
             break;
 
         default:
