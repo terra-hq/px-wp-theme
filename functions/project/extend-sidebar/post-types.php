@@ -57,7 +57,7 @@ function tf_thoughts_init()
         'rewrite' => array('slug' => 'thought', 'with_front' => false),
         'has_archive' => false,
         'show_in_rest' => true,
-        'supports' => array('title', 'thumbnail', 'editor'),
+        'supports' => array('title', 'thumbnail', 'editor', 'author'),
     );
     register_post_type('thought', $args);
 
