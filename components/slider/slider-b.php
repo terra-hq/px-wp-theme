@@ -8,12 +8,9 @@
                         foreach ($slider as $key => $slide) { ?>
                             <div class="c--slider-b__wrapper__item">
                                 <?php
-                                if ($slider['text_or_image'] == 'text') {
-                                    $title = $slide['title'];
-                                    $subtitle = $slide['subtitle'];
-                                } else {
-                                    $image = $slide['image'];
-                                }
+                                $title = $slide['text_or_image'] == 'text' ? $slide['title'] : false;
+                                $subtitle = $slide['text_or_image'] == 'text' ? $slide['subtitle'] : false;
+                                $image = $slide['text_or_image'] == 'image' ? $slide['image'] : false;
                                 include (locate_template('components/card/card-07.php', false, false));
                                 ?>
                             </div>
