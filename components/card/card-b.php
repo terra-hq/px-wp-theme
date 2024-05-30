@@ -14,7 +14,7 @@
             if ($states && !is_wp_error($states)) {
                 $first_state = reset($states);
                 ?>
-                <li class="c--card-b__hd__list-group__item--second">
+                <li class="c--card-b__hd__list-group__item c--card-b__hd__list-group__item--second">
                     <?= esc_html($first_state->name) ?>
                 </li>
             <?php }
