@@ -1,5 +1,4 @@
 import gsap from "gsap";
-//import { preloadImages, preloadLotties } from "@terrahq/helpers/preload";
 import In from "./In";
 import Out from "./Out";
 import { checkItems } from "./utilities";
@@ -9,13 +8,19 @@ const transitionOptions = [
         to: "(.*)",
 
         in: async (next, infos) => {
-            // await preloadImages("img");
-            // await preloadLotties();
+            
+            if (!window["lib"]["preloadImages"]) {
+                const { preloadImages } = await import(/* webpackChunkName: "preloadImages" */ "@terrahq/helpers/preloadImages");
+                window["lib"]["preloadImages"] = preloadImages;
+                await preloadImages("img");
+            } else {
+                await window["lib"]["preloadImages"]("img");
+            }
+
             var tl = gsap.timeline({
                 onComplete: next,
             });
 
-            // This is an example, please check the items that are available in each project
             await checkItems({
                 items: [
                     { class: "js--slider-a", windowName: "SliderA" },
@@ -25,7 +30,8 @@ const transitionOptions = [
                 frequency: 200,
             });
 
-            tl.add(new In());
+            const transitionItems = document.querySelectorAll(".js--transition>span");
+            tl.add(new In({ elements: transitionItems }));
         },
 
         out: (next, infos) => {
@@ -33,7 +39,8 @@ const transitionOptions = [
                 onComplete: next,
             });
 
-            tl.add(new Out());
+            const transitionItems = document.querySelectorAll(".js--transition>span");
+            tl.add(new Out({ elements: transitionItems }));
         },
     },
 ];

@@ -38,7 +38,13 @@
     <?php include(locate_template('components/preloader/preloader-a.php', false, false)); ?>
 
     <!-- transitions -->
-    <div class="c--transition-a js--transition"></div>
+    <div class="c--transition-a js--transition">
+        <span class="c--transition-a__item"></span>
+        <span class="c--transition-a__item"></span>
+        <span class="c--transition-a__item"></span>
+        <span class="c--transition-a__item"></span>
+        <span class="c--transition-a__item"></span>
+    </div>
 
     <main id="swup">
         <div id="main-content">

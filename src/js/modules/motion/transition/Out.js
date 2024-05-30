@@ -1,20 +1,24 @@
 import gsap from "gsap";
 
 class Out {
-    constructor() {
+    constructor(payload) {
         this.DOM = {
-            transition: document.querySelectorAll(".js--transition"),
+            items: payload.elements, 
         };
         return this.init();
     }
     init() {
-        var tl = gsap.timeline();
-
-        tl.to(this.DOM.transition, {
+        var tl = gsap.timeline({});
+        
+        tl.to(this.DOM.items, {
+            delay: .5,
             duration: 0.5,
-            x: 0,
-            ease: "power4.in",
+            y: 0,
+            ease: "easeInOutQuart",
+            stagger: .1,
         });
+
+        gsap.set(this.DOM.items, { y: "100%" });
 
         return tl;
     }
