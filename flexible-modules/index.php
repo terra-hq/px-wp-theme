@@ -35,6 +35,9 @@
     case 'testimonials':
         include (locate_template('flexible-modules/testimonials.php', false, false));
         break;
+    case 'white_hero':
+        include (locate_template('flexible-modules/white-hero.php', false, false));
+        break;
     case 'yellow_hero':
         include (locate_template('flexible-modules/yellow-hero.php', false, false));
         break;
