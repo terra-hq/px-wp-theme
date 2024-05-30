@@ -27,6 +27,9 @@ switch ($module['acf_fc_layout']) {
     case 'horizontal_cards':
         include (locate_template('flexible-modules/horizontal-cards.php', false, false));
         break;
+    case 'logo_cards':
+        include (locate_template('flexible-modules/logo-cards.php', false, false));
+        break;
     case 'paragraph_two_cards_in_a_row':
         include (locate_template('flexible-modules/paragraph-two-cards-in-a-row.php', false, false));
         break;
