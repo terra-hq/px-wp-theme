@@ -4,7 +4,6 @@
         $layout-options: (
             "align": center,
         ),
-        
         $item-primary-options: (
             "font-weight": 600,
             "className": f--font-e,
@@ -15,9 +14,31 @@
         $list-group-item-options: (
             "className": g--btn-01,
         ),
-        $list-group-item-hover-options: (
-            "border-radius": 0,
-        ),
         
     );
+
+    @media all and ($viewport-type: $tabletm) {
+        @include make-layout-01-modifier(
+            $custom-options: (
+                ".g--layout-02__wrapper__content": (
+                    width: calc((100% / 12) * 10)
+                ),
+            ),
+        );
+    }
+
+    @media all and ($viewport-type: $mobile) {
+        @include make-layout-01-modifier(
+            $custom-options: (
+                ".g--layout-02__wrapper__content": (
+                    width: calc((100% / 12) * 12)
+                ),
+            ),
+        );
+    }
+
+    .g--layout-02__wrapper__content__list-group__item {
+        width: fit-content !important;
+    }
+
 }
