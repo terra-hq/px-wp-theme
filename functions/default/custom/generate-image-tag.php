@@ -130,8 +130,12 @@ function generate_image_tag($payload)
 
     }
 
-    if (!$is_svg) {
-        $html .= ' srcset="' . $url . ' ' . $width . 'w, ' . $tabletl . ' 1300w, ' . $tabletm . ' 1024w, ' . $tablets . ' 810w, ' . $mobile . ' 580w" sizes="' . $sizesResult . '"';
+    if (!$is_svg && $payload['isLazy'] == false) {
+        $html .= ' srcset="' . $url . ' ' . $width . 'w, ' . $large . ' 1024w, ' . $tablets . ' 810w, ' . $mobile . ' 580w, ' . $medium . ' 300w, ' . $small . ' 150w" sizes="' . $sizesResult . '"';
+    }
+
+    if (!$is_svg && $payload['isLazy'] == true) {
+        $html .= ' data-srcset="' . $url . ' ' . $width . 'w, ' . $large . ' 1024w, ' . $tablets . ' 810w, ' . $mobile . ' 580w, ' . $medium . ' 300w, ' . $small . ' 150w" sizes="' . $sizesResult . '"';
     }
 
     if ($payload['isLazy']) {
