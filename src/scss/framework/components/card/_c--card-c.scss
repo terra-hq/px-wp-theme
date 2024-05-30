@@ -19,13 +19,14 @@
         }
 
         &__content {
-            @extend .f--font-b;
+            @extend .c--content-a;
+            @extend .c--content-a--second;
         }
 
         &__bg-items {
             position: absolute;
             bottom: 0;
-            right: 0;
+            right: -2px;
             width: 158px;
 
             @media all and ($viewport-type: $tabletm) {
@@ -35,7 +36,7 @@
 
             &__media {
                 @extend .f--background-a;
-                padding: $measure*4 0 0 $measure*4;
+                padding: $measure*4 2px 0 $measure*4;
                 display: block;
 
                 @media all and ($viewport-type: $tabletm) {
@@ -73,13 +74,14 @@
             flex-direction: column;
             justify-content: center;
             min-width: 40%;
+
             &__title{
-
-            @extend .f--font-c;
+                @extend .f--font-c;
+                margin-bottom: $measure / 2;
             }
-            &__subtitle{
 
-            @extend .f--font-f;
+            &__subtitle{
+                @extend .f--font-f;
             }
 
             @media all and ($viewport-type: $tabletm) {

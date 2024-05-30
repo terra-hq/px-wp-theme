@@ -14,9 +14,9 @@
                             <div class="c--slider-a__wrapper__item">
                                 <div class="c--card-c">
                                     <div class="c--card-c__bd">
-                                        <p class="c--card-c__bd__content c--content-a">
+                                        <div class="c--card-c__bd__content">
                                             <?= $quote ?>
-                                        </p>
+                                        </div>
                                         <div class="c--card-c__bd__bg-items">
                                             <!-- sizes= "200px"  -->
                                             <img src=<?= get_template_directory_uri() . "/assets/frontend/quotes.png" ?>
