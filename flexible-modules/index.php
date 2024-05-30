@@ -1,4 +1,5 @@
-<?php switch ($module['acf_fc_layout']) {
+<?php
+switch ($module['acf_fc_layout']) {
     case 'big_heading':
         include (locate_template('flexible-modules/big-heading.php', false, false));
         break;
@@ -44,4 +45,4 @@
     case 'yellow_hero':
         include (locate_template('flexible-modules/yellow-hero.php', false, false));
         break;
-} ?>
+}
