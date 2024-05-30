@@ -1,4 +1,5 @@
-<section class="c--layout-a <?= $spacing ?>">
+<section
+    class="c--layout-a <?= get_spacing($section_spacing); ?> <?= $background_color == 'gray' ? 'f--background-d' : ''; ?>">
     <div class="f--container">
         <div class="f--row f--gap-b u--justify-content-center u--justify-content-tabletl-space-between">
             <div class="c--layout-a__wrapper">
