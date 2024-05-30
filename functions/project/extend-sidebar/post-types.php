@@ -30,4 +30,36 @@ function tf_testimonials_init()
     register_post_type('testimonial', $args);
 
 }
+
+add_action('init', 'tf_thoughts_init');
+function tf_thoughts_init()
+{
+    $labels = array(
+        'name' => __('Thoughts', 'tf'),
+        'singular_name' => __('Thought', 'tf'),
+        'add_new' => __('Add New', 'tf'),
+        'add_new_item' => __('Add New Thought', 'tf'),
+        'edit_item' => __('Edit Thought', 'tf'),
+        'new_item' => __('New Thought', 'tf'),
+        'all_items' => __('All Thoughts', 'tf'),
+        'view_item' => __('View Thought', 'tf'),
+        'search_items' => __('Search Thoughts', 'tf'),
+        'not_found' => __('No Thought found', 'tf'),
+        'not_found_in_trash' => __('No Thoughts found in Trash', 'tf'),
+        'parent_item_colon' => '',
+        'menu_name' => __('Thoughts', 'tf')
+    );
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'capability_type' => 'post',
+        'menu_icon' => 'dashicons-welcome-write-blog',
+        'rewrite' => array('slug' => 'thought', 'with_front' => false),
+        'has_archive' => false,
+        'show_in_rest' => true,
+        'supports' => array('title', 'thumbnail', 'editor', 'author'),
+    );
+    register_post_type('thought', $args);
+
+}
 ?>
