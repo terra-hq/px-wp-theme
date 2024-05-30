@@ -19,7 +19,8 @@
         }
 
         &__content {
-            @extend .f--font-b;
+            @extend .c--content-a;
+            @extend .c--content-a--second;
         }
 
         &__bg-items {
@@ -73,13 +74,14 @@
             flex-direction: column;
             justify-content: center;
             min-width: 40%;
+
             &__title{
-
-            @extend .f--font-c;
+                @extend .f--font-c;
+                margin-bottom: $measure / 2;
             }
-            &__subtitle{
 
-            @extend .f--font-f;
+            &__subtitle{
+                @extend .f--font-f;
             }
 
             @media all and ($viewport-type: $tabletm) {
