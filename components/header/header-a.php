@@ -10,6 +10,7 @@
                             <?php
                             $image_tag_args = array(
                                 'image' => get_field('header_logo', 'option'),
+                                'sizes' => '200px',
                                 'class' => 'c--header-a__wrapper__hd__link__media',
                                 'isLazy' => false
                             );
