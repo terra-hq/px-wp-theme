@@ -13,4 +13,24 @@
             "className": f--font-d,
         ),
     );
+
+    @media all and ($viewport-type: $tabletm) {
+        @include make-layout-01-modifier(
+            $custom-options: (
+                ".g--layout-01__wrapper__content": (
+                    width: calc((100% / 12) * 10)
+                ),
+            ),
+        );
+    }
+
+    @media all and ($viewport-type: $mobile) {
+        @include make-layout-01-modifier(
+            $custom-options: (
+                ".g--layout-01__wrapper__content": (
+                    width: calc((100% / 12) * 12)
+                ),
+            ),
+        );
+    }
 }
