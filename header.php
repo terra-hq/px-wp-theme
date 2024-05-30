@@ -44,6 +44,8 @@
         <span class="c--transition-a__item"></span>
         <span class="c--transition-a__item"></span>
         <span class="c--transition-a__item"></span>
+        <span class="c--transition-a__item"></span>
+        <span class="c--transition-a__item"></span>
     </div>
 
     <main id="swup">

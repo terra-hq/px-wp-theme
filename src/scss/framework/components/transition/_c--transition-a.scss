@@ -11,8 +11,32 @@
     pointer-events: none;
     &__item {
         transform: translateY(100%);
-        width: 20%;
+        width: calc(100% / 7);
         height: 100%;
-        @extend .f--background-c;
+        @extend .f--background-d;
+    }
+
+    @media all and ($viewport-type: $tabletm) {
+        &__item {
+            width: calc(100% / 5);
+            &:last-child {
+                display: none;
+            }
+            &:nth-last-child(2) {
+                display: none;
+            }
+        }
+    }
+
+    @media all and ($viewport-type: $mobile) {
+        &__item {
+            width: calc(100% / 3);
+            &:nth-last-child(3) {
+                display: none;
+            }
+            &:nth-last-child(4) {
+                display: none;
+            }
+        }
     }
 }
