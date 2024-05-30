@@ -12,6 +12,9 @@ switch ($module['acf_fc_layout']) {
     case 'call_to_action':
         include (locate_template('flexible-modules/call-to-action.php', false, false));
         break;
+    case 'castle_cards_heading_paragraph':
+        include (locate_template('flexible-modules/castle-cards-heading-paragraph.php', false, false));
+        break;
     case 'center_text_button':
         include (locate_template('flexible-modules/center-text-button.php', false, false));
         break;
