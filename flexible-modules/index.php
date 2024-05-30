@@ -30,6 +30,9 @@ switch ($module['acf_fc_layout']) {
     case 'short_hero':
         include (locate_template('flexible-modules/short-hero.php', false, false));
         break;
+    case 'slider_text_images':
+        include (locate_template('flexible-modules/slider-text-images.php', false, false));
+        break;
     case 'small_heading':
         include (locate_template('flexible-modules/small-heading.php', false, false));
         break;
