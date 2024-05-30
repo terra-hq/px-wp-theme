@@ -2,7 +2,6 @@
     overflow: hidden;
     &__wrapper{
         display: flex;
-        
     }
     &__ft{
         &__wrapper{
@@ -10,6 +9,18 @@
             justify-content: flex-end;
             gap: $measure*3;
             margin-top: $measure*5;
+            &__btn{
+                padding: $measure;
+                transition: all .25s linear;
+                &:disabled{
+                    opacity:.3;
+                    pointer-events: none;
+                }
+
+                &:hover {
+                    background-color: map-get($color-options, c);
+                }
+            }
         }
     }
 }
