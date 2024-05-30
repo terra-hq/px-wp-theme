@@ -15,6 +15,9 @@ switch ($module['acf_fc_layout']) {
     case 'highlighted_text_left_paragraph_right':
         include (locate_template('flexible-modules/highlighted-text-left-paragraph-right.php', false, false));
         break;
+    case 'horizontal_cards':
+        include (locate_template('flexible-modules/horizontal-cards.php', false, false));
+        break;
     case 'paragraph_two_cards_in_a_row':
         include (locate_template('flexible-modules/paragraph-two-cards-in-a-row.php', false, false));
         break;
