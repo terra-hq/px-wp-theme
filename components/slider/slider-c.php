@@ -16,18 +16,20 @@
                     if (!empty($thought_posts)) {
                         foreach ($thought_posts as $post) { ?>
                             <div class="c--slider-c__wrapper__item">
-                                <?php setup_postdata($post);
-                                $date = get_the_date('F Y');
-                                $title = the_title();
-                                $author = the_author();
-                                $permalink = the_permalink();
-                                $image = get_post_thumbnail_id($post);
+                                <?php
+                                setup_postdata($post);
+                                $date = get_the_date('F Y', $post->ID);
+                                $title = get_the_title($post->ID);
+                                $author = 'By ' . get_the_author();
+                                $permalink = get_permalink($post->ID);
+                                $image = get_post_thumbnail_id($post->ID);
                                 include (locate_template('components/card/card-23.php', false, false));
-                        } ?>
-                        </div>
-                        <?php wp_reset_postdata();
+                                ?>
+                            </div>
+                            <?php
+                        }
                     }
-                    ?>
+                    wp_reset_postdata(); ?>
                 </div>
                 <div class="c--slider-c__ft">
                     <div class="c--slider-c__ft__wrapper js--slider-c-controls">
