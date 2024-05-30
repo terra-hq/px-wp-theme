@@ -21,14 +21,14 @@ const transitionOptions = [
                 onComplete: next,
             });
 
-            await checkItems({
+            /* await checkItems({
                 items: [
                     { class: "js--slider-a", windowName: "SliderA" },
                     { class: "js--slider-b", windowName: "SliderB" },
                     { class: "js--slider-c", windowName: "SliderC" },
                 ],
                 frequency: 200,
-            });
+            }); */
 
             const transitionItems = document.querySelectorAll(".js--transition>span");
             tl.add(new In({ elements: transitionItems }));
