@@ -1,5 +1,7 @@
 .c--transition-a {
-    @extend .f--background-a;
+    @extend .u--display-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     position: fixed;
     top: 0;
     left: 0;
@@ -7,5 +9,10 @@
     height: 100vh;
     z-index: 1500;
     pointer-events: none;
-    transform: translateX(100%);
+    &__item {
+        transform: translateY(100%);
+        width: 20%;
+        height: 100%;
+        @extend .f--background-c;
+    }
 }
