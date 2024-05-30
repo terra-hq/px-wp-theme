@@ -19,6 +19,8 @@ const transitionOptions = [
             await checkItems({
                 items: [
                     { class: "js--slider-a", windowName: "SliderA" },
+                    { class: "js--slider-b", windowName: "SliderB" },
+                    { class: "js--slider-c", windowName: "SliderC" },
                 ],
                 frequency: 200,
             });
