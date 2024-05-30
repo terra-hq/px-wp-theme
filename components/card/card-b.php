@@ -51,5 +51,11 @@
         <div class="c--card-b__bd__content c--content-a">
             <?= $description ?>
         </div>
+        <?php
+        if ($link) { ?>
+            <a href="<?= $link['url'] ?>" <?= get_target_link($link['target'], $link['title']) ?>
+                class="g--link-01 g--link-01--second"><?= $link['title'] ?></a>
+        <?php }
+        ?>
     </div>
 </div>

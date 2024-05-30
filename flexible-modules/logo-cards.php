@@ -18,6 +18,7 @@ $disable_lazy_loading_image = $module['disable_lazy_loading_image'];
                             $states = get_the_terms($investment, 'investment_state');
                             $image = get_post_thumbnail_id($investment);
                             $description = get_field('description', $investment);
+                            $link = get_field('link', $investment);
                             include (locate_template('components/card/card-b.php', false, false));
                             ?>
                         </div>
