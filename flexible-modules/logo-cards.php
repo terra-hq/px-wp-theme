@@ -34,7 +34,6 @@ $disable_lazy_loading_image = $module['disable_lazy_loading_image'];
                     $investment_query = get_posts($args);
 
                     foreach ($investment_query as $investment) { ?>
-                        <div class="c--slider-c__wrapper__item">
                             <?php
                             setup_postdata($investment);
                             $types = get_the_terms($investment->ID, 'investment_type');
@@ -44,7 +43,6 @@ $disable_lazy_loading_image = $module['disable_lazy_loading_image'];
                             $link = get_field('link', $investment->ID);
                             include (locate_template('components/card/card-b.php', false, false));
                             ?>
-                        </div>
                         <?php
                     }
                 } ?>
