@@ -1,0 +1,10 @@
+.c--wrapper-c {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: $measure * 2;
+    row-gap: $measure * 8;
+
+    @media all and ($viewport-type: $tabletl) {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
