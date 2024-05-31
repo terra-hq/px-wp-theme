@@ -32,6 +32,7 @@ require get_template_directory() . '/functions/default/errors/errors.php';
 
 
 // Custom Blocks Global
+require get_template_directory() . '/functions/default/blocks/global/block-callout.php';
 require get_template_directory() . '/functions/default/blocks/global/block-footnote.php';
 require get_template_directory() . '/functions/default/blocks/global/block-highlighted.php';
 
