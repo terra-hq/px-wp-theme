@@ -1,4 +1,4 @@
 <?php
-// previous hash: '1f1'
-define('enqueue-hash', 'fba');
+// previous hash: 'fba'
+define('enqueue-hash', '92c');
 ?>
