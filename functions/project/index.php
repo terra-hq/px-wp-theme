@@ -125,6 +125,14 @@ function post_remove()
 
 add_action('admin_menu', 'post_remove');
 
+function getFullUrl()
+{
+    $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+    $host = $_SERVER['HTTP_HOST'];
+    $path = $_SERVER['REQUEST_URI'];
+    return $host;
+}
+
 function redirect_stage_urls()
 {
     if (getFullUrl() == "projectxstgenv.wpenginepowered.com") {
