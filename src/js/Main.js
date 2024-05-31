@@ -10,49 +10,46 @@ class Main extends Core {
                 selector: "g--lazy-01",
             },
             boostify: payload.boostify,
-
         });
     }
 
     async contentReplaced() {
         super.contentReplaced();
 
-
         /**
-      * HoverCards
-      * Dynamically import the Hovercards class with boostify observer
-      */
+         * HoverCards
+         * Dynamically import the Hovercards class with boostify observer
+         */
         var logoCardsElements = document.querySelectorAll(".c--card-b");
         if (logoCardsElements.length) {
             this.boostify.observer({
                 options: {
-                    root:null,
-                    rootMargin: '0px',
-                    threshold: 0.5
+                    root: null,
+                    rootMargin: "0px",
+                    threshold: 0.5,
                 },
-                element:document.querySelector(".c--card-b"),
-                callback: async () =>{
+                element: document.querySelector(".c--card-b"),
+                callback: async () => {
                     const { default: HoverCards } = await import(/* webpackChunkName: "HoverCards" */ "./modules/hovercards/HoverCards");
                     const hoverCards = new HoverCards({
-                        cardSelector: '.c--card-b',
-                        activateBtnSelector: '.js--card-open',
-                        closeBtnSelector: '.js--card-close'
+                        cardSelector: ".c--card-b",
+                        activateBtnSelector: ".js--card-open",
+                        closeBtnSelector: ".js--card-close",
                     });
-                }
-            })
-            
+                },
+            });
         }
         /**
-      * SliderA
-      * Dynamically import the SliderB config and the slider module and store them in the window.lib object for later use
-      */
+         * SliderA
+         * Dynamically import the SliderB config and the slider module and store them in the window.lib object for later use
+         */
         var sliderAElements = document.querySelectorAll(".js--slider-a");
         if (sliderAElements.length) {
             sliderAElements.forEach((slider, index) => {
                 this.boostify.observer({
                     options: {
-                        root: null,
-                        rootMargin: "400px", // check this with a created page layout
+                        root: document.getElementById("swup"),
+                        rootMargin: "0px", // check this with a created page layout
                         threshold: 0.5,
                     },
                     element: slider,
@@ -81,16 +78,16 @@ class Main extends Core {
             });
         }
         /**
-      * SliderB
-      * Dynamically import the SliderB config and the slider module and store them in the window.lib object for later use
-      */
+         * SliderB
+         * Dynamically import the SliderB config and the slider module and store them in the window.lib object for later use
+         */
         var sliderBElements = document.querySelectorAll(".js--slider-b");
         if (sliderBElements.length) {
             sliderBElements.forEach((slider, index) => {
                 this.boostify.observer({
                     options: {
-                        root: null,
-                        rootMargin: "400px", // check this with a created page layout
+                        root: document.getElementById("swup"),
+                        rootMargin: "0px", // check this with a created page layout
                         threshold: 0.5,
                     },
                     element: slider,
@@ -120,16 +117,16 @@ class Main extends Core {
         }
 
         /**
-    * SliderC
-    * Dynamically import the SliderC config and the slider module and store them in the window.lib object for later use
-    */
+         * SliderC
+         * Dynamically import the SliderC config and the slider module and store them in the window.lib object for later use
+         */
         var sliderCElements = document.querySelectorAll(".js--slider-c");
         if (sliderCElements.length) {
             sliderCElements.forEach((slider, index) => {
                 this.boostify.observer({
                     options: {
-                        root: null,
-                        rootMargin: "400px", // check this with a created page layout
+                        root: document.getElementById("swup"),
+                        rootMargin: "0px", // check this with a created page layout
                         threshold: 0.5,
                     },
                     element: slider,
@@ -161,6 +158,27 @@ class Main extends Core {
 
     willReplaceContent() {
         super.willReplaceContent();
+
+        if (document.querySelectorAll(".js--slider-a").length && this.instances["SliderA"]) {
+            document.querySelectorAll(".js--slider-a").forEach((slider, index) => {
+                this.instances["SliderA"][index].destroy();
+                this.boostify.destroyobserver({ element: slider });
+            });
+        }
+
+        if (document.querySelectorAll(".js--slider-b").length && this.instances["SliderB"]) {
+            document.querySelectorAll(".js--slider-b").forEach((slider, index) => {
+                this.instances["SliderB"][index].destroy();
+                this.boostify.destroyobserver({ element: slider });
+            });
+        }
+
+        if (document.querySelectorAll(".js--slider-c").length && this.instances["SliderC"]) {
+            document.querySelectorAll(".js--slider-c").forEach((slider, index) => {
+                this.instances["SliderC"][index].destroy();
+                this.boostify.destroyobserver({ element: slider });
+            });
+        }
     }
 }
 
