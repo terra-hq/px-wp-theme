@@ -9,7 +9,7 @@
             'image' => $icon,
             'class' => 'g--card-04__media-wrapper__media',
             'isLazy' => !$disable_lazy_loading_image,
-            'sizes' => '48px'
+            'sizes' => '32px'
         );
         generate_image_tag($image_tag_args);
         ?>
