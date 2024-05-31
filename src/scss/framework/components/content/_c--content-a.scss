@@ -165,21 +165,14 @@
       }
     }
 
-    .wp-block-cover.gb-block-cta {
+    div.callout {
         @extend .f--background-c;
-        padding: $measure * 6 !important;
-        min-height: unset !important;
-        margin-bottom: $measure * 5 !important;
+        padding: $measure * 6;
+        margin-bottom: $measure * 5;
 
-        p {
+        >h3 {
             @extend .f--font-d;
             @extend .u--font-medium;
-            line-height: 30px !important;
-            margin-bottom: 0 !important;
-        }
-
-        .wp-block-buttons {
-            margin-bottom: 0 !important;
         }
     }
 
