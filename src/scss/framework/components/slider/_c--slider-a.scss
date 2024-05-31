@@ -8,7 +8,7 @@
             display: flex;
             justify-content: flex-end;
             gap: $measure*3;
-            margin-top: $measure*5;
+            margin-bottom: $measure*5;
             &__btn{
                 padding: $measure;
                 transition: all .25s linear;
@@ -22,5 +22,9 @@
                 }
             }
         }
+    }
+
+    div.f--col-10 {
+        flex-direction: column-reverse;
     }
 }
