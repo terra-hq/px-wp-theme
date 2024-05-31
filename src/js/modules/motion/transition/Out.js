@@ -10,6 +10,15 @@ class Out {
     init() {
 
         const visibleItems = Array.from(this.DOM.items).filter(item => window.getComputedStyle(item).display !== "none");
+        const viewportWidth = window.innerWidth;
+        let time = 0.5;
+
+        if (viewportWidth <= 1204) {
+            time = 0.3;
+        } else if (viewportWidth <= 580) {
+            time = 0.1;
+        }
+
 
         var tl = gsap.timeline({});
         
@@ -20,7 +29,7 @@ class Out {
             ease: "easeInOutQuart",
             stagger: {
                 from: "center",
-                amount: 0.5
+                amount: `${time}`,
             }
         });
 
