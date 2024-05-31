@@ -67,7 +67,7 @@ class Main extends Core {
                         }
                         this.instances["SliderA"][index] = new window["lib"]["Slider"]({
                             slider: slider,
-                            controls: slider.nextElementSibling?.querySelector(".js--slider-a-controls"),
+                            controls: slider.nextElementSibling.querySelector(".js--slider-a-controls"),
                             config: sliderAConfig,
                             windowName: "SliderA",
                             index: index,
@@ -105,7 +105,7 @@ class Main extends Core {
                         }
                         this.instances["SliderB"][index] = new window["lib"]["Slider"]({
                             slider: slider,
-                            controls: slider.nextElementSibling?.querySelector(".js--slider-b-controls"),
+                            controls: slider.nextElementSibling.querySelector(".js--slider-b-controls"),
                             config: sliderBConfig,
                             windowName: "SliderB",
                             index: index,
@@ -144,7 +144,7 @@ class Main extends Core {
                         }
                         this.instances["SliderC"][index] = new window["lib"]["Slider"]({
                             slider: slider,
-                            controls: slider.nextElementSibling?.querySelector(".js--slider-c-controls"),
+                            controls: slider.nextElementSibling.querySelector(".js--slider-c-controls"),
                             config: sliderCConfig,
                             windowName: "SliderC",
                             index: index,
