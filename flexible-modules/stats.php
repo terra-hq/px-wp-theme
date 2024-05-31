@@ -14,11 +14,12 @@ $stats = $module['stats'];
                     <div class="f--col-4 f--col-tabletl-6 f--col-tablets-12">
                         <?php
                         $title = $stat['title'];
+                        $title_custom_class = 'js--counter';
                         $subtitle = $stat['subtitle'];
                         if ($key == 1) {
-                            $custom_class = 'c--stats-a__item c--stats-a__item--second js--counter';
+                            $custom_class = 'c--stats-a__item c--stats-a__item--second';
                         } else {
-                            $custom_class = 'c--stats-a__item js--counter';
+                            $custom_class = 'c--stats-a__item';
                         }
                         include (locate_template('components/card/card-08.php', false, false));
                         ?>

@@ -1,5 +1,5 @@
 <div class="g--card-08 <?= $custom_class ?>">
-    <h3 class="g--card-08__item-primary"><?= $title ?></h3>
+    <h3 class="g--card-08__item-primary <?= $title_custom_class ?>"><?= $title ?></h3>
     <?php
     if ($subtitle) { ?>
         <div class="g--card-08__list-group">
