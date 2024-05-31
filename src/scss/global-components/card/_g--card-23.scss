@@ -36,7 +36,9 @@
             )
         ),
     );
-
+    .g--card-23__wrapper__list-group {
+        margin-top: auto !important;
+    }
     .g--card-23__wrapper__list-group__item {
         width: fit-content !important;
     }

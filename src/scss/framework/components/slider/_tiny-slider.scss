@@ -73,6 +73,9 @@
   .c--slider-a .tns-ovh {
     overflow: hidden;
   }
+  .c--slider-c #tns5 > .tns-item {
+    display: flex;
+  }
   .tns-visually-hidden {
     @extend .u--position-absolute;
     left: -10000em;
