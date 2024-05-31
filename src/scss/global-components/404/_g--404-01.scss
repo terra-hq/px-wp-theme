@@ -14,10 +14,34 @@
         $item-secondary-options: (
             "className": f--font-d,
         ),
+        $list-group-item-options: (
+            "className": g--btn-01 g--btn-01--second,
+        ),
         $custom-options: (
             "parent": (
                 justify-content: flex-start,
             ),
+            
         )
     );
+
+    @media all and ($viewport-type: $tabletm) {
+        .g--404-01__wrapper__content {
+            width: calc((100% / 12) * 10) !important;
+        }
+    }
+
+    @media all and ($viewport-type: $mobile) {
+        .g--404-01__wrapper__content {
+            width: calc((100% / 12) * 12) !important;
+        }
+    }
+
+    .g--404-01__wrapper__content__list-group__item {
+        width: fit-content !important;
+    }
+
+    .g--404-01__wrapper {
+        margin: auto !important;
+    }
 }
