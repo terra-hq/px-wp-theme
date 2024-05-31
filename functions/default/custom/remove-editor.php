@@ -9,6 +9,9 @@ function remove_editor()
             case 'page-modules.php':
                 remove_post_type_support('page', 'editor');
                 break;
+            case 'page-contact.php':
+                remove_post_type_support('page', 'editor');
+                break;
             default:
                 break;
         }
