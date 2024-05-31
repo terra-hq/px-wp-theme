@@ -49,7 +49,7 @@ if (function_exists('acf_add_local_field_group')):
                     'key' => 'field_5ecce2ec5612',
                     'label' => 'Callout Title',
                     'name' => 'callout_title',
-                    'type' => 'text',
+                    'type' => 'textarea',
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
