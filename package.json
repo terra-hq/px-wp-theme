@@ -77,6 +77,7 @@
         "@swup/js-plugin": "^3.1.1",
         "@swup/parallel-plugin": "^0.3.1",
         "@swup/scripts-plugin": "^2.1.0",
+        "@teamthunderfoot/counter-animation": "0.0.4",
         "@terrahq/gc": "file:terrahq-gc-0.0.5.tgz",
         "@terrahq/helpers": "0.0.47",
         "@terrahq/vue-form": "0.0.17",

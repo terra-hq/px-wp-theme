@@ -154,6 +154,30 @@ class Main extends Core {
                 });
             });
         }
+
+        /**
+         * Counter
+         */
+        if (document.querySelectorAll(".js--counter").length) {
+            this.boostify.scroll({
+                distance: 300,
+                name: "counter",
+                callback: () => {
+                    this.instances["Counter"] = [];
+                    import(/* webpackChunkName: "Counter" */ "@teamthunderfoot/counter-animation").then(({ default: Counter }) => {
+                        document.querySelectorAll(".js--counter").forEach((element, index) => {
+                            this.instances["Counter"][index] = new Counter({
+                                element: element,
+                                duration: 1.5,
+                                ScrollStart: "top",
+                                separator: ".",
+                                regionFormat: "en-US",
+                            });
+                        });
+                    });
+                },
+            });
+        }
     }
 
     willReplaceContent() {
@@ -177,6 +201,13 @@ class Main extends Core {
             document.querySelectorAll(".js--slider-c").forEach((slider, index) => {
                 this.instances["SliderC"][index]?.destroy();
                 this.boostify.destroyobserver({ element: slider });
+            });
+        }
+
+        if (document.querySelectorAll(".js--counter").length && this.instances["Counter"]) {
+            document.querySelectorAll(".js--counter").forEach((element, index) => {
+                this.instances["Counter"][index].destroy();
+                this.boostify.destroyscroll({ distance: 300, name: "counter" });
             });
         }
     }
