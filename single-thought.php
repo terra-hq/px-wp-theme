@@ -18,7 +18,7 @@ include (locate_template('components/hero/hero-d.php', false, false));
     </div>
 </section>
 
-<section class="f--mb-7">
+<section class="f--mb-5">
     <div class="f--container">
         <div class="f--col-12">
             <div class="f--row ">
