@@ -14,7 +14,7 @@
             if (get_field('404_link', 'option')) { ?>
                 <div class="g--404-01__wrapper__content__list-group">
                     <a href="<?= get_field('404_link', 'option')['url'] ?>" <?= get_target_link(get_field('404_link', 'option')['target'], get_field('404_link', 'option')['title']) ?>
-                        class="g--404-01__wrapper__content__list-group"><?= get_field('404_link', 'option')['title'] ?></a>
+                        class="g--404-01__wrapper__content__list-group__item"><?= get_field('404_link', 'option')['title'] ?></a>
                 </div>
             <?php }
             ?>
