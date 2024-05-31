@@ -141,11 +141,11 @@ function redirect_stage_urls()
         $queried_post = get_post($queried_id);
         if (
             $queried_post->post_name == 'contact'
-        )
-            return;
-        $principalUrl = esc_url(home_url('/'));
-        wp_redirect($principalUrl, 301);
-        exit;
+        ) {
+            $principalUrl = esc_url(home_url('/'));
+            wp_redirect($principalUrl, 301);
+            exit;
+        }
     }
 
 }
