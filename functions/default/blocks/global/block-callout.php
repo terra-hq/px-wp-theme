@@ -24,10 +24,8 @@ function acf_block_callout_block($block, $content = '', $is_preview = false, $po
 {
     if (is_preview()) {
         $callout_title = $block['data']['callout_title'];
-        $callout_subtitle = $block['data']['callout_subtitle'];
     } else {
         $callout_title = get_field('callout_title');
-        $callout_subtitle = get_field('callout_subtitle');
     }
     ?>
 
@@ -35,9 +33,6 @@ function acf_block_callout_block($block, $content = '', $is_preview = false, $po
         <h3>
             <?= $callout_title ?>
         </h3>
-        <p>
-            <?= $callout_subtitle ?>
-        </p>
     </div>
     <?php
 }
@@ -55,25 +50,6 @@ if (function_exists('acf_add_local_field_group')):
                     'label' => 'Callout Title',
                     'name' => 'callout_title',
                     'type' => 'text',
-                    'instructions' => '',
-                    'required' => 0,
-                    'conditional_logic' => 0,
-                    'wrapper' => array(
-                        'width' => '',
-                        'class' => '',
-                        'id' => '',
-                    ),
-                    'default_value' => '',
-                    'placeholder' => '',
-                    'maxlength' => '',
-                    'rows' => '',
-                    'new_lines' => '',
-                ),
-                array(
-                    'key' => 'field_5ecce2ec5613',
-                    'label' => 'Callout Subtitle',
-                    'name' => 'callout_subtitle',
-                    'type' => 'textarea',
                     'instructions' => '',
                     'required' => 0,
                     'conditional_logic' => 0,
