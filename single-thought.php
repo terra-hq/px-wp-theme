@@ -31,7 +31,7 @@ include (locate_template('components/hero/hero-d.php', false, false));
 </section>
 
 <?php
-$section_spacing = 'j';
+$section_spacing = 'bottom-small';
 $current_post_id = get_the_ID();
 include (locate_template('components/slider/slider-c.php', false, false));
 ?>
