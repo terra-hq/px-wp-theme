@@ -1,6 +1,4 @@
-<div class="g--card-07 <?php if ($image)
-    echo 'g--lazy-01'; ?>" <?php if ($image)
-          echo 'data-src="' . esc_url($image['url']) . '"'; ?>>
+<div class="g--card-07" <?php if ($image): ?> style="background-image: url(<?= $image['url']; ?>)" <?php endif;?>>
     <?php if ($title && $subtitle): ?>
         <div class="g--card-07__ft-items">
             <h3 class="g--card-07__ft-items__item-primary"><?= $title ?></h3>
