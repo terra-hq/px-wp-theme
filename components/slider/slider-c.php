@@ -1,4 +1,4 @@
-<section class="c--slider-c">
+<section class="c--slider-c <?= get_spacing($section_spacing); ?>">
     <div class="f--container">
         <div class="f--row">
             <div class="f--col-12">
@@ -10,6 +10,10 @@
                         'orderby' => 'date',
                         'order' => 'DESC',
                     );
+
+                    if ($current_post_id) {
+                        $args['post__not_in'] = array($current_post_id);
+                    }
 
                     $thought_posts = get_posts($args);
 

@@ -6,7 +6,7 @@
                     <?= $title ?>
                 </h1>
                 <p class="f--font-f u--font-medium">
-                    <?= $date ?>
+                    <?= $subtitle ?>
                 </p>
             </div>
         </div>

@@ -6,8 +6,9 @@ Template Name: Privacy Policy
 <?php get_header() ?>
 
 <?php
-// $title = get_field('hero_title');
-// include (locate_template('components/hero/hero-d.php', false, false));
+$title = get_field('hero_title');
+$subtitle = 'Updated ' . get_the_modified_date('F j, Y');
+include (locate_template('components/hero/hero-d.php', false, false));
 ?>
 
 <section class="f--section-b">
