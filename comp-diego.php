@@ -5,6 +5,13 @@ Template Name: Diego
 ?>
 <?php get_header(); ?>
 
+<!-- Hero -->
+<?php 
+$title = "This is a blog post about the latest trends in M&A’s.";
+$date = "February 2024   |   By Author";
+include (locate_template('components/hero/hero-d.php', false, false)); 
+?>
+
 <!-- Content -->
 <section class="f--section-b">
     <div class="f--container">
