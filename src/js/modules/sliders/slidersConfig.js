@@ -52,7 +52,7 @@ const sliderBConfig = {
         1024: {
             items: 3
         },
-        1570: {
+        1300: {
             items: 4
         }    
     }

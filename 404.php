@@ -17,7 +17,7 @@
             <p class="g--404-01__wrapper__content__item-secondary">The page you are looking for might have been removed,
                 had its name changed or is temporarily unavailable.</p>
             <div class="g--404-01__wrapper__content__list-group">
-                <a href="#" class="g--404-01__wrapper__content__list-group__item g--btn-01">BACK HOME</a>
+                <a href="#" class="g--404-01__wrapper__content__list-group__item">BACK HOME</a>
             </div>
         </div>
     </div>
