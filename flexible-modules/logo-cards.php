@@ -13,8 +13,7 @@ $disable_lazy_loading_image = $module['disable_lazy_loading_image'];
                 <?php
                 if ($how_to_show_investments == 'pick' && !empty($investments)) {
                     foreach ($investments as $investment) { ?>
-                        <div class="c--slider-c__wrapper__item">
-                            <?php
+                        <?php
                             $types = get_the_terms($investment, 'investment_type');
                             $states = get_the_terms($investment, 'investment_state');
                             $image = get_post_thumbnail_id($investment);
@@ -22,7 +21,6 @@ $disable_lazy_loading_image = $module['disable_lazy_loading_image'];
                             $link = get_field('link', $investment);
                             include (locate_template('components/card/card-b.php', false, false));
                             ?>
-                        </div>
                         <?php
                     }
                 } else {
