@@ -10,7 +10,7 @@ $disable_lazy_loading_image = $module['disable_lazy_loading_image'];
         <div class="f--row u--justify-content-center f--gap-e">
             <?php
             foreach ($cards as $key => $card) { ?>
-                <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12">
+                <div class="f--col-6 f--col-tabletl-8 f--col-tabletm-10 f--col-tablets-12 u--display-flex">
                     <?php
                     $title = $card['name'];
                     $subtitle = $card['academic'];
