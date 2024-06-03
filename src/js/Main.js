@@ -163,7 +163,7 @@ class Main extends Core {
          */
         if (document.querySelectorAll(".js--counter").length) {
             this.boostify.scroll({
-                distance: 300,
+                distance: 200,
                 name: "counter",
                 callback: () => {
                     this.instances["Counter"] = [];
