@@ -21,6 +21,7 @@
         &__content {
             @extend .c--content-a;
             @extend .c--content-a--second;
+            color: map-get($color-options, a);
         }
 
         &__bg-items {
@@ -56,6 +57,7 @@
             background: map-get($color-options, d);
             width: 120px;
             height: 120px;
+            overflow: hidden;
             @media all and ($viewport-type: $tabletm) {
                 width: 77px;
                 height: 77px;
@@ -76,7 +78,8 @@
             min-width: 40%;
 
             &__title{
-                @extend .f--font-c;
+                @extend .f--font-d;
+                font-weight: 500;
                 margin-bottom: $measure / 2;
             }
 

@@ -146,7 +146,7 @@
       @include make-content-modifier (
         $paragraphs-options: (
           "line-height": 1.25,
-          "font-size": 2.625rem,
+          "font-size": 2rem,
           "font-weight": 500,
         ),
       );
@@ -154,7 +154,7 @@
       @media all and ($viewport-type: $tablets) {
         @include make-content-modifier (
           $paragraphs-options: (
-            "font-size": 1.625rem,
+            "font-size": 1.5rem,
           ),
         );
       }
