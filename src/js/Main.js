@@ -9,6 +9,9 @@ class Main extends Core {
                 enable: true,
                 selector: "g--lazy-01",
             },
+            form7: {
+                enable: true,
+            },
             boostify: payload.boostify,
         });
     }
