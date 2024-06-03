@@ -19,9 +19,12 @@
                     opacity: 0.3;
                     pointer-events: none;
                 }
+                &:hover {
+                    background-color: map-get($color-options, c);
+                }
                 @media all and ($viewport-type: $tabletl) {
                     &:hover {
-                        background-color: map-get($color-options, c);
+                        background-color: transparent;
                     }
                 }
             }
