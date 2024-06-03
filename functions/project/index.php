@@ -125,32 +125,6 @@ function post_remove()
 
 add_action('admin_menu', 'post_remove');
 
-function getFullUrl()
-{
-    $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
-    $host = $_SERVER['HTTP_HOST'];
-    $path = $_SERVER['REQUEST_URI'];
-    return $host;
-}
-
-function redirect_stage_urls()
-{
-    if (getFullUrl() == "projectxstgenv.wpenginepowered.com") {
-        // $queried_post_type = get_query_var('post_type');
-        $queried_id = get_queried_object_id();
-        $queried_post = get_post($queried_id);
-        if (
-            $queried_post->post_name == 'contact'
-        ) {
-            $principalUrl = esc_url(home_url('/'));
-            wp_redirect($principalUrl, 301);
-            exit;
-        }
-    }
-
-}
-add_action('template_redirect', 'redirect_stage_urls');
-
 // AMDMIN PAGE OPTIONS 
 // IMPORTANT TO HAVE IT
 if (function_exists('acf_add_options_page')) {
