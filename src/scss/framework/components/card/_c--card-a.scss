@@ -16,7 +16,6 @@
             display: flex;
             align-items: center;
             height: 100%;
-            position: relative;
             @media all and ($viewport-type: $tablets) {
                 height: 240px;
                 width: 160px;
@@ -24,7 +23,6 @@
 
             &__media {
                 display: block;
-                position: absolute;
                 height: 100%;
                 object-fit: cover;
                 object-position: top;
