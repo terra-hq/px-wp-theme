@@ -53,7 +53,8 @@ class Navbar {
 
         this.DOM.navbar.querySelectorAll(".c--nav-a__wrapper__list-group__item__link").forEach((link) => {
             link.addEventListener("click", () => {
-                this.toggleNavbar();
+                this.DOM.burger.classList.toggle("c--burger-a--is-active");
+                this.DOM.navbar.classList.toggle("c--nav-a__list-group--is-active");
             });
         });
     }
