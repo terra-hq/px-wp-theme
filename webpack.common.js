@@ -64,8 +64,8 @@ module.exports = {
     performance: {
         hints: false,
     },
-    
-    plugins: [new webpack.DefinePlugin({ "process.env": {} }) , new VueLoaderPlugin()],
+
+    plugins: [new webpack.DefinePlugin({ "process.env": JSON.stringify(currentTask) }), new VueLoaderPlugin()],
     resolve: {
         alias: {
             "@scss": path.resolve(__dirname, "src/scss"),

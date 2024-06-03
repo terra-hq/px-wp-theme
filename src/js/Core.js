@@ -11,19 +11,12 @@ import Blazy from "blazy";
 
 class Core {
     constructor(payload) {
+        const commonPlugins = [new SwupHeadPlugin({ persistAssets: true }), new SwupDebugPlugin({ globalInstance: true }), new SwupJsPlugin(transitionOptions)];
+        const virtualPlugins = [...commonPlugins, new SwupScriptsPlugin({ head: true, body: true })];
+
         this.swup = new Swup({
             linkSelector: "a[href]:not([href$='.pdf']), area[href], svg a[*|href]",
-            plugins: [
-                new SwupHeadPlugin({ persistAssets: true }),
-                new SwupScriptsPlugin({
-                    head: true,
-                    body: true,
-                }),
-                new SwupDebugPlugin({
-                    globalInstance: true,
-                }),
-                new SwupJsPlugin(transitionOptions),
-            ],
+            plugins: process.env === "virtual" ? virtualPlugins : commonPlugins,
         });
 
         this.isBlazy = payload.blazy;
