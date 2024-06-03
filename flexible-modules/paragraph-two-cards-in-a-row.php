@@ -8,7 +8,7 @@ $cards = $module['cards'];
     <div class="f--container">
         <div class="f--row f--gap-a">
             <div class="f--col-4 f--col-tabletl-12 f--mb-2">
-                <p class="f--font-d f--pr-7 f--pre-tabletm-0">
+                <p class="f--font-d f--pr-7 f--pr-tabletm-0">
                     <?= $paragraph ?>
                 </p>
             </div>
