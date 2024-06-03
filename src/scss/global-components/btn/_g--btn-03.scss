@@ -2,7 +2,7 @@
     @include make-btn-03();
     @include make-btn-03-modifier(
         $artwork-options: (
-            "stroke": $color-b,
+            "stroke": transparent,
             "width": 20px,
             "height": 15px,
             "first": yes,
@@ -14,6 +14,7 @@
         $hover-options: (
             "background-color": $color-c,
             "color": $color-b,
+            "stroke": $color-b,
         ),
         $font-options: (
             "className": f--font-e f--color-c,

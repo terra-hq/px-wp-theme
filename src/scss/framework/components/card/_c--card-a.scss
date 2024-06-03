@@ -35,6 +35,10 @@
         flex: 1;
         padding: $measure $measure*3 $measure 0;
 
+        @media all and ($viewport-type: $mobile) {
+            padding: 0;
+        }
+
         &__title {
             @extend .f--font-c;
             font-weight: 500;
@@ -55,20 +59,24 @@
             width: 100%;
 
             &__link {
-                display: block;
                 height: 32px;
+                width: 32px;
+                border-radius: 7px;
+                background-color: map-get($color-options, b);
+                display: grid;
+                place-content: center;
 
                 &__badge {
-                    width: 32px;
-                    height: 32px;
-                    border: 1px solid $color-b;
-                    border-radius: 7px;
-                    transition: all .3s linear;
-
-                    &:hover {
-                        @extend .f--background-c;
-                    }
+                    width: 20px;
+                    height: 20px;
+                    fill: map-get($color-options, d);
+                    transition: fill $time-b $ease-standard-a;
                 }
+
+                &:hover svg {
+                    fill: map-get($color-options, c);
+                }
+
             }
 
         }
