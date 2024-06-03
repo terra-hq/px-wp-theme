@@ -1,27 +1,28 @@
-.c--slider-b{
+.c--slider-b {
     overflow: hidden;
-    &__wrapper{
+    &__wrapper {
         display: flex;
-        &__item{
+        &__item {
             min-height: 380px;
         }
     }
-    &__ft{
-        &__wrapper{
+    &__ft {
+        &__wrapper {
             display: flex;
             justify-content: flex-end;
-            gap: $measure*3;
-            margin-top: $measure*5;
-            &__btn{
+            gap: $measure * 3;
+            margin-top: $measure * 5;
+            &__btn {
                 padding: $measure;
-                transition: all .25s linear;
-                &:disabled{
-                    opacity:.3;
+                transition: all 0.25s linear;
+                &:disabled {
+                    opacity: 0.3;
                     pointer-events: none;
                 }
-
-                &:hover {
-                    background-color: map-get($color-options, c);
+                @media all and ($viewport-type: $tabletl) {
+                    &:hover {
+                        background-color: map-get($color-options, c);
+                    }
                 }
             }
         }
