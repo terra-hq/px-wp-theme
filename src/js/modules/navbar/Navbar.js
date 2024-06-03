@@ -56,6 +56,7 @@ class Navbar {
                 this.DOM.header.classList.remove("c--header-a--is-active");
                 this.DOM.burger.classList.remove("c--burger-a--is-active");
                 this.DOM.navbar.classList.remove("c--nav-a__list-group--is-active");
+                this.isNavbarVisible = !this.isNavbarVisible;
             });
         });
     }
