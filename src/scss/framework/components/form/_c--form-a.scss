@@ -1,0 +1,134 @@
+.c--form-a {
+    @extend .u--display-flex;
+    margin-top: $measure * 10;
+
+    @media all and ($viewport-type: $tabletm) {
+        flex-direction: column;
+    }
+
+    &__item-left {
+        flex: 1;
+
+        &__wrapper {
+            @extend .f--container;
+            width: 47.5vw;
+            margin-right: 0;
+            padding-right: $measure * 5;
+
+            @media all and ($viewport-type: $tabletm) {
+                width: 95%;
+                margin-right: auto;
+                padding-right: 1em;
+                margin-bottom: $measure * 10;
+            }
+
+            @media all and (min-width: 1900px) {
+                width: calc((1900px / 2));
+            }
+
+            &__dash {
+                margin: $measure * 4 0;
+            }
+
+            &__title {
+                @extend .f--font-a;
+                margin-bottom: $measure * 5;
+            }
+
+            &__subtitle {
+                @extend .f--background-a;
+                @extend .f--font-d;
+                max-width: 430px;
+            }
+        }
+
+        &__media {
+            width: 100%;
+            object-position: center;
+            object-fit: cover;
+            max-height: 500px;
+
+            @media all and ($viewport-type: $tabletm) {
+                display: none;
+            }
+        }
+    }
+
+    &__item-right {
+        @extend .f--background-c;
+        flex: 1;
+
+        &__artwork {
+            @extend .u--display-flex;
+            @extend .u--justify-content-space-between;
+            @extend .f--background-a;
+
+            &__item {
+                @extend .f--background-c;
+                height: 70px;
+                width: 20%;
+            }
+        }
+
+        &__wrapper {
+            display: grid;
+            place-content: center;
+            height: calc(100% - 70px);
+            padding: $measure * 10 $measure * 15;
+
+            @media all and ($viewport-type: $tabletl) {
+                padding: $measure * 10;
+            }
+
+            @media all and ($viewport-type: $mobile) {
+                padding: $measure * 5;
+            }
+
+            .c--form-field-a {
+                margin-bottom: $measure * 2;
+
+                > p {
+                    @extend .u--display-flex;
+                    flex-direction: column;
+                }
+
+                .c--form-label-a {
+                    @extend .f--font-g;
+                    margin-bottom: $measure / 2;
+                }
+
+                .c--form-input-a{
+                    @extend .f--font-f;
+                    @extend .f--background-a;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    padding: $measure * 1.5;
+                    max-height: 120px;
+                }
+            }
+
+            .c--form-disclaimer-a {
+                @extend .f--font-g;
+                margin-bottom: $measure * 2;
+            }
+
+            .c--form-submit-a {
+                @extend .g--btn-01;
+                @extend .g--btn-01--second;
+                width: 100%;
+            }
+
+            .wpcf7-not-valid-tip {
+                @extend .f--font-g;
+                margin-top: $measure / 2;
+            }
+
+            .wpcf7-response-output {
+                @extend .f--font-f;
+                margin: 0 !important;
+            }
+        }
+    }
+    
+}
