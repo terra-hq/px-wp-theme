@@ -31,6 +31,7 @@
                 @extend .g--btn-01;
                 @extend .g--btn-01--second;
                 width: fit-content;
+                white-space: nowrap;
             }
         }
     }
