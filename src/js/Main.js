@@ -186,28 +186,28 @@ class Main extends Core {
     willReplaceContent() {
         super.willReplaceContent();
 
-        if (document.querySelectorAll(".js--slider-a").length && this.instances["SliderA"]) {
+        if (document.querySelectorAll(".js--slider-a").length && this.instances["SliderA"].length) {
             document.querySelectorAll(".js--slider-a").forEach((slider, index) => {
                 this.instances["SliderA"][index]?.destroy();
                 this.boostify.destroyobserver({ element: slider });
             });
         }
 
-        if (document.querySelectorAll(".js--slider-b").length && this.instances["SliderB"]) {
+        if (document.querySelectorAll(".js--slider-b").length && this.instances["SliderB"].length) {
             document.querySelectorAll(".js--slider-b").forEach((slider, index) => {
                 this.instances["SliderB"][index]?.destroy();
                 this.boostify.destroyobserver({ element: slider });
             });
         }
 
-        if (document.querySelectorAll(".js--slider-c").length && this.instances["SliderC"]) {
+        if (document.querySelectorAll(".js--slider-c").length && this.instances["SliderC"].length) {
             document.querySelectorAll(".js--slider-c").forEach((slider, index) => {
                 this.instances["SliderC"][index]?.destroy();
                 this.boostify.destroyobserver({ element: slider });
             });
         }
 
-        if (document.querySelectorAll(".js--counter").length && this.instances["Counter"]) {
+        if (document.querySelectorAll(".js--counter").length && this.instances["Counter"].length) {
             document.querySelectorAll(".js--counter").forEach((element, index) => {
                 this.instances["Counter"][index].destroy();
                 this.boostify.destroyscroll({ distance: 300, name: "counter" });
