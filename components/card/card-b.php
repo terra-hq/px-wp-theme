@@ -26,12 +26,7 @@
                 'image' => $image,
                 'class' => 'c--card-b__hd__media-wrapper__media',
                 'isLazy' => !$disable_lazy_loading_image,
-                'sizes' => '(max-width: 580px) 100vw,
-                (max-width: 810px) 50vw,
-                (max-width: 1024px) 50vw,
-                (max-width: 1300px) 25vw,
-                (max-width: 1570px) 25vw,
-                25vw'
+                'sizes' => 'small'
             );
             generate_image_tag($image_tag_args);
             ?>

@@ -46,7 +46,7 @@ const sliderBConfig = {
     preventScrollOnTouch: "auto",
     touch: false,
     responsive: {
-        810: {
+        580: {
             items: 2
         },
         1024: {
