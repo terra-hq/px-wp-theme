@@ -59,7 +59,10 @@
   letter-spacing: 1px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-
+  @media all and ($viewport-type: $tablets) {
+    font-size: 1.125rem;
+    line-height: 1.25;
+  }
 }
 
 @mixin make-font-e($weight: 600) {
