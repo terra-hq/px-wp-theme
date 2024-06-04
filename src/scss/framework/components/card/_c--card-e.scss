@@ -4,6 +4,10 @@
     padding: $measure * 15 $measure * 5 $measure * 7;
     border: 1px solid map-get($color-options, b);
 
+    @media all and ($viewport-type: $tablets) {
+        padding: $measure * 12 $measure * 3 $measure * 7;
+    }
+
     &::before {
         @extend .u--position-absolute;
         content: '';
