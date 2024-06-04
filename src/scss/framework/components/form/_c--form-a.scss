@@ -147,6 +147,16 @@
                     background-repeat: no-repeat;
                     background-position: center;
                 }
+
+            }
+
+            form.invalid, form.failed {
+                .wpcf7-response-output {
+                    color: #B10000 !important;
+                    &::before {
+                        background-image: url('@img/exclamation-mark.svg');
+                    }
+                }
             }
         }
     }
