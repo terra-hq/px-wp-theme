@@ -127,8 +127,25 @@
             }
 
             .wpcf7-response-output {
+                @extend .u--position-relative;
                 @extend .f--font-f;
+                font-weight: 500;;
                 margin: 0 !important;
+                border: none !important;
+                padding: 0 0 0 26px !important;
+
+                &::before {
+                    @extend .u--position-absolute;
+                    content: '';
+                    top: 4px;
+                    left: 0;
+                    width: 18px;
+                    height: 18px;
+                    background-image: url('@img/round-check.svg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
             }
         }
     }
