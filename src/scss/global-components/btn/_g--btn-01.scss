@@ -16,6 +16,14 @@
         ),
     );
 
+    @media all and ($viewport-type: $mobile) {
+        @include make-btn-01-modifier(
+            $border-options: (
+                "border-radius": $measure*7,
+            ),
+        );
+    }
+
     &--second{
         @include make-btn-01-modifier(
             $background-options: (
