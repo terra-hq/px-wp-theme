@@ -74,7 +74,7 @@
 
         &__wrapper {
             display: grid;
-            place-content: start;
+            place-content: start center;
             height: calc(100% - 70px);
             padding: $measure * 10 $measure * 15;
 
