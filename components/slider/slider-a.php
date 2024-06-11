@@ -1,7 +1,7 @@
 <section class="c--slider-a <?= get_spacing($section_spacing); ?>">
     <div class="f--container">
         <div class="f--row u--justify-content-center">
-            <div class="f--col-10 f--col-tabletl-12 u--display-flex">
+            <div class="f--col-10 f--col-tabletl-12">
                 <div class="c--slider-a__wrapper js--slider-a">
                     <?php
                     if ($slider) {

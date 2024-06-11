@@ -8,7 +8,6 @@
             display: flex;
             justify-content: flex-end;
             gap: $measure * 3;
-            margin-bottom: $measure * 2;
             &__btn {
                 padding: $measure;
                 transition: all 0.25s linear;
@@ -27,9 +26,5 @@
                 }
             }
         }
-    }
-
-    div.f--col-10 {
-        flex-direction: column-reverse;
     }
 }
