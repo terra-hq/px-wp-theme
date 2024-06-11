@@ -2,6 +2,7 @@
     @extend .u--display-flex;
     flex-direction: column;
     gap: $measure*2;
+    height: 100%;
 
     &__bd {
         position: relative;
@@ -9,9 +10,10 @@
         @extend .f--color-a;
         @extend .u--display-flex;
         padding: $measure*10 $measure*30 $measure*15 $measure*10;
-        align-items: flex-end;
+        align-items: center;
         gap: $measure;
         align-self: stretch;
+        height: 100%;
 
         @media all and ($viewport-type: $tabletm) {
 
