@@ -25,6 +25,10 @@
                     }
                 }
             }
+
+            @media all and ($viewport-type: $tabletm) {
+                margin-top: $measure*2;
+            }
         }
     }
 }
