@@ -13,6 +13,7 @@
         transform: translateY(100%);
         width: calc(100% / 7);
         height: 100%;
+        border: 4px solid map-get($color-options, c);
         @extend .f--background-d;
     }
 
