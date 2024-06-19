@@ -12,17 +12,17 @@ class In {
 
         const visibleItems = Array.from(this.DOM.items).filter(item => window.getComputedStyle(item).display !== "none");
         const viewportWidth = window.innerWidth;
-        let time = 0.4;
+        let time = 0.25;
         
         if (viewportWidth <= 1204) {
-            time = 0.2;
+            time = 0.15;
         } else if (viewportWidth <= 580) {
             time = 0.1;
         }
 
         const tl = gsap.timeline({});
         tl.to(visibleItems, {
-            duration: 0.4,
+            duration: 0.25,
             y: "100%",
             ease: "easeInOutQuart",
             stagger: {
