@@ -1,5 +1,7 @@
-class HoverCards {
+import { u_addClass,u_removeClass,u_system } from '@andresclua/jsutil';
 
+
+class HoverCards {
   constructor(payload) {
     
     this.DOM = {
@@ -10,12 +12,12 @@ class HoverCards {
 
     // If no cards are found, exit the constructor
     if (!this.DOM.cards.length) return;
-
-    this.init();
+    // this class does not have init because it only has event listeners
+    this.events();
   }
 
 
-  init() {
+  events() {
     // Iterate over each card element
     this.DOM.cards.forEach(card => {
       // Find the activate and close buttons within the current card
@@ -45,14 +47,15 @@ class HoverCards {
    * Open the specified card by adding the active class.
    */
   open(card) {
-    card.classList.add('c--card-b--is-active');
+    u_addClass(card, 'c--card-b--is-active');
   }
 
   /**
    * Close the specified card by removing the active class.
    */
   close(card) {
-    card.classList.remove('c--card-b--is-active');
+    u_removeClass(card, 'c--card-b--is-active');
+
   }
 
   /**
@@ -60,10 +63,11 @@ class HoverCards {
    */
   isTouchDevice(activateBtn) {
     // Check if the device is a touch device
-    const isTouchDevice = matchMedia("(pointer: coarse)").matches;
+    // const isTouchDevice = matchMedia("(pointer: coarse)").matches;
 
     // If not a touch device, hide the activate button
-    if (!isTouchDevice) {
+    if (!u_system('touch')) {
+      // jus utils para display
       activateBtn.style.display = 'none';
     }
   }
