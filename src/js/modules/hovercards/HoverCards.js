@@ -1,4 +1,4 @@
-import { u_addClass,u_removeClass,u_system } from '@andresclua/jsutil';
+import { u_addClass,u_removeClass,u_style,u_system } from '@andresclua/jsutil';
 
 
 class HoverCards {
@@ -62,13 +62,10 @@ class HoverCards {
    * Adjust the display of the activate button for non-touch devices.
    */
   isTouchDevice(activateBtn) {
-    // Check if the device is a touch device
-    // const isTouchDevice = matchMedia("(pointer: coarse)").matches;
 
     // If not a touch device, hide the activate button
     if (!u_system('touch')) {
-      // jus utils para display
-      activateBtn.style.display = 'none';
+      u_style(activateBtn, [{ display: 'none' }]);
     }
   }
 }
